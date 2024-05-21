@@ -1,0 +1,16 @@
+.footerContainer {
+  background-color: #008000;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+}
+
+.footer {
+  width: 90%;
+  max-width: 1620px;
+  display: grid;
+  grid-template-columns: 1fr 35px 35px 1fr;
+}

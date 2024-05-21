@@ -1,0 +1,48 @@
+.frame {
+  border: 1px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: fit-content;
+  width: fit-content;
+  padding: .5rem;
+  gap: .5rem;
+}
+
+.verticalframe {
+  border: 1px solid green;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: fit-content;
+  width: fit-content;
+  padding: .5rem;
+  gap: .5rem;
+}
+
+.after,
+.before {
+  margin-top: -25px;
+}
+
+.before::before {
+  content: 'Before';
+  background: rgba(0 128 0);
+  background-color: rgba(0 128 0, 1);
+  border-radius: 4px;
+  padding: 7px;
+  position: relative;
+  top: 35px;
+  left: 5px;
+  color: white
+}
+
+.after:before {
+  content: 'After';
+  background: rgba(0 128 0);
+  background-color: rgba(0 128 0, 1);
+  border-radius: 4px;
+  padding: 7px;
+  position: relative;
+  top: 35px;
+  left: 5px;
+  color: white
+}

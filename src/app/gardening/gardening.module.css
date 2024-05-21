@@ -1,0 +1,86 @@
+.pageLayout {
+  margin-top: 3rem;
+  width: 90%;
+  max-width: 1620px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.videoDiv {
+  display: none;
+}
+
+@media (min-width: 1150px) {
+  .videoDiv {
+    display: block;
+  }
+
+  .layout {
+    display: grid;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1450px) {
+  .layout {
+    grid-template-columns: 570px 450px;
+  }
+}
+
+@media (min-width: 1450px) {
+  .layout {
+    grid-template-columns: 830px 450px;
+  }
+}
+
+.gardeningImage {
+  width: 260px;
+  height: 325px;
+  object-fit: fill;
+  padding-right: 10px;
+}
+
+.gardenImageContainer {
+  /* display: grid;
+  grid-template-columns: repeat(6, auto); */
+  max-height: 325px;
+  overflow: hidden;
+}
+
+.extraRow2,
+.extraRow {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .extraRow {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .extraRow2 {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .extraRow2,
+  .extraRow {
+    display: none;
+  }
+
+  .gardenImageContainer {
+    max-height: inherit;
+  }
+
+  .gardenImageContainer img {
+    margin-bottom: 10px;
+    width: calc(100vw - 20px);
+    height: auto;
+  }
+}

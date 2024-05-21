@@ -1,0 +1,8 @@
+.navbar,
+.navbar-default {
+  background-image: linear-gradient(to bottom, green 0, green 100%) !important;
+}
+
+.navbarText {
+  color: white;
+}

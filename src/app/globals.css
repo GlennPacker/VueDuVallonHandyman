@@ -1,0 +1,23 @@
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+.navbar .navbar-toggler {
+  color: #9933CC !important;
+}
+
+.navbar .navbar-toggler:focus {
+  color: #ff4444;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-collapse {
+  flex: none;
+}
+
+.text-right {
+  text-align: right;
+}

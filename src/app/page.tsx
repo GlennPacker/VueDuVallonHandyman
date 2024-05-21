@@ -53,8 +53,8 @@ export default function Home() {
               Enhance the security and aesthetics of your property with our custom gate building services. Whether you need a simple garden gate or a grand entrance gate, our handyman will design and construct a gate that meets your specifications.
             </li>
             <li>
-              <strong>Home Renovations </strong>
-              Ready to tackle a larger project? Our handyman can help with home renovations, kitchen and bathroom remodels, and other major upgrades to transform your space and increase its value.
+              <strong>Home Repairs </strong>
+              From small fixes to larger projects, our home repair services cover a wide range of needs, including door and kitchen repairs, flooring fixes, and more to keep your home in excellent condition.
             </li>
             <li>
               <strong>Picture Hanging </strong>

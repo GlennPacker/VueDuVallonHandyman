@@ -33,7 +33,7 @@ export default function Home() {
           <ul>
             <li>
               <strong>Gardening </strong>
-              Transform your outdoor space into a lush and vibrant oasis with our professional gardening services. From lawn care and plant maintenance to landscaping and garden design, our handyman will help you create the garden of your dreams.
+              Transform your outdoor space into a lush and vibrant oasis with our professional gardening services.
             </li>
 
             <li>
@@ -55,6 +55,10 @@ export default function Home() {
             <li>
               <strong>Home Repairs </strong>
               From small fixes to larger projects, our home repair services cover a wide range of needs, including door, kitchen, bathroom fixes, and more to keep your home in excellent condition.
+            </li>
+            <li>
+              <strong>Gutter Cleaning </strong>
+              Keep your gutters clear and flowing smoothly with our gutter cleaning services. We'll remove leaves, debris, and other obstructions to prevent water damage and keep your home protected.
             </li>
             <li>
               <strong>Picture Hanging </strong>

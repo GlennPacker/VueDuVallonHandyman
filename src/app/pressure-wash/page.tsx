@@ -89,7 +89,6 @@ export default function PropertyServices() {
                 width="400px"
                 height="300px"
                 video="1vIq5HHKbLw"
-                playlist="1vIq5HHKbLw" // {['1vIq5HHKbLw', 'NbX4QwvFBUo']}
               />
             </div>
           </div>
@@ -104,7 +103,7 @@ export default function PropertyServices() {
             Using industrial high-pressure water jets we can blast away even the most stubborn dirt and grime, restoring surfaces to their original beauty. Whether it's removing algae from your siding, erasing oil stains from your driveway, or rejuvenating your deck for the upcoming season, our pressure washing services deliver unparalleled results, leaving your property looking cleaner and more vibrant than ever before.
           </p>
 
-          <h3>A Convenient Solution for Busy Lifestyles</h3>
+          <h3>A Convenient Solution</h3>
           <p>
             In today's fast-paced world, finding the time and energy to tackle outdoor cleaning projects can be a challenge. That's where Vue Du Vallon Handyman comes in. Our pressure washing services are designed to take the hassle out of exterior maintenance, allowing you to enjoy a clean and pristine home without lifting a finger.
           </p>

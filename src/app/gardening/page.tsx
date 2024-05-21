@@ -11,9 +11,9 @@ export default function Gardening() {
               Gardening
             </h1>
 
-            <h3>A Personalized Approach to Service</h3>
+            <h3>Transform Your Garden with Our Care</h3>
             <p>
-              Whether it's routine upkeep for second home owner, transforming a neglected backyard into a vibrant sanctuary or breathing new life into a tired landscape, Vue Du Vallon Handyman takes pride in delivering personalized solutions that exceed expectations. With a commitment to open communication, transparent pricing, and unmatched craftsmanship, the company ensures that each client's experience is as enjoyable and stress-free as possible.
+              Welcome to Vue Du Vallon Handyman Gardening Services! We understand that every outdoor space is unique and requires personalized attention. We are dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden makeovers, we're here to help you achieve the garden of your dreams.
             </p>
 
             <div className={`${styles.gardenImageContainer} ${styles.extraRow2}`}>
@@ -29,13 +29,29 @@ export default function Gardening() {
                 className={styles.gardeningImage}
                 width="230px;"
               />
-
             </div>
 
-            <h3>Vue Du Vallon Handyman Redefining Outdoor Spaces</h3>
-            <p>
-              In the realm of gardening and landscaping, one name reigns supreme for its dedication to excellence, creativity, and personalized service: Vue Du Vallon Handyman. Born from a passion for nature and a commitment to craftsmanship, this distinguished company has been reshaping outdoor environments with unparalleled artistry and expertise.
-            </p>
+            <h3>Our Services</h3>
+            <h5>Garden Maintenance</h5>
+            <ul>
+              <li>
+                <strong>Strimming: </strong>
+                Strimming is perfect for taming and reclaiming overgrown garden spaces, making even the wildest areas manageable and beautiful again.<br/><br/>
+                Precise strimming around edges, borders, and obstacles for a clean and polished look. 
+              </li>
+              <li>
+                <strong>Lawn Mowing: </strong>
+                Regular mowing to keep your lawn healthy, neat, and visually appealing.
+              </li>
+              <li>
+                <strong>Weeding: </strong>
+                Efficient removal of weeds to maintain the beauty and health of your garden, ensuring a neat and tidy appearance.
+              </li>
+              <li>
+                <strong>Pruning & Trimming</strong>
+                Pruning of shrubs, hedges, and trees to promote growth and maintain shape, enhancing curb appeal.
+              </li>
+            </ul>
 
             <div className={`${styles.gardenImageContainer} ${styles.extraRow}`}>
               {[...Array(3)].map((x, i) =>
@@ -49,15 +65,47 @@ export default function Gardening() {
               )}
             </div>
 
-            <h3>Innovative Solutions for Outdoor Living</h3>
-            <p>
-              In today's fast-paced world, Vue Du Vallon Handyman understands the importance of creating outdoor spaces that not only inspire awe but also enhance the quality of life. With a keen eye for innovation and a commitment to staying ahead of the curve, the company offers a wide range of services designed to transform ordinary landscapes into extraordinary retreats.
-            </p>
+            <h5>Landscaping</h5>
+            <ul>
+              <li>
+                <strong>Mulching & Soil Improvement: </strong>
+                Enhancing soil quality and appearance with high-quality mulch and soil amendments, promoting healthy plant growth.
+              </li>
+              <li>
+                <strong>Pathways & Patios: </strong>
+                Installation of attractive and durable garden pathways and patios to enhance your outdoor living space, perfect for relaxation and entertainment.
+              </li>
+              
+              <li>
+                <strong>New Garden Gates: </strong>
+                Design and installation of stylish and functional garden gates to provide security and aesthetic appeal to your garden.
+              </li>
+            </ul>
 
-            <p>
-              From custom-built pergolas and gates to sustainable garden designs and water features, Vue Du Vallon Handyman combines creativity with functionality to craft outdoor environments that are as beautiful as they are practical. By seamlessly blending natural elements with modern amenities, the company creates spaces that invite relaxation, foster connection, and promote well-being.
-            </p>
-
+            <h5>Plant Care</h5>
+            <ul>
+              <li>
+                <strong>Planting & Transplanting: </strong>
+                Planting flowers, shrubs, and trees, ensuring they thrive in their environment and complement your landscape.
+              </li>
+              <li>
+                <strong>Watering Systems: </strong>
+                Installation and maintenance of efficient irrigation systems to keep your garden hydrated and healthy, saving you time and water.
+              </li>
+            </ul>
+            
+            <h5>Seasonal Services</h5>
+            <ul>
+              <li>
+                <strong>Spring & Autumn Cleanup: </strong>
+                Comprehensive clean-up services to prepare your garden for the new season and maintain its beauty throughout the year.
+              </li>
+              <li>
+                <strong>Seasonal Planting: </strong>
+                Planting seasonal flowers and vegetables to add color and interest to your garden year-round, keeping your outdoor space vibrant and appealing.
+              </li>
+            </ul>
+            
           </div>
           <div className={styles.videoDiv}>
             <VideoComponent

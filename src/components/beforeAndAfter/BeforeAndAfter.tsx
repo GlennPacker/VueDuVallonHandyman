@@ -35,6 +35,7 @@ export function BeforeAndAfter({ before, after, size: { width, height }, vertica
           height={height}
         />
       </div>
+      
     </div>
   )
 }

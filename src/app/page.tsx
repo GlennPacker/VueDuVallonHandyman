@@ -41,10 +41,6 @@ export default function Home() {
               Restore the beauty of your home's exterior with our professional pressure washing services. We'll blast away dirt, grime, and mildew to leave your surfaces looking clean and refreshed.
             </li>
             <li>
-              <strong>Gutter Cleaning </strong>
-              Keep your gutters clear and flowing smoothly with our gutter cleaning services. We'll remove leaves, debris, and other obstructions to prevent water damage and keep your home protected.
-            </li>
-            <li>
               <strong>Repointing </strong>
               Preserve the integrity of your stone or brickwork with our repointing services. Our handyman will remove deteriorating mortar and replace it with fresh mortar to strengthen and protect your masonry.
             </li>

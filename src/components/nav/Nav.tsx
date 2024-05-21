@@ -32,12 +32,6 @@ function Navigation() {
             >
               Pressure Wash
             </NavLink>
-            {/* <NavLink
-              className={styles.navbarText}
-              href="/property-services"
-            >
-              Property Services
-            </NavLink> */}
             <NavLink
               className={styles.navbarText}
               href="/gardening"

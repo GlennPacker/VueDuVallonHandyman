@@ -54,7 +54,7 @@ export default function Home() {
             </li>
             <li>
               <strong>Home Repairs </strong>
-              From small fixes to larger projects, our home repair services cover a wide range of needs, including door and kitchen repairs, flooring fixes, and more to keep your home in excellent condition.
+              From small fixes to larger projects, our home repair services cover a wide range of needs, including door, kitchen, bathroom fixes, and more to keep your home in excellent condition.
             </li>
             <li>
               <strong>Picture Hanging </strong>

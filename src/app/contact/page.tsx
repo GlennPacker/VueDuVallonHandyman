@@ -36,6 +36,7 @@ export default function Contact() {
               <img
                 height="25px"
                 src="/facebook.png"
+                alt="link to facebook"
               />
             </a>
           </div>

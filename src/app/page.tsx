@@ -15,6 +15,7 @@ export default function Home() {
           <div className={`${styles.images} pt-4`}>
             {[...Array(6)].map((x, i) =>
               <img
+                key={`${i}`}
                 src={`/property services/${6 - i}.jpg`}
                 alt={`Vue Du Vallon Handyman - property services`}
                 className={styles.propertyServicesImage}

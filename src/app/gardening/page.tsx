@@ -40,6 +40,7 @@ export default function Gardening() {
             <div className={`${styles.gardenImageContainer} ${styles.extraRow}`}>
               {[...Array(3)].map((x, i) =>
                 <img
+                  key={`${i}`}
                   src={`/gardening/garden ${i + 4}.jpg`}
                   alt="Vue Du Vallon Handyman - gardening"
                   className={styles.gardeningImage}
@@ -69,6 +70,7 @@ export default function Gardening() {
         <div className={styles.gardenImageContainer}>
           {[...Array(6)].map((x, i) =>
             <img
+              key={`${i}(2)`}
               src={`/gardening/garden ${i + 1}.jpg`}
               alt={`Vue Du Vallon Handyman - gardening`}
               className={styles.gardeningImage}

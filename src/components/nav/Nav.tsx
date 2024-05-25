@@ -4,6 +4,22 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from "./nav.module.css";
 
+const links = [{
+  href: '/pressure-wash',
+  text: 'Pressure Wash'
+}, {
+  href: '/gardening',
+  text: 'Gardening'
+}, {
+  href: '/strimming',
+  text: 'Strimming'
+}, {
+  href: '/contact',
+  text: 'Contact'
+}
+
+]
+
 function Navigation() {
   return (
     <Navbar
@@ -26,25 +42,17 @@ function Navigation() {
         </NavbarToggle>
         <NavbarCollapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink
-              className={styles.navbarText}
-              href="/pressure-wash"
-            >
-              Pressure Wash
-            </NavLink>
-            <NavLink
-              className={styles.navbarText}
-              href="/gardening"
-            >
-              Gardening
-            </NavLink>
-
-            <NavLink
-              className={styles.navbarText}
-              href="/contact"
-            >
-              Contact
-            </NavLink>
+            { 
+              links.map(({ text, href }) => 
+                <NavLink
+                  key={ text }
+                  className={styles.navbarText}
+                  href={ href }
+                >
+                  { text }
+                </NavLink>  
+              )
+            }
           </Nav>
         </NavbarCollapse>
       </Container>

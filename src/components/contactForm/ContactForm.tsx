@@ -1,11 +1,9 @@
 'use client';
-import {
-  Container, Form, Button
-} from "react-bootstrap";
-import { sendEmail } from '@/services/emailService';
+import { Form, Button } from "react-bootstrap";
 import { ContactFormModel } from '@/types/contactFormModel';
 import { useForm, FieldErrors } from 'react-hook-form'
 import React from "react";
+import { sendEmail } from "@/services/emailService";
 
 const ContactForm = () => {
   const initState: ContactFormModel = {

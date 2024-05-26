@@ -3,15 +3,6 @@ import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-// export default function handler(req: NextApiRequest, res: NextApiResponse) {
-//   if (req.method === 'POST') {
-//     return res.status(200).json({ message: 'Hello from Next.js!' })
-//     // return res.json({ error: 'Missing Env Vars' }, { status: 200 });
-//     // Process a POST request
-//   } else {
-//     // Handle any other HTTP method
-//   }
-// }
 export async function POST(req: Request, res: NextApiResponse) {
   const { email, name, message } = await req.json(); //  await req.json();
 
@@ -43,7 +34,7 @@ export async function POST(req: Request, res: NextApiResponse) {
     });
 
   try {
-    return res.status(200).send('wroking')
+   //  return res.status(200).send('wroking')
     // return NextResponse.json({ error: 'Missing Env Vars' }, { status: 200 });
 
     if(!process.env.MY_EMAIL) return NextResponse.json({ error: 'Missing Env Vars' }, { status: 500 });

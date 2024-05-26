@@ -2,11 +2,7 @@ import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
 
-type ResponseData = {
-  message: string
-}
-
-export async function POST(request: NextRequest, res: NextResponse<ResponseData>) {
+export async function POST(request: NextRequest) {
   const { email, name, message } = await request.json();
 
   const transport = nodemailer.createTransport({
@@ -37,11 +33,13 @@ export async function POST(request: NextRequest, res: NextResponse<ResponseData>
     });
 
   try {
-    if(!process.env.MY_EMAIL) return NextResponse.json({ error: 'Missing Env Vars' }, { status: 500 });
+    return NextResponse.json({ error: 'Missing Env Vars' }, { status: 200 });
 
-    return await sendMailPromise()
-        .then(() => NextResponse.json({ message: 'Email Sent' }, { status: 200 }))
-        .catch(error => NextResponse.json({ error }, { status: 500 }));
+    // if(!process.env.MY_EMAIL) return NextResponse.json({ error: 'Missing Env Vars' }, { status: 500 });
+
+    // return await sendMailPromise()
+    //     .then(() => NextResponse.json({ message: 'Email Sent' }, { status: 200 }))
+    //     .catch(error => NextResponse.json({ error }, { status: 500 }));
   } catch (err) {
     return NextResponse.json({ error: err }, { status: 500 });
   }

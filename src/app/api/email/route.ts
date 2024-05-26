@@ -1,9 +1,19 @@
 import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
+import type { NextApiRequest, NextApiResponse } from 'next'
 
-export async function POST(request: NextRequest) {
-  const { email, name, message } = await request.json();
+// export default function handler(req: NextApiRequest, res: NextApiResponse) {
+//   if (req.method === 'POST') {
+//     return res.status(200).json({ message: 'Hello from Next.js!' })
+//     // return res.json({ error: 'Missing Env Vars' }, { status: 200 });
+//     // Process a POST request
+//   } else {
+//     // Handle any other HTTP method
+//   }
+// }
+export async function POST(req: Request, res: NextApiResponse) {
+  const { email, name, message } = await req.json(); //  await req.json();
 
   const transport = nodemailer.createTransport({
     service: 'gmail',
@@ -33,13 +43,14 @@ export async function POST(request: NextRequest) {
     });
 
   try {
-    return NextResponse.json({ error: 'Missing Env Vars' }, { status: 200 });
+    return res.status(200).send('wroking')
+    // return NextResponse.json({ error: 'Missing Env Vars' }, { status: 200 });
 
-    // if(!process.env.MY_EMAIL) return NextResponse.json({ error: 'Missing Env Vars' }, { status: 500 });
+    if(!process.env.MY_EMAIL) return NextResponse.json({ error: 'Missing Env Vars' }, { status: 500 });
 
-    // return await sendMailPromise()
-    //     .then(() => NextResponse.json({ message: 'Email Sent' }, { status: 200 }))
-    //     .catch(error => NextResponse.json({ error }, { status: 500 }));
+    return await sendMailPromise()
+        .then(() => NextResponse.json({ message: 'Email Sent' }, { status: 200 }))
+        .catch(error => NextResponse.json({ error }, { status: 500 }));
   } catch (err) {
     return NextResponse.json({ error: err }, { status: 500 });
   }

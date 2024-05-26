@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 
-const SITE_URL = process.env.SITE_URL || 'https://www.vueduvallonhandyman.fr';
+const SITE_URL = process.env.SITE || 'https://www.vueduvallonhandyman.fr';
 
 // Get all static routes from the pages directory
 function getStaticRoutes() {

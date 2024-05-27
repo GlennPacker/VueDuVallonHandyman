@@ -20,12 +20,11 @@
 }
 
 .form {
-  display: none;
   grid-area: form;
   margin-bottom: 2rem;
 }
 
-/* .layout {
+.layout {
   display: grid;
   gap: 1rem;
   grid-template-areas:
@@ -41,4 +40,4 @@
       "form form form"
       "phone email social";
   }
-} */
+}

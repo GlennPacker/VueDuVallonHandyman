@@ -13,6 +13,7 @@ const ContactForm = () => {
   };
 
   const [initialValues, setInitialValues] = React.useState(initState);
+  const [sent, setSent] = React.useState(false);
 
   const {
     register,
@@ -29,11 +30,18 @@ const ContactForm = () => {
 
   const onSubmit = (data: ContactFormModel) => {
     sendEmail(data);
+    setSent(true);
   }
 
   const onError = (error: FieldErrors<ContactFormModel>) => {
     console.log("ERROR:::", error);
   };
+
+  if (sent) {
+    return (
+      <>Thank you, we will be in touch as soon as possible.</>
+    )
+  }
 
   return (
     <Form onSubmit={handleSubmit(onSubmit, onError)}>

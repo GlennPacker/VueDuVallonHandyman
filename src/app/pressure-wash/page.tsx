@@ -1,6 +1,7 @@
 import VideoComponent from "@/components/videoComponent/VideoComponent";
 import styles from "./page.module.css";
 import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
+import Reviews from "@/components/reviews/Reviews";
 
 const beforeAndAfters = [
   [
@@ -135,6 +136,7 @@ export default function PropertyServices() {
             )
           }
         </div>
+        <Reviews filter="powerWashing" />
       </div>
     </main >
   );

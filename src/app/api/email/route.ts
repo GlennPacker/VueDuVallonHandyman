@@ -1,10 +1,11 @@
-import { type NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
-import type { NextApiRequest, NextApiResponse } from 'next'
 
-export async function POST(req: Request, res: NextApiResponse) {
-  const { email, name, message } = await req.json(); //  await req.json();
+export async function POST(req: Request) {
+  const body = await req.json();
+  const { name, email } = body; 
+  let { message } = body;
 
   const transport = nodemailer.createTransport({
     service: 'gmail',
@@ -14,11 +15,15 @@ export async function POST(req: Request, res: NextApiResponse) {
     },
   });
 
+  if (!email) {
+    message =  JSON.stringify(body)
+  }
+
   const mailOptions: Mail.Options = {
     from: process.env.EMAIL,
     to: process.env.EMAIL,
     // cc: email, (uncomment this line if you want to send a copy to the sender)
-    subject: `Message from ${name} (${email})`,
+    subject: email ? `Message from ${name} (${email})` : `Rating Email`,
     text: message,
   };
 

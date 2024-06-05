@@ -1,6 +1,7 @@
 import VideoComponent from "@/components/videoComponent/VideoComponent";
 import styles from "./page.module.css";
 import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
+import Reviews from "@/components/reviews/Reviews";
 
 const beforeAndAfters = [
   [
@@ -32,7 +33,7 @@ export default function PropertyServices() {
               <h3>
                 What is Rough Strimming?
               </h3>
-              
+
               <p>
                 Rough strimming involves using a heavy-duty strimmer to cut through thick, overgrown grass, weeds, and other vegetation. This process is essential for clearing areas that have been left unmanaged for an extended period. Rough strimming is particularly effective in large gardens, fields, or any outdoor space that has become wild and unkempt.
               </p>
@@ -91,7 +92,7 @@ export default function PropertyServices() {
                 I conduct a final inspection to ensure that the area has been thoroughly cleared and that all reclamation goals have been met. I ensure that you are satisfied with the results before considering the job complete.
               </li>
             </ol>
-            
+
             <h3>
               Coverage Areas
             </h3>
@@ -106,10 +107,11 @@ export default function PropertyServices() {
               At Vue Du Vallon Handyman, I am dedicated to transforming neglected and overgrown spaces into beautiful, usable areas. My rough strimming and garden reclamation services are tailored to meet your specific needs, ensuring high-quality results that exceed your expectations. I am always ready to provide advice and assistance on maintaining your reclaimed garden.
             </p>
             <p>
-            Let Vue Du Vallon Handyman handle your rough strimming and garden reclamation needs, and watch as I bring your outdoor space back to life. Contact me today to schedule a service or to learn more about my wide range of handyman services.
+              Let Vue Du Vallon Handyman handle your rough strimming and garden reclamation needs, and watch as I bring your outdoor space back to life. Contact me today to schedule a service or to learn more about my wide range of handyman services.
             </p>
           </div>
         </div>
+        <Reviews filter="strimming" />
       </div>
     </main >
   );

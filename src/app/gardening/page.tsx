@@ -1,5 +1,6 @@
 import VideoComponent from "@/components/videoComponent/VideoComponent";
 import styles from "./gardening.module.css";
+import Reviews from "@/components/reviews/Reviews";
 
 export default function Gardening() {
   return (
@@ -36,8 +37,8 @@ export default function Gardening() {
             <ul>
               <li>
                 <strong>Strimming: </strong>
-                Strimming is perfect for taming and reclaiming overgrown garden spaces, making even the wildest areas manageable and beautiful again.<br/><br/>
-                Precise strimming around edges, borders, and obstacles for a clean and polished look. 
+                Strimming is perfect for taming and reclaiming overgrown garden spaces, making even the wildest areas manageable and beautiful again.<br /><br />
+                Precise strimming around edges, borders, and obstacles for a clean and polished look.
               </li>
               <li>
                 <strong>Lawn Mowing: </strong>
@@ -75,7 +76,7 @@ export default function Gardening() {
                 <strong>Pathways & Patios: </strong>
                 Installation of attractive and durable garden pathways and patios to enhance your outdoor living space, perfect for relaxation and entertainment.
               </li>
-              
+
               <li>
                 <strong>New Garden Gates: </strong>
                 Design and installation of stylish and functional garden gates to provide security and aesthetic appeal to your garden.
@@ -93,7 +94,7 @@ export default function Gardening() {
                 Installation and maintenance of efficient irrigation systems to keep your garden hydrated and healthy, saving you time and water.
               </li>
             </ul>
-            
+
             <h5>Seasonal Services</h5>
             <ul>
               <li>
@@ -105,7 +106,7 @@ export default function Gardening() {
                 Planting seasonal flowers and vegetables to add color and interest to your garden year-round, keeping your outdoor space vibrant and appealing.
               </li>
             </ul>
-            
+
           </div>
           <div className={styles.videoDiv}>
             <VideoComponent
@@ -126,6 +127,8 @@ export default function Gardening() {
             />
           )}
         </div>
+
+        <Reviews filter="gardening" />
       </div>
     </main >
   );

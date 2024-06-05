@@ -1,3 +1,4 @@
+import Reviews from "@/components/reviews/Reviews";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -98,6 +99,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        <Reviews />
       </div>
     </main>
   );

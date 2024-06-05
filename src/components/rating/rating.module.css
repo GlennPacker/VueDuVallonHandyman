@@ -1,0 +1,10 @@
+.stars {
+  font-size: 2rem;
+  color: gold;
+  caret-color: transparent;
+  line-height: 1.1rem;
+}
+
+.star:hover {
+  cursor: pointer;
+}

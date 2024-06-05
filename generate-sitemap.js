@@ -7,10 +7,12 @@ const SITE_URL = process.env.SITE || 'https://www.vueduvallonhandyman.fr';
 // Get all static routes from the pages directory
 function getStaticRoutes() {
   const pageFiles = glob.sync('src/app/**/page.tsx');
-  return pageFiles.map(pageFile => {
+  const data = pageFiles.map(pageFile => {
     const route = pageFile.replace('page', '').replace('src\\app\\', '').replace('.tsx', '').replace('/index', '');
     return `/${route.substring(0, route.length -1)}`; 
   });
+
+  return data.filter(r => r != '/review');
 }
 
 // Generate sitemap.xml

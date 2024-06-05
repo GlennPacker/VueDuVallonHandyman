@@ -1,0 +1,23 @@
+.reviewContainer {
+  background-color: #f8edae73;
+  border-radius: 1rem;
+  padding: 1rem;
+  min-width: 350px;
+  max-width: 500px;
+  padding-top: 5px;
+  margin-bottom: 1rem;
+}
+
+.stars {
+  font-size: 2rem;
+  color: gold;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.name {
+  font-weight: 500;
+}

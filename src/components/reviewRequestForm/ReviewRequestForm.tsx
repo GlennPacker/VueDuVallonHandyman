@@ -4,26 +4,46 @@ import { ContactFormModel } from '@/types/contactFormModel';
 import { useForm, FieldErrors } from 'react-hook-form'
 import React from "react";
 import { sendEmail } from "@/services/emailService";
+import { ReviewFormModel } from "@/types/reviewFormModel";
+import { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation'
+import { ReviewRequestFormModel } from "@/types/reviewRequestFormModel";
 
-const ContactForm = () => {
-  const [sent, setSent] = React.useState(false);
+const ReviewForm = () => {
+  const initState: ReviewRequestFormModel = {
+    gardening: false,
+    generalMaintenance: false,
+    name: '',
+    other: false,
+    pleaseSpecify: '',
+    powerWashing: false,
+    repointing: false,
+    strimming: false,
+    email: '',
+    reviewRequest: true,
+  };
+
+  const [initialValues, setInitialValues] = useState(initState);
+  const [sent, setSent] = useState(false);
 
   const {
     register,
     handleSubmit,
+    getValues,
+    setValue,
+    watch,
     formState: { errors }
   } = useForm({
     mode: "onTouched",
     reValidateMode: "onSubmit",
-    defaultValues: {
-      email: "",
-      name: "",
-      message: "",
-    }
+    // reValidateMode: "onChange",
+    defaultValues: initialValues
   });
 
-  const onSubmit = (data: ContactFormModel) => {
-    sendEmail(data);
+  const onSubmit = (data: ReviewRequestFormModel) => {
+    if (data.email) {
+      sendEmail(data);
+    }
     setSent(true);
   }
 
@@ -33,7 +53,7 @@ const ContactForm = () => {
 
   if (sent) {
     return (
-      <>Thank you, we will be in touch as soon as possible.</>
+      <>Thank you, it is most appreciated.</>
     )
   }
 
@@ -52,34 +72,15 @@ const ContactForm = () => {
         )}
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="email">
-        <Form.Label>Email</Form.Label>
-        <Form.Control
-          type="email"
-          placeholder="Email"
-          {...register("email", { required: "Email is required" })}
+      <Form.Group className="mb-3" controlId="gardening">
+        <Form.Check
+          type="checkbox"
+          label="gardening"
+          {...register("gardening")}
         />
-        {errors.email && (
-          <Form.Text className="text-danger">
-            {errors.email.message}
-          </Form.Text>
-        )}
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="message">
-        <Form.Label>Message</Form.Label>
-        <Form.Control
-          placeholder="Message"
-          as="textarea"
-          rows={3}
-          {...register("message", { required: "Message is required" })}
-        />
-        {errors.message && (
-          <Form.Text className="text-danger">
-            {errors.message.message}
-          </Form.Text>
-        )}
-      </Form.Group>
+      {JSON.stringify(getValues())}
 
       <Button variant="primary" type="submit">
         Submit
@@ -88,4 +89,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ReviewForm;

@@ -8,6 +8,7 @@ import { ReviewFormModel } from "@/types/reviewFormModel";
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation'
 import Rating from "../rating/Rating";
+import { Suspense } from 'react'
 
 const ReviewForm = () => {
   const searchParams = useSearchParams();
@@ -92,70 +93,72 @@ const ReviewForm = () => {
   }
 
   return (
-    <Form onSubmit={handleSubmit(onSubmit, onError)}>
-      <Form.Group className="mb-3" controlId="rating">
-        <Form.Label>
-          How would you rate your experience with Vue Du Vallon Handyman?
-        </Form.Label>
-        <Rating
-          value={getValues('rating')}
-          onChange={i => setValue('rating', i)}
-          rules={{ required: "Rating is required" }}
-        />
+    <Suspense>
+      <Form onSubmit={handleSubmit(onSubmit, onError)}>
+        <Form.Group className="mb-3" controlId="rating">
+          <Form.Label>
+            How would you rate your experience with Vue Du Vallon Handyman?
+          </Form.Label>
+          <Rating
+            value={getValues('rating')}
+            onChange={i => setValue('rating', i)}
+            rules={{ required: "Rating is required" }}
+          />
 
-        {errors.rating && (
-          <Form.Text className="text-danger">
-            {errors.rating.message}
-          </Form.Text>
-        )}
-      </Form.Group>
+          {errors.rating && (
+            <Form.Text className="text-danger">
+              {errors.rating.message}
+            </Form.Text>
+          )}
+        </Form.Group>
 
-      <Form.Group className="mb-3" controlId="name">
-        <Form.Label>Name</Form.Label>
-        <Form.Control
-          placeholder="Name"
-          {...register("name", { required: "Name is required" })}
-        />
-        {errors.name && (
-          <Form.Text className="text-danger">
-            {errors.name.message}
-          </Form.Text>
-        )}
-      </Form.Group>
+        <Form.Group className="mb-3" controlId="name">
+          <Form.Label>Name</Form.Label>
+          <Form.Control
+            placeholder="Name"
+            {...register("name", { required: "Name is required" })}
+          />
+          {errors.name && (
+            <Form.Text className="text-danger">
+              {errors.name.message}
+            </Form.Text>
+          )}
+        </Form.Group>
 
-      <Form.Group className="mb-3" controlId="title">
-        <Form.Label>Title your review</Form.Label>
-        <Form.Control
-          type="text"
-          placeholder="Title"
-          {...register("title", { required: "Title is required" })}
-        />
-        {errors.title && (
-          <Form.Text className="text-danger">
-            {errors.title.message}
-          </Form.Text>
-        )}
-      </Form.Group>
+        <Form.Group className="mb-3" controlId="title">
+          <Form.Label>Title your review</Form.Label>
+          <Form.Control
+            type="text"
+            placeholder="Title"
+            {...register("title", { required: "Title is required" })}
+          />
+          {errors.title && (
+            <Form.Text className="text-danger">
+              {errors.title.message}
+            </Form.Text>
+          )}
+        </Form.Group>
 
-      <Form.Group className="mb-3" controlId="message">
-        <Form.Label>Write your review</Form.Label>
-        <Form.Control
-          placeholder="Message"
-          as="textarea"
-          rows={3}
-          {...register("message", { required: "Message is required" })}
-        />
-        {errors.message && (
-          <Form.Text className="text-danger">
-            {errors.message.message}
-          </Form.Text>
-        )}
-      </Form.Group>
+        <Form.Group className="mb-3" controlId="message">
+          <Form.Label>Write your review</Form.Label>
+          <Form.Control
+            placeholder="Message"
+            as="textarea"
+            rows={3}
+            {...register("message", { required: "Message is required" })}
+          />
+          {errors.message && (
+            <Form.Text className="text-danger">
+              {errors.message.message}
+            </Form.Text>
+          )}
+        </Form.Group>
 
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </Form>
+    </Suspense>
   );
 };
 

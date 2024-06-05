@@ -4,9 +4,7 @@ import { ContactFormModel } from '@/types/contactFormModel';
 import { useForm, FieldErrors } from 'react-hook-form'
 import React from "react";
 import { sendEmail } from "@/services/emailService";
-import { ReviewFormModel } from "@/types/reviewFormModel";
-import { useState, useEffect } from 'react';
-import { useSearchParams } from 'next/navigation'
+import { useState } from 'react';
 import { ReviewRequestFormModel } from "@/types/reviewRequestFormModel";
 
 const ReviewForm = () => {

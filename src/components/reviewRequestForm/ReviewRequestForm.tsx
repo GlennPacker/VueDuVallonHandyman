@@ -21,22 +21,8 @@ const ReviewForm = () => {
     reviewRequest: true,
   };
 
-  const [initialValues, setInitialValues] = useState(initState);
+  const [values, setValues] = useState(initState);
   const [sent, setSent] = useState(false);
-
-  const {
-    register,
-    handleSubmit,
-    getValues,
-    setValue,
-    watch,
-    formState: { errors }
-  } = useForm({
-    mode: "onTouched",
-    reValidateMode: "onSubmit",
-    // reValidateMode: "onChange",
-    defaultValues: initialValues
-  });
 
   const onSubmit = (data: ReviewRequestFormModel) => {
     if (data.email) {
@@ -45,29 +31,42 @@ const ReviewForm = () => {
     setSent(true);
   }
 
-  const onError = (error: FieldErrors<ContactFormModel>) => {
-    console.log("ERROR:::", error);
-  };
-
   if (sent) {
     return (
-      <>Thank you, it is most appreciated.</>
+      <>Review Request sent.</>
     )
   }
 
+  const update = (field: string, val: string) => {
+    // const update = () => { 
+    setValues({
+      ...values,
+      [field as keyof (ReviewRequestFormModel)]: val
+    } as ReviewRequestFormModel);
+  }
+
+  let url = 'https://vueduvallonhandyman.fr/review?'
+  const {
+    name,
+    gardening
+  } = values;
+
+  if (name) {
+    url += `name=${name}&`
+  }
+
+  if (gardening) {
+    url += `gardening=true&`
+  }
+
   return (
-    <Form onSubmit={handleSubmit(onSubmit, onError)}>
+    <Form onSubmit={() => onSubmit}>
       <Form.Group className="mb-3" controlId="name">
         <Form.Label>Name</Form.Label>
         <Form.Control
           placeholder="Name"
-          {...register("name", { required: "Name is required" })}
+          onChange={({ target: { value } }) => update('name', value)}
         />
-        {errors.name && (
-          <Form.Text className="text-danger">
-            {errors.name.message}
-          </Form.Text>
-        )}
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="gardening">

@@ -1,7 +1,5 @@
 'use client';
 import { Form, Button } from "react-bootstrap";
-import { ContactFormModel } from '@/types/contactFormModel';
-import { useForm, FieldErrors } from 'react-hook-form'
 import React from "react";
 import { sendEmail } from "@/services/emailService";
 import { useState } from 'react';
@@ -24,9 +22,9 @@ const ReviewForm = () => {
   const [values, setValues] = useState(initState);
   const [sent, setSent] = useState(false);
 
-  const onSubmit = (data: ReviewRequestFormModel) => {
-    if (data.email) {
-      sendEmail(data);
+  const onSubmit = () => {
+    if (values.email) {
+      sendEmail(url);
     }
     setSent(true);
   }
@@ -37,8 +35,7 @@ const ReviewForm = () => {
     )
   }
 
-  const update = (field: string, val: string) => {
-    // const update = () => { 
+  const update = (field: string, val: string | boolean) => {
     setValues({
       ...values,
       [field as keyof (ReviewRequestFormModel)]: val
@@ -61,6 +58,14 @@ const ReviewForm = () => {
 
   return (
     <Form onSubmit={() => onSubmit}>
+      <Form.Group className="mb-3" controlId="email">
+        <Form.Label>Email</Form.Label>
+        <Form.Control
+          placeholder="Email"
+          onChange={({ target: { value } }) => update('email', value)}
+        />
+      </Form.Group>
+
       <Form.Group className="mb-3" controlId="name">
         <Form.Label>Name</Form.Label>
         <Form.Control
@@ -73,13 +78,15 @@ const ReviewForm = () => {
         <Form.Check
           type="checkbox"
           label="gardening"
-          {...register("gardening")}
+          onChange={({ target: { checked } }) => update('gardening', checked)}
         />
       </Form.Group>
 
-      {JSON.stringify(getValues())}
+      {url.substring(0, url.length - 1)} <br />
 
-      <Button variant="primary" type="submit">
+      <Button
+        variant="primary"
+        onClick={() => onSubmit()}>
         Submit
       </Button>
     </Form>

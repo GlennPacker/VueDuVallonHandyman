@@ -1,7 +1,5 @@
-import { useState } from "react";
 import styles from './rating.module.css';
-import { useForm, useController, Control, FieldValues, FieldError, ChangeHandler, RefCallBack, SetFieldValue } from 'react-hook-form';
-// import { useForm, SubmitHandler, FieldValues } from 'react-hook-form';
+import { useForm, useController, FieldValues } from 'react-hook-form';
 
 type props = {
   onChange: (x: number) => void
@@ -23,7 +21,7 @@ const Rating = ({ onChange, rules, value }: props) => {
 
   return (
     <div className={styles.stars}>
-      {[...Array(5)].map((_, i) => <>
+      {[...Array(5)].map((a, i) => <>
         <span
           key={`${i}`}
           onClick={() => onChange(i + 1)}

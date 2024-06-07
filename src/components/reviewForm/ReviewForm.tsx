@@ -34,7 +34,8 @@ const ReviewForm = () => {
     rating: null,
     repointing: false,
     strimming: false,
-    title: ''
+    title: '',
+    valueForMoney: null
   };
 
   const [initialValues, setInitialValues] = useState(initState);
@@ -85,6 +86,7 @@ const ReviewForm = () => {
   };
 
   watch('rating');
+  watch('valueForMoney');
 
   if (sent) {
     return (
@@ -112,6 +114,23 @@ const ReviewForm = () => {
           )}
         </Form.Group>
 
+        <Form.Group className="mb-3" controlId="rating">
+          <Form.Label>
+            How would you rate the value for money when using Vue Du Vallon Handyman?
+          </Form.Label>
+          <Rating
+            value={getValues('valueForMoney')}
+            onChange={i => setValue('valueForMoney', i)}
+            rules={{ required: "Value for money is required" }}
+          />
+
+          {errors.rating && (
+            <Form.Text className="text-danger">
+              {errors.rating.message}
+            </Form.Text>
+          )}
+        </Form.Group>
+
         <Form.Group className="mb-3" controlId="name">
           <Form.Label>Name</Form.Label>
           <Form.Control
@@ -130,13 +149,8 @@ const ReviewForm = () => {
           <Form.Control
             type="text"
             placeholder="Title"
-            {...register("title", { required: "Title is required" })}
+            {...register("title")}
           />
-          {errors.title && (
-            <Form.Text className="text-danger">
-              {errors.title.message}
-            </Form.Text>
-          )}
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="message">
@@ -145,13 +159,30 @@ const ReviewForm = () => {
             placeholder="Message"
             as="textarea"
             rows={3}
-            {...register("message", { required: "Message is required" })}
+            {...register("message")}
           />
-          {errors.message && (
-            <Form.Text className="text-danger">
-              {errors.message.message}
-            </Form.Text>
-          )}
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="wouldYouUseThemAgain">
+          <Form.Label>Would you use Vue Du Vallon Handyman again</Form.Label>
+          <div>
+            <Form.Check
+              inline
+              label="Yes"
+              name="wouldYouUseThemAgain"
+              type="radio"
+              value="Yes"
+              id="yes"
+            />
+            <Form.Check
+              inline
+              label="No"
+              value="No"
+              name="wouldYouUseThemAgain"
+              type="radio"
+              id="no"
+            />
+          </div>
         </Form.Group>
 
         <Button variant="primary" type="submit">

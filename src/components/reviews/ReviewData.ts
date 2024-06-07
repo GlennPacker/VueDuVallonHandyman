@@ -12,7 +12,7 @@ const reviews: ReviewFormModel[] = [{
   gardening: true,
   generalMaintenance: false,
   message: `Can't thank you enough.`,
-  name: 'Danny',
+  name: 'Simon F',
   other: false,
   pleaseSpecify: '',
   powerWashing: false,

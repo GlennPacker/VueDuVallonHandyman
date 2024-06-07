@@ -1,7 +1,7 @@
 'use client';
 import { Form, Button } from "react-bootstrap";
 import { ContactFormModel } from '@/types/contactFormModel';
-import { useForm, FieldErrors, useController } from 'react-hook-form'
+import { useForm, FieldErrors, useController, FieldError } from 'react-hook-form'
 import React from "react";
 import { sendEmail } from "@/services/emailService";
 import { ReviewFormModel } from "@/types/reviewFormModel";
@@ -35,7 +35,8 @@ const ReviewForm = () => {
     repointing: false,
     strimming: false,
     title: '',
-    valueForMoney: null
+    valueForMoney: null,
+    wouldYouUseThemAgain: ''
   };
 
   const [initialValues, setInitialValues] = useState(initState);
@@ -46,6 +47,8 @@ const ReviewForm = () => {
     handleSubmit,
     getValues,
     setValue,
+    setError,
+    clearErrors,
     watch,
     formState: { errors }
   } = useForm({
@@ -77,8 +80,34 @@ const ReviewForm = () => {
   }, []);
 
   const onSubmit = (data: ReviewFormModel) => {
+    let errors = false;
+
+    if (!data.rating) {
+      setError('rating', { type: 'min', message: 'Rating is required' })
+      errors = true;
+    }
+
+    if (!data.valueForMoney) {
+      setError('valueForMoney', { type: 'min', message: 'Value for money is required' })
+      errors = true;
+    }
+
+    // typescript failure workaround
+    if (!data.wouldYouUseThemAgain || !['Yes', 'No'].includes(data.wouldYouUseThemAgain)) {
+      setError('wouldYouUseThemAgain', { type: 'required', message: `'Would You Use Them Again' is required` })
+      errors = true;
+    }
+
+    if (errors) return;
+
     sendEmail(data);
     setSent(true);
+  }
+
+  const clearErrorsAndSet = (field: string, val: number | string) => {
+    const f = field as keyof (ReviewFormModel);
+    clearErrors(f);
+    setValue(f, val);
   }
 
   const onError = (error: FieldErrors<ContactFormModel>) => {
@@ -87,6 +116,7 @@ const ReviewForm = () => {
 
   watch('rating');
   watch('valueForMoney');
+  watch('rating');
 
   if (sent) {
     return (
@@ -103,30 +133,36 @@ const ReviewForm = () => {
           </Form.Label>
           <Rating
             value={getValues('rating')}
-            onChange={i => setValue('rating', i)}
-            rules={{ required: "Rating is required" }}
+            onChange={i => clearErrorsAndSet('rating', i)}
+            rules={{
+              required: "Rating is required",
+              min: 1
+            }}
           />
 
           {errors.rating && (
             <Form.Text className="text-danger">
-              {errors.rating.message}
+              Rating is required
             </Form.Text>
           )}
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="rating">
+        <Form.Group className="mb-3" controlId="valueForMoney">
           <Form.Label>
             How would you rate the value for money when using Vue Du Vallon Handyman?
           </Form.Label>
           <Rating
             value={getValues('valueForMoney')}
-            onChange={i => setValue('valueForMoney', i)}
-            rules={{ required: "Value for money is required" }}
+            onChange={i => clearErrorsAndSet('valueForMoney', i)}
+            rules={{
+              required: "Value for money is required",
+              min: 1,
+            }}
           />
 
-          {errors.rating && (
+          {errors.valueForMoney && (
             <Form.Text className="text-danger">
-              {errors.rating.message}
+              {errors.valueForMoney.message}
             </Form.Text>
           )}
         </Form.Group>
@@ -167,6 +203,7 @@ const ReviewForm = () => {
           <Form.Label>Would you use Vue Du Vallon Handyman again</Form.Label>
           <div>
             <Form.Check
+              onChange={i => clearErrorsAndSet('wouldYouUseThemAgain', i.target.checked ? 'Yes' : 'No')}
               inline
               label="Yes"
               name="wouldYouUseThemAgain"
@@ -176,6 +213,7 @@ const ReviewForm = () => {
             />
             <Form.Check
               inline
+              onChange={i => clearErrorsAndSet('wouldYouUseThemAgain', i.target.checked ? 'No' : 'Yes')}
               label="No"
               value="No"
               name="wouldYouUseThemAgain"
@@ -183,6 +221,13 @@ const ReviewForm = () => {
               id="no"
             />
           </div>
+
+          {errors.wouldYouUseThemAgain && (
+            <Form.Text className="text-danger">
+              {errors.wouldYouUseThemAgain.message}
+            </Form.Text>
+          )}
+
         </Form.Group>
 
         <Button variant="primary" type="submit">

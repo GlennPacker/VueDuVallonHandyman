@@ -10,6 +10,6 @@ export type ReviewFormModel = {
   generalMaintenance: boolean;
   other: boolean;
   pleaseSpecify: string | null;
-  valueForMoney?: number | null;
-  wouldYouUseThemAgain?: string | null;
+  valueForMoney: number | null;
+  wouldYouUseThemAgain: string | null;
 }

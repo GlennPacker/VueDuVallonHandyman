@@ -1,7 +1,7 @@
 import { ReviewFormModel } from '@/types/reviewFormModel';
 import Review from '../review/Review'
 import styles from './reviews.module.css';
-import { reviews } from './ReviewData';
+import reviews from './ReviewData.json';
 
 type props = {
   filter?: string;

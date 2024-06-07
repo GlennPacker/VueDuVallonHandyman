@@ -12,14 +12,16 @@ export type ReviewType = {
     gardening: true,
     generalMaintenance: false,
     message: `Can't thank you enough.`,
-    name: 'Simon F',
+    name: 'Simon T',
     other: false,
     pleaseSpecify: '',
     powerWashing: false,
     rating: 5,
     repointing: false,
     strimming: true,
-    title: 'Looks great!'
+    title: 'Looks great!',
+    wouldYouUseThemAgain: null,
+    valueForMoney: null,
   }, 
   {
     gardening:true,
@@ -32,7 +34,9 @@ export type ReviewType = {
     rating:5,
     repointing:false,
     strimming:true,
-    title:"Amazing"
+    title:"Amazing",
+    wouldYouUseThemAgain: "Yes",
+    valueForMoney: null,
   },
   {
     gardening:true,
@@ -45,7 +49,9 @@ export type ReviewType = {
     rating:5,
     repointing:true,
     strimming:true,
-    title:"Fantastic Service"
+    title:"Fantastic Service",
+    wouldYouUseThemAgain: "Yes",
+    valueForMoney: null,
   }
 
 ];

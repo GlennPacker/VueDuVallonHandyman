@@ -10,13 +10,33 @@
 .stars {
   font-size: 2rem;
   color: gold;
+  width: fit-content;
 }
 
 .title {
   font-weight: 500;
   font-size: 1.3rem;
+
+  line-height: 3rem;
 }
 
 .name {
   font-weight: 500;
+}
+
+.header {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .header {
+    display: block;
+  }
+}
+
+@media (min-width: 700px) {
+  .title {
+    line-height: 3rem;
+    padding-left: 1rem;
+  }
 }

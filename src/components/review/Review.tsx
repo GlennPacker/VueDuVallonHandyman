@@ -10,11 +10,12 @@ export default function Review({ review }: props) {
 
   return (
     <div className={styles.reviewContainer}>
-
-      <div className={styles.stars}>
-        {[...Array(5)].map((_, i) => i < (rating || 0) ? '★' : '☆')}
+      <div className={styles.header} >
+        <div className={styles.stars}>
+          {[...Array(5)].map((_, i) => i < (rating || 0) ? '★' : '☆')}
+        </div>
+        <strong className={styles.title}> {title}</strong>
       </div>
-      <strong className={styles.title}> {title}</strong>
 
       <div>
         <span className={styles.name}>
@@ -23,6 +24,6 @@ export default function Review({ review }: props) {
         &nbsp; {message}
       </div>
 
-    </div>
+    </div >
   )
 }

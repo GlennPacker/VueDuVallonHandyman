@@ -8,6 +8,9 @@ type props = {
 export default function Review({ review }: props) {
   const { rating, name, message, title } = review;
 
+  const nameParts = name.trim().split(' ')
+  const displayName = nameParts.length === 1 ? name : `${nameParts[0]} ${nameParts[1][0]}`
+
   return (
     <div className={styles.reviewContainer}>
       <div className={styles.header} >
@@ -19,7 +22,7 @@ export default function Review({ review }: props) {
 
       <div>
         <span className={styles.name}>
-          {name}:
+          {displayName}:
         </span>
         &nbsp; {message}
       </div>

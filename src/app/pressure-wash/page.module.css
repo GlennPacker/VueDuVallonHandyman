@@ -2,9 +2,13 @@
   margin-top: 3rem;
   width: 90%;
   max-width: 1620px;
+}
+
+.contentLayout {
   display: grid;
   grid-template-columns: auto 430px;
   gap: 10px;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 1430px) {
@@ -57,14 +61,8 @@
 }
 
 @media (max-width: 850px) {
-  .pageLayout {
-    margin-top: 3rem;
-    width: 90%;
-    max-width: 1620px;
-    display: grid;
+  .contentLayout {
     grid-template-columns: 1fr;
-
-    gap: 10px;
   }
 
   .beforeAndAfterGrid {

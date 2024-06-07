@@ -12,7 +12,7 @@ export default function Reviews({ filter }: props) {
   return (
     <div className={styles.reviewsContainer}>
       {
-        data.map((review: ReviewFormModel, index) =>
+        data.map((review: ReviewFormModel, index: number) =>
           <Review review={review} key={`${index}`} />
         )
       }

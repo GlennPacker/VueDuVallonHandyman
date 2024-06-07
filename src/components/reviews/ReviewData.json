@@ -43,5 +43,35 @@
     "title": "Fantastic Service",
     "wouldYouUseThemAgain": "Yes",
     "valueForMoney": null
+  },
+  {
+    "gardening": true,
+    "generalMaintenance": false,
+    "message": "So glad to have found this company! Not just local to us, but also flexible and with great work ethic. I've needed work done at multiple locations and it has never been an issue. They always complete the task the exact way I ask and with great detail and timing. So helpful! ",
+    "name": "LECLERE ",
+    "other": false,
+    "pleaseSpecify": "",
+    "powerWashing": true,
+    "rating": 5,
+    "repointing": false,
+    "strimming": false,
+    "title": "So helpful! ",
+    "wouldYouUseThemAgain": "Yes",
+    "valueForMoney": null
+  },
+  {
+    "gardening": false,
+    "generalMaintenance": false,
+    "message": "Great job done and a very fair price will definitely use again",
+    "name": "David Flinton",
+    "other": true,
+    "pleaseSpecify": "Roof, Gutters",
+    "powerWashing": false,
+    "rating": 5,
+    "repointing": false,
+    "strimming": false,
+    "title": "Roof de moss and gutter cleaned",
+    "wouldYouUseThemAgain": "Yes",
+    "valueForMoney": null
   }
 ]

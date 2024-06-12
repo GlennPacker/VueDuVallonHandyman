@@ -52,6 +52,21 @@ export type ReviewType = {
     title:"Fantastic Service",
     wouldYouUseThemAgain: "Yes",
     valueForMoney: null,
+  },
+  {
+    gardening: true, 
+    generalMaintenance: false, 
+    message: 'Our garden is really looking good and no doubt will get better and better. ', 
+    name: 'Karen ', 
+    other: false,
+    pleaseSpecify:"",
+    powerWashing:true,
+    rating:5,
+    repointing:false,
+    strimming:false,
+    title:"Garden ",
+    valueForMoney:5,
+    wouldYouUseThemAgain:"Yes"
   }
 
 ];

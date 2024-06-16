@@ -1,17 +1,17 @@
-import ReviewForm from "@/components/reviewForm/ReviewForm";
+import Reviews from "@/components/reviews/Reviews";
 import styles from "./review.module.css";
 
-export default function Review() {
+export default function ReviewsPage() {
   return (
     <main>
       <div className={`${styles.pageLayout} mx-auto`}>
         <h1>
-          Review
+          Reviews
         </h1>
 
         <div className={styles.layout}>
           <div className={styles.form}>
-            <ReviewForm />
+            <Reviews show={20} showStats={true} />
           </div>
         </div>
       </div>

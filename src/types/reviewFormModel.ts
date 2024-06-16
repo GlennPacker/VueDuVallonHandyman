@@ -1,4 +1,5 @@
 export type ReviewFormModel = {
+  id: number;
   message: string;
   name: string;
   rating: number | null;

@@ -21,3 +21,8 @@
 .text-right {
   text-align: right;
 }
+
+.a {
+  text-decoration: none;
+  color: #067de5;
+}

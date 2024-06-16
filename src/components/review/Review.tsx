@@ -3,10 +3,11 @@ import styles from "./review.module.css";
 
 type props = {
   review: ReviewFormModel,
+  summary: boolean
 }
 
-export default function Review({ review }: props) {
-  const { rating, name, message, title } = review;
+export default function Review({ review, summary }: props) {
+  const { rating, name, message, title, valueForMoney, wouldYouUseThemAgain } = review;
 
   const nameParts = name.trim().split(' ')
   const displayName = nameParts.length === 1 ? name : `${nameParts[0]} ${nameParts[1][0]}`
@@ -26,7 +27,35 @@ export default function Review({ review }: props) {
         </span>
         &nbsp; {message}
       </div>
-
+      <div className={styles.extraData}>
+        {!summary && <>
+          <div>
+            {
+              wouldYouUseThemAgain &&
+              <>Would use again: {wouldYouUseThemAgain}</>
+            }
+            {
+              !wouldYouUseThemAgain &&
+              <>Would use again: Not asked</>
+            }
+          </div>
+          <div>
+            {
+              valueForMoney &&
+              <>
+                Value for money: <span className={styles.valueStars}>
+                  {[...Array(5)].map((_, i) => i < (valueForMoney || 0) ? '★' : '☆')}
+                </span>
+              </>
+            }
+            {
+              !valueForMoney &&
+              <>Value for money: Not asked</>
+            }
+          </div>
+        </>
+        }
+      </div>
     </div >
   )
 }

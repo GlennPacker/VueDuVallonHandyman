@@ -1,7 +1,7 @@
 'use client';
 import { Form, Button } from "react-bootstrap";
 import { ContactFormModel } from '@/types/contactFormModel';
-import { useForm, FieldErrors, useController, FieldError } from 'react-hook-form'
+import { useForm, FieldErrors } from 'react-hook-form'
 import React from "react";
 import { sendEmail } from "@/services/emailService";
 import { ReviewFormModel } from "@/types/reviewFormModel";
@@ -24,6 +24,7 @@ const ReviewForm = () => {
   if (other) pleaseSpecify = searchParams.get('pleaseSpecify');
 
   const initState: ReviewFormModel = {
+    id: 0,
     gardening: false,
     generalMaintenance: false,
     message: '',
@@ -81,6 +82,8 @@ const ReviewForm = () => {
 
   const onSubmit = (data: ReviewFormModel) => {
     let errors = false;
+
+    data.id = Math.round(((new Date()).getTime() - 1718515035463) / 1000 / 60);
 
     if (!data.rating) {
       setError('rating', { type: 'min', message: 'Rating is required' })

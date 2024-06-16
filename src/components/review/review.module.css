@@ -13,6 +13,12 @@
   width: fit-content;
 }
 
+.valueStars {
+  font-size: 1.4rem;
+  color: green;
+  width: fit-content;
+}
+
 .title {
   font-weight: 500;
   font-size: 1.3rem;
@@ -39,4 +45,10 @@
     line-height: 3rem;
     padding-left: 1rem;
   }
+}
+
+.extraData {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 1rem;
 }

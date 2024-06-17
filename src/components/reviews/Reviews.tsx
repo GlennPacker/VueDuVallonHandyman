@@ -53,15 +53,16 @@ export default function Reviews({ filter, show = 4, showStats = false }: props) 
             />
           )
         }
-        {
-          showMore && <Link
-            href='/reviews'
-            className='a'
-          >
-            See more reviews
-          </Link>
-        }
+
       </div>
+      {
+        showMore && <Link
+          href='/reviews'
+          className='a'
+        >
+          See more reviews
+        </Link>
+      }
     </>
   )
 }

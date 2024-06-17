@@ -31,16 +31,6 @@ export default function Review({ review, summary }: props) {
         {!summary && <>
           <div>
             {
-              wouldYouUseThemAgain &&
-              <>Would use again: {wouldYouUseThemAgain}</>
-            }
-            {
-              !wouldYouUseThemAgain &&
-              <>Would use again: Not asked</>
-            }
-          </div>
-          <div>
-            {
               valueForMoney &&
               <>
                 Value for money: <span className={styles.valueStars}>
@@ -48,11 +38,14 @@ export default function Review({ review, summary }: props) {
                 </span>
               </>
             }
+          </div>
+          <div>
             {
-              !valueForMoney &&
-              <>Value for money: Not asked</>
+              wouldYouUseThemAgain &&
+              <>Would use again: {wouldYouUseThemAgain}</>
             }
           </div>
+
         </>
         }
       </div>

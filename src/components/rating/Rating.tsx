@@ -21,9 +21,9 @@ const Rating = ({ onChange, rules, value }: props) => {
 
   return (
     <div className={styles.stars}>
-      {[...Array(5)].map((a, i) => <>
+      {[1, 2, 3, 4, 5].map((i) => <>
         <span
-          key={`${i}`}
+          key={`a${i}`}
           onClick={() => onChange(i + 1)}
           className={styles.star}
         >

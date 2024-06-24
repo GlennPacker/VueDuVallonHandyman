@@ -10,8 +10,8 @@ function getStaticRoutes() {
   const data = pageFiles.map(pageFile => {
     const route = pageFile
       .replace('page', '')
-      .replace('src\\app\\', '')
-      .replace('src/app/', '')
+      .replace('\\src\\app', '')
+      .replace('/src/app', '')
       .replace('.tsx', '')
       .replace('/index', '');
     return `/${route.substring(0, route.length -1)}`; 

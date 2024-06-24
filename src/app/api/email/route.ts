@@ -19,7 +19,12 @@ export async function POST(req: Request) {
   return await sendContactEmail(body);
 }
 
-const sendEmail = async (text: string, subject: string, to = process.env.EMAIL) => {
+const sendEmail = async (
+    text: string, 
+    subject: string, 
+    replyTo = process.env.EMAIL,
+    to = process.env.EMAIL
+  ) => {
   const transport = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -31,8 +36,8 @@ const sendEmail = async (text: string, subject: string, to = process.env.EMAIL) 
   const mailOptions: Mail.Options = {
     from: process.env.EMAIL,
     to,
-    // cc: email, (uncomment this line if you want to send a copy to the sender)
-    subject, //  || email ? `Message from ${name} (${email})` : `Rating Email`,
+    replyTo,
+    subject, 
     text,
   };
 
@@ -66,5 +71,5 @@ const sendRatingEmail = (body: any) => {
 
 const sendContactEmail = (body: any) => {
   let { message, name, email } = body;
-  return sendEmail(message, `Message from ${name} (${email})`)
+  return sendEmail(message, `Message from ${name} (${email})`, email)
 }

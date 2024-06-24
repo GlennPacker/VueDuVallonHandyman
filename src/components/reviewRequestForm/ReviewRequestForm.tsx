@@ -45,7 +45,11 @@ const ReviewForm = () => {
   let url = 'https://vueduvallonhandyman.fr/review?'
   const {
     name,
-    gardening
+    gardening,
+    generalMaintenance,
+    powerWashing,
+    repointing,
+    strimming
   } = values;
 
   if (name) {
@@ -54,6 +58,22 @@ const ReviewForm = () => {
 
   if (gardening) {
     url += `gardening=true&`
+  }
+
+  if (generalMaintenance) {
+    url += `generalMaintenance=true&`
+  }
+
+  if (powerWashing) {
+    url += `powerWashing=true&`
+  }
+
+  if (repointing) {
+    url += `repointing=true&`
+  }
+
+  if (strimming) {
+    url += `strimming=true&`
   }
 
   return (
@@ -79,6 +99,38 @@ const ReviewForm = () => {
           type="checkbox"
           label="gardening"
           onChange={({ target: { checked } }) => update('gardening', checked)}
+        />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="generalMaintenance">
+        <Form.Check
+          type="checkbox"
+          label="general Maintenance"
+          onChange={({ target: { checked } }) => update('generalMaintenance', checked)}
+        />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="powerWashing">
+        <Form.Check
+          type="checkbox"
+          label="Pressure Wash"
+          onChange={({ target: { checked } }) => update('powerWashing', checked)}
+        />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="repointing">
+        <Form.Check
+          type="checkbox"
+          label="Repointing"
+          onChange={({ target: { checked } }) => update('repointing', checked)}
+        />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="strimming">
+        <Form.Check
+          type="checkbox"
+          label="Strimming"
+          onChange={({ target: { checked } }) => update('strimming', checked)}
         />
       </Form.Group>
 

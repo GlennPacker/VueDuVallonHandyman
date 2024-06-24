@@ -134,7 +134,15 @@ const ReviewForm = () => {
         />
       </Form.Group>
 
-      {url.substring(0, url.length - 1)} <br />
+      <p>
+        Please could you review Vue Du Vallon for the work they have done for you.
+      </p>
+      <p>
+        {url.substring(0, url.length - 1)}
+      </p>
+      <p>
+        All reviews (whether good, bad, or otherwise) will be be made public to help other people make more informed decisions.
+      </p>
 
       <Button
         variant="primary"

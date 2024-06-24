@@ -14,6 +14,12 @@ export default function Review() {
             <ReviewForm />
           </div>
         </div>
+
+        <img
+          src="/property services/3.jpg"
+          alt="Vue Du Vallon Handyman"
+          className={styles.searchImage}
+        />
       </div>
     </main >
   );

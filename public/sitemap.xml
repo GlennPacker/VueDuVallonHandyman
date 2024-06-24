@@ -12,6 +12,11 @@
         <priority>0.7</priority>
       </url>
       <url>
+        <loc>https://www.vueduvallonhandyman.fr/reviews</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+      </url>
+      <url>
         <loc>https://www.vueduvallonhandyman.fr/pressure-wash</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>

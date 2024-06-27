@@ -77,6 +77,7 @@ const ReviewForm = () => {
     }
     if (strimming) {
       setValue('strimming', true);
+      setValue('gardening', true);
     }
   }, []);
 

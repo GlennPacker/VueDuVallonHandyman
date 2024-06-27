@@ -14,3 +14,7 @@
   display: grid;
   grid-template-columns: 1fr 35px 35px 1fr;
 }
+
+.a {
+  color: white;
+}

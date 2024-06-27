@@ -31,7 +31,9 @@ export default function Footer() {
         </div>
 
         <div className="text-right">
-          <strong>Siret:</strong> 98510895000017
+          <a href="/siret" className={styles.a} >
+            <strong>Siret:</strong> 98510895000017
+          </a>
         </div>
       </div>
     </div>

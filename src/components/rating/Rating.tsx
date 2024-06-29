@@ -7,14 +7,6 @@ type props = {
   rules: any;
 }
 
-const keyArray = [
-  { key: 1 },
-  { key: 2 },
-  { key: 3 },
-  { key: 4 },
-  { key: 5 }
-]
-
 const Rating = ({ onChange, rules, value }: props) => {
   const { handleSubmit, control } = useForm<FieldValues>();
 
@@ -29,15 +21,14 @@ const Rating = ({ onChange, rules, value }: props) => {
 
   return (
     <div className={styles.stars}>
-      {keyArray.map((i) => <>
+      {[1, 2, 3, 4, 5].map((i) =>
         <span
-          key={`a${i.key}`}
-          onClick={() => onChange(i.key)}
+          key={`${i}`}
+          onClick={() => onChange(i)}
           className={styles.star}
         >
-          {i.key < (value || 0) ? '★' : '☆'}
+          {i < (value || 0) ? '★' : '☆'}
         </span>
-      </>
       )}
     </div>
   )

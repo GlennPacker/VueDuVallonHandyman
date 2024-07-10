@@ -24,10 +24,10 @@ const Rating = ({ onChange, rules, value }: props) => {
       {[1, 2, 3, 4, 5].map((i) =>
         <span
           key={`${i}`}
-          onClick={() => onChange(i + 1)}
+          onClick={() => onChange(i)}
           className={styles.star}
         >
-          {i < (value || 0) ? '★' : '☆'}
+          {i <= (value || 0) ? '★' : '☆'}
         </span>
       )}
     </div>

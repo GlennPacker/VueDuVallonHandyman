@@ -14,6 +14,9 @@ const links = [{
   href: '/strimming',
   text: 'Strimming'
 }, {
+  href: '/repointing',
+  text: 'Repointing'
+}, {
   href: '/contact',
   text: 'Contact'
 }
@@ -42,15 +45,15 @@ function Navigation() {
         </NavbarToggle>
         <NavbarCollapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            { 
-              links.map(({ text, href }) => 
+            {
+              links.map(({ text, href }) =>
                 <NavLink
-                  key={ text }
+                  key={text}
                   className={styles.navbarText}
-                  href={ href }
+                  href={href}
                 >
-                  { text }
-                </NavLink>  
+                  {text}
+                </NavLink>
               )
             }
           </Nav>

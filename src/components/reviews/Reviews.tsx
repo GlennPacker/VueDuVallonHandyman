@@ -11,7 +11,7 @@ type props = {
 }
 
 export default function Reviews({ filter, show = 4, showStats = false }: props) {
-  const orderedData = reviews.sort((a, b) => (a.id > b.id ? -1 : 0))
+  const orderedData = reviews.sort((a, b) => (a.id > b.id ? -1 : 0)) as [ReviewFormModel]
   const filteredData = orderedData.filter(r =>
   (
     !filter ||
@@ -21,7 +21,7 @@ export default function Reviews({ filter, show = 4, showStats = false }: props) 
 
   const data = filteredData.filter((_, i) => i < show);
   const showMore = filteredData.length !== data.length;
-  const score = filteredData.reduce((a, r) => a += r.rating, 0);
+  const score = filteredData.reduce((a, r) => a += r.rating || 0, 0);
   const totalReviews = filteredData.length;
   const avgScore = (score / (totalReviews)).toFixed(2)
 

@@ -9,4 +9,6 @@ export type ReviewRequestFormModel = {
   pleaseSpecify: string | null;
   email: string;
   reviewRequest: boolean;
+  gutters: boolean;
+  tiling: boolean;
 }

@@ -13,4 +13,6 @@ export type ReviewFormModel = {
   pleaseSpecify: string | null;
   valueForMoney: number | null;
   wouldYouUseThemAgain: string | null;
+  gutters: boolean;
+  tiling: boolean;
 }

@@ -14,9 +14,11 @@ const ReviewForm = () => {
   const searchParams = useSearchParams();
   const gardening = searchParams.get('gardening');
   const generalMaintenance = searchParams.get('generalMaintenance');
+  const gutters = searchParams.get('gutters');
   const powerWashing = searchParams.get('powerWashing');
   const repointing = searchParams.get('repointing');
   const strimming = searchParams.get('strimming');
+  const tiling = searchParams.get('tiling');
   const name = searchParams.get('name');
 
   const other = searchParams.get('other');
@@ -37,7 +39,9 @@ const ReviewForm = () => {
     strimming: false,
     title: '',
     valueForMoney: null,
-    wouldYouUseThemAgain: ''
+    wouldYouUseThemAgain: '',
+    gutters: false,
+    tiling: false,
   };
 
   const [initialValues, setInitialValues] = useState(initState);
@@ -78,6 +82,12 @@ const ReviewForm = () => {
     if (strimming) {
       setValue('strimming', true);
       setValue('gardening', true);
+    }
+    if (gutters) {
+      setValue('gutters', true)
+    }
+    if (tiling) {
+      setValue('tiling', true)
     }
   }, []);
 

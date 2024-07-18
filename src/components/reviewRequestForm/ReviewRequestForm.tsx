@@ -17,6 +17,8 @@ const ReviewForm = () => {
     strimming: false,
     email: '',
     reviewRequest: true,
+    gutters: false,
+    tiling: false,
   };
 
   const [values, setValues] = useState(initState);
@@ -44,16 +46,18 @@ const ReviewForm = () => {
 
   let url = 'https://vueduvallonhandyman.fr/review?'
   const {
-    name,
     gardening,
     generalMaintenance,
+    gutters,
+    name,
     powerWashing,
     repointing,
-    strimming
+    strimming,
+    tiling
   } = values;
 
   if (name) {
-    url += `name=${name}&`
+    url += `name=${encodeURI(name)}&`
   }
 
   if (gardening) {
@@ -74,6 +78,14 @@ const ReviewForm = () => {
 
   if (strimming) {
     url += `strimming=true&`
+  }
+
+  if (gutters) {
+    url += `gutters=true&`
+  }
+
+  if (tiling) {
+    url += `tiling=true&`
   }
 
   return (
@@ -110,6 +122,14 @@ const ReviewForm = () => {
         />
       </Form.Group>
 
+      <Form.Group className="mb-3" controlId="gardening">
+        <Form.Check
+          type="checkbox"
+          label="gutters"
+          onChange={({ target: { checked } }) => update('gutters', checked)}
+        />
+      </Form.Group>
+
       <Form.Group className="mb-3" controlId="powerWashing">
         <Form.Check
           type="checkbox"
@@ -134,8 +154,16 @@ const ReviewForm = () => {
         />
       </Form.Group>
 
+      <Form.Group className="mb-3" controlId="tiling">
+        <Form.Check
+          type="checkbox"
+          label="Tiling"
+          onChange={({ target: { checked } }) => update('tiling', checked)}
+        />
+      </Form.Group>
+
       <p>
-        Please could you review Vue Du Vallon for the work they have done for you.
+        Please could you review Vue Du Vallon Handyman for the work they have done for you.
       </p>
       <p>
         {url.substring(0, url.length - 1)}

@@ -169,7 +169,7 @@ const ReviewForm = () => {
         {url.substring(0, url.length - 1)}
       </p>
       <p>
-        All reviews (whether good, bad, or otherwise) will be be made public to help other people make more informed decisions.
+        All reviews (whether good, bad, or otherwise) will be made public to help other people make more informed decisions.
       </p>
 
       <Button

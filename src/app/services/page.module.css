@@ -1,0 +1,37 @@
+.pageLayout {
+  margin-top: 3rem;
+  width: 90%;
+  max-width: 1620px;
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.cta {
+  width: fit-content;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: White;
+  background-color: #008000;
+}
+
+.cta div {
+  padding-top: 5px;
+}
+
+@media (max-width: 850px) {
+  .serviceGrid {
+    display: block;
+  }
+
+  .serviceGrid img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}

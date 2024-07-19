@@ -12,7 +12,22 @@
         <priority>0.7</priority>
       </url>
       <url>
+        <loc>https://www.vueduvallonhandyman.fr/siret</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+      </url>
+      <url>
+        <loc>https://www.vueduvallonhandyman.fr/services</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+      </url>
+      <url>
         <loc>https://www.vueduvallonhandyman.fr/reviews</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+      </url>
+      <url>
+        <loc>https://www.vueduvallonhandyman.fr/repointing</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
       </url>

@@ -176,5 +176,23 @@
     "wouldYouUseThemAgain": "Yes",
     "gutters": false,
     "tiling": false
+  },
+  {
+    "id": 51034,
+    "gardening": true,
+    "generalMaintenance": false,
+    "message": "Initial visit proved very successful.  Prompt appointment, friendly and knowledgeable attitude.  Good, steady worker and polite.  We were very happy with the work done on his first visit, also good value for money.  Fortnightly follow up visits set up to continue our garden programme.  No hesitation in placing this recommendation.  ",
+    "name": "Janette Jenkins",
+    "other": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repointing": false,
+    "strimming": false,
+    "title": "Gardening ",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes",
+    "gutters": false,
+    "tiling": false
   }
 ]

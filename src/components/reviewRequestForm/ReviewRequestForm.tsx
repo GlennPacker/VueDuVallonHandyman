@@ -163,7 +163,7 @@ const ReviewForm = () => {
       </Form.Group>
 
       <p>
-        Please could you review Vue Du Vallon Handyman for the work they have done for you.
+        Please could you review Vue Du Vallon Handyman for the work that I have done for you.
       </p>
       <p>
         {url.substring(0, url.length - 1)}

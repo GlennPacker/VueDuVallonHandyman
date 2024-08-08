@@ -197,8 +197,8 @@
   },
   {
     "id": 77040,
-    "gardening": false,
-    "generalMaintenance": false,
+    "gardening": true,
+    "generalMaintenance": true,
     "message": "Whatever the task Glenn works efficiently and swiftly. His work is of a very high standard. We would definitely use him again. ",
     "name": "Jack",
     "other": false,

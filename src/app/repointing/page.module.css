@@ -16,9 +16,25 @@
   grid-template-columns: 220px;
   gap: 10px;
 
-  height: 700px;
+  height: 680px;
   overflow: hidden;
 }
+
+@media (max-width: 1550px) {
+  .beforeAndAfterGrid {
+    height: 910px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .beforeAndAfterGrid {
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+  }
+}
+
 
 @media (max-width: 850px) {
   .contentLayout {

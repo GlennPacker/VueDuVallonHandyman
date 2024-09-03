@@ -230,5 +230,23 @@
     "wouldYouUseThemAgain": "Yes",
     "gutters": false,
     "tiling": false
+  },
+  {
+    "id": 114667,
+    "gardening": false,
+    "generalMaintenance": false,
+    "message": "It has been very difficult finding a competent and reliable painter, but Glenn was recommended to us and although we were a little doubtful our fears were unfounded.  He was very pleasant and did exactly what he said he would.  He was also a very tidy worker.  We have absolutely no hesitation in recommending him, in fact we have asked him to return.",
+    "name": "Brian",
+    "other": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repointing": false,
+    "strimming": false,
+    "title": "Room Repaint",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes",
+    "gutters": false,
+    "tiling": false
   }
 ]

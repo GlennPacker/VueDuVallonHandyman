@@ -20,6 +20,11 @@ const services = [{
   src: `\\pressure-wash\\pressure wash category.jpg`,
   alt: 'pressure wash',
   title: 'Pressure Wash'
+}, {
+  href: '',
+  src: `\\painting\\painting.jpg`,
+  alt: 'painting',
+  title: 'Painting'
 }];
 
 export default function Services() {
@@ -34,11 +39,28 @@ export default function Services() {
           <div className={styles.serviceGrid}>
             {
               services.map(({ href, src, alt, title }) => {
-                return (
-                  <a
-                    key={title}
+                return href ?
+                  (
+                    <a
+                      key={title}
+                      className={styles.cta}
+                      href={`/${href}`}
+                    >
+                      <img
+                        src={src}
+                        alt={alt}
+                        width="230px;"
+                        height="240px"
+                      />
+                      <div>
+                        <h3>{title}</h3>
+                      </div>
+                    </a>
+                  )
+                  :
+                  <div
                     className={styles.cta}
-                    href={`/${href}`}
+                    key={title}
                   >
                     <img
                       src={src}
@@ -49,8 +71,7 @@ export default function Services() {
                     <div>
                       <h3>{title}</h3>
                     </div>
-                  </a>
-                )
+                  </div>
               })
             }
           </div>

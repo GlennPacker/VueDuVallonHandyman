@@ -19,6 +19,7 @@ const ReviewForm = () => {
   const repointing = searchParams.get('repointing');
   const strimming = searchParams.get('strimming');
   const tiling = searchParams.get('tiling');
+  const painting = searchParams.get('painting');
   const name = searchParams.get('name');
 
   const other = searchParams.get('other');
@@ -42,6 +43,7 @@ const ReviewForm = () => {
     wouldYouUseThemAgain: '',
     gutters: false,
     tiling: false,
+    painting: false,
   };
 
   const [initialValues, setInitialValues] = useState(initState);
@@ -88,6 +90,9 @@ const ReviewForm = () => {
     }
     if (tiling) {
       setValue('tiling', true)
+    }
+    if (painting) {
+      setValue('painting', true)
     }
   }, []);
 

@@ -284,5 +284,24 @@
     "wouldYouUseThemAgain": "Yes",
     "gutters": false,
     "tiling": false
+  },
+  {
+    "id": 187518,
+    "gardening": false,
+    "generalMaintenance": true,
+    "message": "Gutters neatly cleaned and that's how we got in touch with Glenn, He also cleaned and re-coated the facades of our house. He keeps his appointments and we are very satisfied with his work for us.",
+    "name": "Theo",
+    "other": false,
+    "pleaseSpecify": "",
+    "powerWashing": true,
+    "rating": 5,
+    "repointing": false,
+    "strimming": false,
+    "title": "Cleaning and Painting",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes",
+    "gutters": false,
+    "tiling": false,
+    "painting": true
   }
 ]

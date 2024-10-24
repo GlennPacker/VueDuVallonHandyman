@@ -11,4 +11,5 @@ export type ReviewRequestFormModel = {
   reviewRequest: boolean;
   gutters: boolean;
   tiling: boolean;
+  painting: boolean;
 }

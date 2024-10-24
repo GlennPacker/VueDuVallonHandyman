@@ -15,4 +15,5 @@ export type ReviewFormModel = {
   wouldYouUseThemAgain: string | null;
   gutters: boolean;
   tiling: boolean;
+  painting: boolean;
 }

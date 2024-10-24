@@ -19,6 +19,7 @@ const ReviewForm = () => {
     reviewRequest: true,
     gutters: false,
     tiling: false,
+    painting: false
   };
 
   const [values, setValues] = useState(initState);
@@ -53,7 +54,8 @@ const ReviewForm = () => {
     powerWashing,
     repointing,
     strimming,
-    tiling
+    tiling,
+    painting
   } = values;
 
   if (name) {
@@ -88,6 +90,9 @@ const ReviewForm = () => {
     url += `tiling=true&`
   }
 
+  if (painting) {
+    url += `painting=true&`
+  }
   return (
     <Form onSubmit={() => onSubmit}>
       <Form.Group className="mb-3" controlId="email">
@@ -162,6 +167,13 @@ const ReviewForm = () => {
         />
       </Form.Group>
 
+      <Form.Group className="mb-3" controlId="painting">
+        <Form.Check
+          type="checkbox"
+          label="Painting"
+          onChange={({ target: { checked } }) => update('painting', checked)}
+        />
+      </Form.Group>
       <p>
         Please could you review Vue Du Vallon Handyman for the work that I have done for you.
       </p>

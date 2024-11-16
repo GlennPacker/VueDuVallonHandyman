@@ -40,7 +40,7 @@ const ReviewForm = () => {
     strimming: false,
     title: '',
     valueForMoney: null,
-    wouldYouUseThemAgain: '',
+    wouldYouUseThemAgain: 'Yes',
     gutters: false,
     tiling: false,
     painting: false,
@@ -66,6 +66,7 @@ const ReviewForm = () => {
   });
 
   useEffect(() => {
+    setValue('wouldYouUseThemAgain', 'Yes');
     if (name) {
       setValue('name', name);
     }
@@ -229,6 +230,7 @@ const ReviewForm = () => {
               type="radio"
               value="Yes"
               id="yes"
+              defaultChecked
             />
             <Form.Check
               inline

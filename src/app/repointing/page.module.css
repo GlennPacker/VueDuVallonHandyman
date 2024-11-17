@@ -26,6 +26,12 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .beforeAndAfterGrid {
+    height: 1150px;
+  }
+}
+
 @media (max-width: 1000px) {
   .beforeAndAfterGrid {
     height: fit-content;

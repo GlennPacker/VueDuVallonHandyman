@@ -22,7 +22,7 @@
 
 @media (max-width: 1550px) {
   .beforeAndAfterGrid {
-    height: 910px;
+    height: 905px;
   }
 }
 
@@ -34,7 +34,6 @@
     width: 430px;
   }
 }
-
 
 @media (max-width: 850px) {
   .contentLayout {

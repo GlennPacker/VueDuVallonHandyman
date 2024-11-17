@@ -17,6 +17,9 @@ const links = [{
   href: '/repointing',
   text: 'Repointing'
 }, {
+  href: '/services',
+  text: 'More Services'
+}, {
   href: '/contact',
   text: 'Contact'
 }

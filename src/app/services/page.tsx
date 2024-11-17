@@ -25,6 +25,21 @@ const services = [{
   src: `\\painting\\painting.jpg`,
   alt: 'painting',
   title: 'Painting'
+}, {
+  href: '',
+  src: `\\gates\\gates category.jpg`,
+  alt: 'custom made gates',
+  title: 'Gates'
+}, {
+  href: '',
+  src: `\\gutters\\gutters category.jpg`,
+  alt: 'gutter cleaning and repairs',
+  title: 'Gutters'
+}, {
+  href: '',
+  src: `\\repairs\\repairs.jpg`,
+  alt: 'repairs',
+  title: 'Repairs'
 }];
 
 export default function Services() {

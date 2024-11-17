@@ -5,8 +5,8 @@
 }
 
 .serviceGrid {
-  display: grid;
-  grid-template-columns: 230px 230px 230px 230px;
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   padding-top: 1rem;
 }

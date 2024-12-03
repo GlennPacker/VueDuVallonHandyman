@@ -28,9 +28,16 @@
 
 @media (max-width: 1200px) {
   .beforeAndAfterGrid {
-    height: 1150px;
+    height: 1130px;
   }
 }
+
+@media (max-width: 1050px) {
+  .beforeAndAfterGrid {
+    height: 1355px;
+  }
+}
+
 
 @media (max-width: 1000px) {
   .beforeAndAfterGrid {

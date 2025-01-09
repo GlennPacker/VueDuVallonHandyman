@@ -22,9 +22,7 @@ const links = [{
 }, {
   href: '/contact',
   text: 'Contact'
-}
-
-]
+}];
 
 function Navigation() {
   return (

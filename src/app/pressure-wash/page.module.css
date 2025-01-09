@@ -66,6 +66,7 @@
   }
 
   .beforeAndAfterGrid {
+    height: auto;
     overflow: auto;
   }
 }

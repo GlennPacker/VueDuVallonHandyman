@@ -4,6 +4,13 @@ import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
 
 const beforeAndAfters = [
+  [{
+    src: '/pressure-wash/1 before.jpg',
+    alt: 'exterior wall before pressure wash'
+  }, {
+    src: '/pressure-wash/1 after.jpg',
+    alt: 'exterior wall after pressure wash'
+  }],
   [
     {
       src: '/pressure wash 1 before.jpg',

@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
 
-const beforeAndAfters = [1, 2, 3, 4, 5, 6, 7, 8].map(i => (
+const beforeAndAfters = [1, 2, 3, 4, 5, 6, 7, 8, 9].map(i => (
   [
     {
       src: `/strimming/${i} before.jpg`,

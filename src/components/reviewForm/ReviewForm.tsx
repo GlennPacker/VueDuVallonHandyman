@@ -48,6 +48,7 @@ const ReviewForm = () => {
 
   const [initialValues, setInitialValues] = useState(initState);
   const [sent, setSent] = useState(false);
+  const [apiError, setApiError] = useState(false);
 
   const {
     register,
@@ -120,8 +121,12 @@ const ReviewForm = () => {
 
     if (errors) return;
 
-    sendEmail(data);
-    setSent(true);
+    try {
+      sendEmail(data);
+      setSent(true);
+    } catch {
+      setApiError(true);
+    }
   }
 
   const clearErrorsAndSet = (field: string, val: number | string) => {
@@ -137,6 +142,13 @@ const ReviewForm = () => {
   watch('rating');
   watch('valueForMoney');
   watch('rating');
+  if (apiError) {
+    return (
+      <div className="text-danger">
+        We could not process your review at this time. Please try again later.
+      </div>
+    )
+  }
 
   if (sent) {
     return (

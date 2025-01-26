@@ -6,5 +6,4 @@ export function sendEmail(data: ContactFormModel | ReviewFormModel | string) {
     method: 'POST',
     body: JSON.stringify(data),
   })
-    .catch(err => console.log(err));
 }

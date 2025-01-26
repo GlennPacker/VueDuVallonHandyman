@@ -372,7 +372,7 @@
     "powerWashing": false,
     "rating": 5,
     "repointing": false,
-    "strimming": false,
+    "strimming": true,
     "title": "Fabulous Garden Clean Out ",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes",

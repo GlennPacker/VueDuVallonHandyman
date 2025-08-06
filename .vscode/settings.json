@@ -1,5 +1,10 @@
 {
   "cSpell.words": [
     "repointing"
-  ]
+  ],
+      "editor.codeActionsOnSave": {
+        "source.fixAll.sortJSON": "always",
+        "source.fixAll": "always",
+        
+    }
 }

@@ -1,0 +1,13 @@
+.pageLayout {
+  margin-top: 3rem;
+  width: 90%;
+  max-width: 1620px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.siretImage {
+  width: 90vw;
+  max-width: 700px;
+}

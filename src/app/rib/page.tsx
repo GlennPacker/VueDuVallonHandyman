@@ -15,8 +15,6 @@ export default function Siret() {
           className={styles.siretImage}
         />
         <a href="/rib.pdf" download>Download</a>
-
-        
       </div>
     </main >
   );

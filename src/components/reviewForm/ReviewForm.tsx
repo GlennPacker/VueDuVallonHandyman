@@ -27,6 +27,8 @@ const ReviewForm = () => {
   if (other) pleaseSpecify = searchParams.get('pleaseSpecify');
 
   const initState: ReviewFormModel = {
+    department: null, 
+    town: null,
     id: 0,
     gardening: false,
     generalMaintenance: false,
@@ -211,6 +213,32 @@ const ReviewForm = () => {
             </Form.Text>
           )}
         </Form.Group>
+
+        <Form.Group className="mb-3" controlId="town">
+          <Form.Label>Nearest Town</Form.Label>
+          <Form.Control
+            placeholder="Town"
+            {...register("town", { required: "Town is required" })}
+          />
+          {errors.town && (
+            <Form.Text className="text-danger">
+              {errors.town.message}
+            </Form.Text>
+          )}  
+        </Form.Group>
+
+        {/* <Form.Group className="mb-3" controlId="department">
+          <Form.Label>Department</Form.Label>
+          <Form.Control
+            placeholder="Department"
+            {...register("department", { required: "Department is required" })}
+          />
+          {errors.department && (
+            <Form.Text className="text-danger">
+              {errors.department.message}
+            </Form.Text>
+          )}
+        </Form.Group> */}
 
         <Form.Group className="mb-3" controlId="title">
           <Form.Label>Title your review</Form.Label>

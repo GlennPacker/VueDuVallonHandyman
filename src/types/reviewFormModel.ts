@@ -16,4 +16,6 @@ export type ReviewFormModel = {
   gutters: boolean;
   tiling: boolean;
   painting: boolean;
+  department: string | null;
+  town: string | null;
 }

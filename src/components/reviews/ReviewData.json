@@ -1,5 +1,6 @@
 [
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
     "id": 10,
@@ -12,10 +13,12 @@
     "repointing": false,
     "strimming": true,
     "title": "Looks great!",
+    "town": "Saint-Sornin-la-Marche",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": null
   },
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
     "id": 1,
@@ -28,10 +31,12 @@
     "repointing": false,
     "strimming": true,
     "title": "Amazing",
+    "town": "Jouac",
     "valueForMoney": null,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
     "id": 2,
@@ -44,10 +49,12 @@
     "repointing": true,
     "strimming": true,
     "title": "Fantastic Service",
+    "town": "Blanzac",
     "valueForMoney": null,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
     "id": 3,
@@ -60,10 +67,12 @@
     "repointing": false,
     "strimming": false,
     "title": "So helpful! ",
+    "town": "Chateauponsac",
     "valueForMoney": null,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": false,
     "generalMaintenance": false,
     "id": 4,
@@ -76,26 +85,30 @@
     "repointing": false,
     "strimming": false,
     "title": "Roof de moss and gutter cleaned",
+    "town": "Dun-le-Palestel",
     "valueForMoney": null,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
     "id": 11,
     "message": "Our garden is really looking good and no doubt will get better and better. ",
-    "name": "Karen ",
+    "name": "Karen",
     "other": false,
     "pleaseSpecify": "",
     "powerWashing": true,
     "rating": 5,
     "repointing": false,
     "strimming": false,
-    "title": "Garden ",
+    "title": "Garden",
+    "town": "Saint Pardoux",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
     "gardening": false,
     "generalMaintenance": false,
     "id": 12,
@@ -108,10 +121,12 @@
     "repointing": false,
     "strimming": false,
     "title": "Hart",
+    "town": "Royère-de-Vassivière",
     "valueForMoney": 4,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
     "gardening": true,
     "generalMaintenance": false,
     "id": 17719,
@@ -124,6 +139,7 @@
     "repointing": false,
     "strimming": true,
     "title": "Garden maintenance ",
+    "town": "Saint-Sulpice-le-Dunois",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
@@ -144,6 +160,7 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": false,
     "generalMaintenance": true,
     "id": 46821,
@@ -156,10 +173,12 @@
     "repointing": false,
     "strimming": false,
     "title": "My French house",
+    "town": "Cieux",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
     "gardening": false,
     "generalMaintenance": true,
     "gutters": false,
@@ -174,10 +193,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Gutter cleaning",
+    "town": "Janaillat",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
     "gardening": true,
     "generalMaintenance": false,
     "gutters": false,
@@ -192,10 +213,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Gardening ",
+    "town": "Le Grand-Bourg",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": true,
     "gutters": false,
@@ -210,10 +233,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Extremely hard working and conscientious ",
+    "town": "Val-d'Oire-et-Gartempe",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
     "gutters": false,
@@ -228,10 +253,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Great gardener",
+    "town": "Glanges",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -246,6 +273,7 @@
     "strimming": false,
     "tiling": false,
     "title": "Room Repaint",
+    "town": "Champsanglard",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
@@ -268,6 +296,7 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
     "gutters": false,
@@ -282,10 +311,12 @@
     "strimming": true,
     "tiling": false,
     "title": "Strimming",
+    "town": "Magnac-Laval",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
     "gardening": false,
     "generalMaintenance": true,
     "gutters": false,
@@ -301,10 +332,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Cleaning and Painting",
+    "town": "Janaillat",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
     "gutters": false,
@@ -320,10 +353,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Garden maintenance ",
+    "town": "Glanges",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -339,10 +374,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Repointing",
+    "town": "Bellac",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -358,10 +395,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Thanks! Fab work ",
+    "town": "Chateauponsac",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
     "gardening": true,
     "generalMaintenance": false,
     "gutters": false,
@@ -377,10 +416,12 @@
     "strimming": true,
     "tiling": false,
     "title": "Fabulous Garden Clean Out ",
+    "town": "Chénérailles",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Charente",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": true,
@@ -396,10 +437,12 @@
     "strimming": false,
     "tiling": false,
     "title": "Great Service",
+    "town": "Montembœuf",
     "valueForMoney": 4,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
     "gardening": true,
     "generalMaintenance": false,
     "gutters": false,
@@ -415,10 +458,12 @@
     "strimming": false,
     "tiling": false,
     "title": "An excellent experience",
+    "town": "Marsac",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Haute Vienne",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -433,7 +478,29 @@
     "repointing": true,
     "strimming": false,
     "tiling": false,
-    "title": "Wall pointing ",
+    "title": "Wall pointing",
+    "town": "Bellac",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "department": "Haute Vienne",
+    "gardening": false,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 648927,
+    "message": "Dark planks and beams transformed, With a smile!",
+    "name": "Colleen",
+    "other": false,
+    "painting": true,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repointing": false,
+    "strimming": false,
+    "tiling": false,
+    "title": "Great job!",
+    "town": "Val-d'Oire-et-Gartempe",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   }

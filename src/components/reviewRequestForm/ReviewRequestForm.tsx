@@ -7,19 +7,21 @@ import { ReviewRequestFormModel } from "@/types/reviewRequestFormModel";
 
 const ReviewForm = () => {
   const initState: ReviewRequestFormModel = {
+    department: null,
+    email: '',
     gardening: false,
     generalMaintenance: false,
+    gutters: false,
     name: '',
     other: false,
+    painting: false,
     pleaseSpecify: '',
     powerWashing: false,
     repointing: false,
-    strimming: false,
-    email: '',
     reviewRequest: true,
-    gutters: false,
+    strimming: false,
     tiling: false,
-    painting: false
+    town: null
   };
 
   const [values, setValues] = useState(initState);
@@ -55,7 +57,9 @@ const ReviewForm = () => {
     repointing,
     strimming,
     tiling,
-    painting
+    painting,
+    department,
+    town
   } = values;
 
   if (name) {

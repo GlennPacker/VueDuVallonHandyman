@@ -45,6 +45,11 @@ const services = [{
   src: `\\studwalls\\studwall.jpg`,
   alt: 'stud walls',
   title: 'Stud walls'
+}, {
+  href: '',
+  src: `\\tiling\\tiling.jpg`,
+  alt: 'tiling',
+  title: 'Tiling'
 }];
 
 export default function Services() {

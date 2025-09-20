@@ -15,6 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2KDNN2Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <Navigation />
         {children}
         <div className={styles.spacer}>&nbsp;</div>

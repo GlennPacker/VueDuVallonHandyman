@@ -10,7 +10,7 @@ type props = {
   show?: number;
 }
 
-export default function Reviews({ filter, show = 4, showStats = false }: props) {
+export default function Reviews({ filter, show = 5, showStats = false }: props) {
   const orderedData = reviews.sort((a, b) => (a.id > b.id ? -1 : 0)) as [ReviewFormModel]
   const filteredData = orderedData.filter(r =>
   (

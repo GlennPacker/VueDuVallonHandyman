@@ -505,6 +505,27 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "department": "Creuse",
+    "gardening": false,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 652666,
+    "message": "good work done, painting in the house and preparing for external works.",
+    "name": "Gill",
+    "other": false,
+    "painting": true,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repointing": false,
+    "strimming": false,
+    "tiling": false,
+    "title": "painting",
+    "town": "Bénévent-l'Abbaye",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
+  },
+  {
     "department": "Haute Vienne",
     "gardening": false,
     "generalMaintenance": false,

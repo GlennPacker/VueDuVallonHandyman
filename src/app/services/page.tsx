@@ -42,14 +42,14 @@ const services = [{
   title: 'Repairs'
 }, {
   href: '',
-  src: `\\studwalls\\studwall.jpg`,
-  alt: 'stud walls',
-  title: 'Stud walls'
-}, {
-  href: '',
   src: `\\tiling\\tiling.jpg`,
   alt: 'tiling',
   title: 'Tiling'
+}, {
+  href: '',
+  src: `\\studwalls\\studwall.jpg`,
+  alt: 'stud walls',
+  title: 'Stud walls'
 }];
 
 export default function Services() {

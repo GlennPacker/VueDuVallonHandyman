@@ -49,7 +49,7 @@ export default function Gardening() {
                 Efficient removal of weeds to maintain the beauty and health of your garden, ensuring a neat and tidy appearance.
               </li>
               <li>
-                <strong>Pruning & Trimming</strong>
+                <strong>Pruning & Trimming </strong>
                 Pruning of shrubs, hedges, and trees to promote growth and maintain shape, enhancing curb appeal.
               </li>
             </ul>

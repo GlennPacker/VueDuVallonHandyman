@@ -36,6 +36,10 @@ export default function Gardening() {
             <h5>Garden Maintenance</h5>
             <ul>
               <li>
+                <strong>Brush Cutting & Land Reclamation: </strong>
+                Take back your land with our professional brush cutting and land reclamation services. Whether it's overgrown fields, tangled brush, or unused acreage, we clear it quickly and safely. Perfect for homeowners and properties that need a fresh start. <a href="/strimming">Learn more</a>.<br /><br />
+              </li>
+              <li>
                 <strong>Strimming: </strong>
                 Strimming is perfect for taming and reclaiming overgrown garden spaces, making even the wildest areas manageable and beautiful again.<br /><br />
                 Precise strimming around edges, borders, and obstacles for a clean and polished look.

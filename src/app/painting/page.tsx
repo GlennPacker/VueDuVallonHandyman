@@ -2,45 +2,18 @@ import styles from "./page.module.css";
 import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
 
-// const beforeAndAfters = [
-//   [
-//     { src: '/pressure-wash/1 before.jpg', alt: 'exterior wall before pressure wash' },
-//     { src: '/pressure-wash/1 after.jpg', alt: 'exterior wall after pressure wash' }
-//   ],
-//   [
-//     { src: '/pressure wash 1 before.jpg', alt: 'before pressure wash' },
-//     { src: '/pressure wash 1 after.jpg', alt: 'after pressure wash' }
-//   ],
-//   [
-//     { src: '/outside barn before.jpg', alt: 'outside barn before pressure wash' },
-//     { src: '/outside barn after.jpg', alt: 'outside barn after pressure wash' }
-//   ],
-//   [
-//     { src: '/wall before.jpg', alt: 'wall before pressure wash' },
-//     { src: '/wall after.jpg', alt: 'wall after pressure wash' }
-//   ],
-//   [
-//     { src: '/path before.jpg', alt: 'path before pressure wash' },
-//     { src: '/path after.jpg', alt: 'path after pressure wash' }
-//   ],
-//   [
-//     { src: '/courtyard before.jpg', alt: 'courtyard before pressure wash' },
-//     { src: '/courtyard after.jpg', alt: 'courtyard after pressure wash' }
-//   ],
-//   [
-//     { src: '/stairs before.jpg', alt: 'stairs before pressure wash' },
-//     { src: '/stairs after.jpg', alt: 'stairs after pressure wash' }
-//   ],
-//   [
-//     { src: '/patio before.jpg', alt: 'patio before pressure wash' },
-//     { src: '/patio after.jpg', alt: 'patio after pressure wash' }
-//   ],
-//   [
-//     { src: '/trub before.jpg', alt: 'exterior wall before pressure wash' },
-//     { src: '/trub after.jpg', alt: 'exterior wall after pressure wash' }
-//   ],
-// ];
-
+const beforeAndAfters = [1].map(i => (
+  [
+    {
+      src: `/painting/${i} before.jpg`,
+      alt: 'before painting'
+    },
+    {
+      src: `/painting/${i} after.jpg`,
+      alt: 'after painting'
+    }
+  ]
+))
 export default function PropertyServices() {
   return (
     <main>
@@ -85,8 +58,8 @@ export default function PropertyServices() {
               Ready to refresh your home with a new coat of paint? Get in touch today for a free estimate and let's make your project a success.
             </p>
           </div>
-          {/*
-          <div className={styles.beforeAndAfterGrid}>
+
+          {/* <div className={styles.beforeAndAfterGrid}>
             {beforeAndAfters.map(([before, after], index) => (
               <div key={`before-and-after-${index}`} className={styles.beforeAndAfter}>
                 <BeforeAndAfter
@@ -96,8 +69,8 @@ export default function PropertyServices() {
                 />
               </div>
             ))}
-          </div>
-          */}
+          </div> */}
+
         </div>
         <Reviews filter="painting" />
       </div>

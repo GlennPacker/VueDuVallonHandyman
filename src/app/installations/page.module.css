@@ -1,0 +1,75 @@
+.pageLayout {
+  margin-top: 3rem;
+  width: 90%;
+  max-width: 1620px;
+}
+
+.contentLayout {
+  display: grid;
+  grid-template-columns: auto 430px;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.beforeAndAfterGrid {
+  display: grid;
+  grid-template-columns: 220px;
+  gap: 10px;
+
+  height: 680px;
+  overflow: hidden;
+}
+
+@media (max-width: 1550px) {
+  .beforeAndAfterGrid {
+    height: 905px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .beforeAndAfterGrid {
+    height: 1130px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .beforeAndAfterGrid {
+    height: 1355px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .beforeAndAfterGrid {
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+  }
+}
+
+@media (max-width: 850px) {
+  .contentLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gardeningImage {
+  width: 400px;
+  height: 300px;
+  object-fit: fill;
+  padding-right: 10px;
+}
+
+.gardenImageContainer {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  max-height: 325px;
+  overflow: hidden;
+}
+
+.imagelayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}

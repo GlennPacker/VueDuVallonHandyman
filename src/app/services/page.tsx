@@ -36,6 +36,11 @@ const services = [{
   alt: 'gutter cleaning and repairs',
   title: 'Gutters'
 }, {
+  href: 'installations',
+  src: `/installations/pool.jpg`,
+  alt: 'kit and flatpack installations',
+  title: 'Installations'
+}, {
   href: '',
   src: `/repairs/repairs.jpg`,
   alt: 'repairs',

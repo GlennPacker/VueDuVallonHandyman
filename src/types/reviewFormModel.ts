@@ -18,4 +18,8 @@ export type ReviewFormModel = {
   painting: boolean;
   department: string | null;
   town: string | null;
+  installations: boolean;
+  repairs: boolean;
+  studWalls: boolean;
+  customMadeGates: boolean;
 }

@@ -59,7 +59,7 @@ export default function Gardening() {
               width="230px;"
             />
           </div>
-          <Reviews filter="gardening" />
+          <Reviews filter="installations" />
         </div>
       </div>
     </main >

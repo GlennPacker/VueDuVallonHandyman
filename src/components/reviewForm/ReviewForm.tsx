@@ -21,13 +21,18 @@ const ReviewForm = () => {
   const tiling = searchParams.get('tiling');
   const painting = searchParams.get('painting');
   const name = searchParams.get('name');
+  const installations = searchParams.get('installations');
+  const repairs = searchParams.get('repairs');
+  const studWalls = searchParams.get('studWalls');
+  const customMadeGates = searchParams.get('customMadeGates');
+
 
   const other = searchParams.get('other');
   let pleaseSpecify: string | null = '';
   if (other) pleaseSpecify = searchParams.get('pleaseSpecify');
 
   const initState: ReviewFormModel = {
-    department: "Haute Vienne", 
+    department: "Haute Vienne",
     town: null,
     id: 0,
     gardening: false,
@@ -46,6 +51,10 @@ const ReviewForm = () => {
     gutters: false,
     tiling: false,
     painting: false,
+    installations: false,
+    repairs: false,
+    studWalls: false,
+    customMadeGates: false,
   };
 
   const [initialValues, setInitialValues] = useState(initState);
@@ -97,6 +106,26 @@ const ReviewForm = () => {
     }
     if (painting) {
       setValue('painting', true)
+    }
+
+    if (other) {
+      setValue('other', true)
+    }
+
+    if (installations) {
+      setValue('installations', true)
+    }
+
+    if (repairs) {
+      setValue('repairs', true)
+    }
+
+    if (studWalls) {
+      setValue('studWalls', true)
+    }
+
+    if (customMadeGates) {
+      setValue('customMadeGates', true)
     }
   }, []);
 
@@ -224,7 +253,7 @@ const ReviewForm = () => {
             <Form.Text className="text-danger">
               {errors.town.message}
             </Form.Text>
-          )}  
+          )}
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="department">

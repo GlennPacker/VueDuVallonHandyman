@@ -4,6 +4,7 @@ import React from "react";
 import { sendEmail } from "@/services/emailService";
 import { useState } from 'react';
 import { ReviewRequestFormModel } from "@/types/reviewRequestFormModel";
+import styles from "./page.module.css";
 
 const ReviewForm = () => {
   const initState: ReviewRequestFormModel = {
@@ -21,7 +22,11 @@ const ReviewForm = () => {
     reviewRequest: true,
     strimming: false,
     tiling: false,
-    town: null
+    town: null,
+    installations: false,
+    repairs: false,
+    studWalls: false,
+    customMadeGates: false,
   };
 
   const [values, setValues] = useState(initState);
@@ -58,6 +63,11 @@ const ReviewForm = () => {
     strimming,
     tiling,
     painting,
+    installations,
+    repairs,
+    studWalls,
+    customMadeGates,
+    other,
     department,
     town
   } = values;
@@ -69,6 +79,27 @@ const ReviewForm = () => {
   if (gardening) {
     url += `gardening=true&`
   }
+
+  if (other) {
+    url += `other=true&`
+  }
+
+  if (installations) {
+    url += `installations=true&`
+  }
+
+  if (repairs) {
+    url += `repairs=true&`
+  }
+
+  if (studWalls) {
+    url += `studWalls=true&`
+  }
+
+  if (customMadeGates) {
+    url += `customMadeGates=true&`
+  }
+
 
   if (generalMaintenance) {
     url += `generalMaintenance=true&`
@@ -115,69 +146,109 @@ const ReviewForm = () => {
         />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="gardening">
-        <Form.Check
-          type="checkbox"
-          label="gardening"
-          onChange={({ target: { checked } }) => update('gardening', checked)}
-        />
-      </Form.Group>
+      <div className={styles.threeColumn}>
+        <div>
+          <Form.Group className="mb-3" controlId="gardening">
+            <Form.Check
+              type="checkbox"
+              label="gardening"
+              onChange={({ target: { checked } }) => update('gardening', checked)}
+            />
+          </Form.Group>
 
-      <Form.Group className="mb-3" controlId="generalMaintenance">
-        <Form.Check
-          type="checkbox"
-          label="general Maintenance"
-          onChange={({ target: { checked } }) => update('generalMaintenance', checked)}
-        />
-      </Form.Group>
+          <Form.Group className="mb-3" controlId="painting">
+            <Form.Check
+              type="checkbox"
+              label="Painting"
+              onChange={({ target: { checked } }) => update('painting', checked)}
+            />
+          </Form.Group>
 
-      <Form.Group className="mb-3" controlId="gardening">
-        <Form.Check
-          type="checkbox"
-          label="gutters"
-          onChange={({ target: { checked } }) => update('gutters', checked)}
-        />
-      </Form.Group>
+          <Form.Group className="mb-3" controlId="powerWashing">
+            <Form.Check
+              type="checkbox"
+              label="Pressure Wash"
+              onChange={({ target: { checked } }) => update('powerWashing', checked)}
+            />
+          </Form.Group>
 
-      <Form.Group className="mb-3" controlId="powerWashing">
-        <Form.Check
-          type="checkbox"
-          label="Pressure Wash"
-          onChange={({ target: { checked } }) => update('powerWashing', checked)}
-        />
-      </Form.Group>
+          <Form.Group className="mb-3" controlId="repointing">
+            <Form.Check
+              type="checkbox"
+              label="Repointing"
+              onChange={({ target: { checked } }) => update('repointing', checked)}
+            />
+          </Form.Group>
+        </div>
+        <div>
+          <Form.Group className="mb-3" controlId="gutters">
+            <Form.Check
+              type="checkbox"
+              label="gutters"
+              onChange={({ target: { checked } }) => update('gutters', checked)}
+            />
+          </Form.Group>
 
-      <Form.Group className="mb-3" controlId="repointing">
-        <Form.Check
-          type="checkbox"
-          label="Repointing"
-          onChange={({ target: { checked } }) => update('repointing', checked)}
-        />
-      </Form.Group>
+          <Form.Group className="mb-3" controlId="installations">
+            <Form.Check
+              type="checkbox"
+              label="Installations"
+              onChange={({ target: { checked } }) => update('installations', checked)}
+            />
+          </Form.Group>
 
-      <Form.Group className="mb-3" controlId="strimming">
-        <Form.Check
-          type="checkbox"
-          label="Strimming"
-          onChange={({ target: { checked } }) => update('strimming', checked)}
-        />
-      </Form.Group>
 
-      <Form.Group className="mb-3" controlId="tiling">
-        <Form.Check
-          type="checkbox"
-          label="Tiling"
-          onChange={({ target: { checked } }) => update('tiling', checked)}
-        />
-      </Form.Group>
 
-      <Form.Group className="mb-3" controlId="painting">
-        <Form.Check
-          type="checkbox"
-          label="Painting"
-          onChange={({ target: { checked } }) => update('painting', checked)}
-        />
-      </Form.Group>
+          <Form.Group className="mb-3" controlId="strimming">
+            <Form.Check
+              type="checkbox"
+              label="Strimming"
+              onChange={({ target: { checked } }) => update('strimming', checked)}
+            />
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="studWalls">
+            <Form.Check
+              type="checkbox"
+              label="Stud Walls"
+              onChange={({ target: { checked } }) => update('studWalls', checked)}
+            />
+          </Form.Group>
+
+        </div>
+        <div>
+          <Form.Group className="mb-3" controlId="customMadeGates">
+            <Form.Check
+              type="checkbox"
+              label="Custom Made Gates"
+              onChange={({ target: { checked } }) => update('customMadeGates', checked)}
+            />
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="generalMaintenance">
+            <Form.Check
+              type="checkbox"
+              label="general Maintenance"
+              onChange={({ target: { checked } }) => update('generalMaintenance', checked)}
+            />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="repairs">
+            <Form.Check
+              type="checkbox"
+              label="Repairs"
+              onChange={({ target: { checked } }) => update('repairs', checked)}
+            />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="tiling">
+            <Form.Check
+              type="checkbox"
+              label="Tiling"
+              onChange={({ target: { checked } }) => update('tiling', checked)}
+            />
+          </Form.Group>
+        </div>
+      </div>
+
       <p>
         Please could you review Vue Du Vallon Handyman for the work that I have done for you.
       </p>

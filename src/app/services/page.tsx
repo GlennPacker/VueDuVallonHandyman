@@ -2,54 +2,54 @@ import styles from "./page.module.css";
 
 const services = [{
   href: 'gardening',
-  src: `\\gardening\\garden 2.jpg`,
+  src: `/gardening/garden 2.jpg`,
   alt: 'gardening',
   title: 'Gardening'
 }, {
   href: 'strimming',
-  src: `\\strimming\\strimming category.jpg`,
+  src: `/strimming/strimming category.jpg`,
   alt: 'strimming',
   title: 'Strimming'
 }, {
   href: 'repointing',
-  src: `\\repointing\\repointing category.jpg`,
+  src: `/repointing/repointing category.jpg`,
   alt: 'repointing',
   title: 'Repointing'
 }, {
   href: 'pressure-wash',
-  src: `\\pressure-wash\\pressure wash category.jpg`,
+  src: `/pressure-wash/pressure wash category.jpg`,
   alt: 'pressure wash',
   title: 'Pressure Wash'
 }, {
-  href: '',
-  src: `\\painting\\painting.jpg`,
+  href: 'painting',
+  src: `/painting/painting.jpg`,
   alt: 'painting',
   title: 'Painting'
 }, {
   href: '',
-  src: `\\gates\\gates category.jpg`,
+  src: `/gates/gates category.jpg`,
   alt: 'custom made gates',
   title: 'Gates'
 }, {
   href: '',
-  src: `\\gutters\\gutters category.jpg`,
+  src: `/gutters/gutters category.jpg`,
   alt: 'gutter cleaning and repairs',
   title: 'Gutters'
 }, {
   href: '',
-  src: `\\repairs\\repairs.jpg`,
+  src: `/repairs/repairs.jpg`,
   alt: 'repairs',
   title: 'Repairs'
 }, {
   href: '',
-  src: `\\tiling\\tiling.jpg`,
-  alt: 'tiling',
-  title: 'Tiling'
-}, {
-  href: '',
-  src: `\\studwalls\\studwall.jpg`,
+  src: `/studwalls/studwall.jpg`,
   alt: 'stud walls',
   title: 'Stud walls'
+}, {
+  href: '',
+  src: `/tiling/tiling.jpg`,
+  alt: 'tiling',
+  title: 'Tiling'
 }];
 
 export default function Services() {

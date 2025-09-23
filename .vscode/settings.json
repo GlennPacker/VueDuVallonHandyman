@@ -6,5 +6,10 @@
         "source.fixAll.sortJSON": "always",
         "source.fixAll": "always",
         
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "GitHub.copilot",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     }
 }

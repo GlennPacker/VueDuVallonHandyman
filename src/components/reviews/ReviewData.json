@@ -545,5 +545,30 @@
     "town": "Chateauponsac",
     "valueForMoney": 4,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Creuse",
+    "gardening": true,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 698947,
+    "installations": false,
+    "message": "We have had monthly visits for the past 10 months or so and have been very happy with all the work done. Pruning, weeding, splitting and stacking logs and patio pressure-washing have all been undertaken with cheerfulness, effectiveness and efficiency. The price paid for all this work is very reasonable so we can thoroughly recommend Vue du Vallon Handyman.",
+    "name": "Douglas Snowden",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": true,
+    "rating": 5,
+    "repairs": false,
+    "repointing": false,
+    "strimming": false,
+    "studWalls": false,
+    "tiling": false,
+    "title": "Excellent and efficient gardening work",
+    "town": "Marsac",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

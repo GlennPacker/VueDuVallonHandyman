@@ -209,7 +209,7 @@ const ReviewForm = () => {
             />
             <div style={{ color: '#888' }}>
               {
-                rating === 5 && <>OK</>
+                rating === 5 && <>Good</>
               }
               {
                 rating === 4 && <>Could have been better</>
@@ -249,7 +249,7 @@ const ReviewForm = () => {
             />
             <div style={{ color: '#888' }}>
               {
-                valueForMoney === 5 && <>OK</>
+                valueForMoney === 5 && <>Good</>
               }
               {
                 valueForMoney === 4 && <>A little expensive</>

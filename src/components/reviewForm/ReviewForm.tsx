@@ -77,6 +77,9 @@ const ReviewForm = () => {
     defaultValues: initialValues
   });
 
+  const rating = watch('rating');
+  const valueForMoney = watch('valueForMoney');
+
   useEffect(() => {
     setValue('wouldYouUseThemAgain', 'Yes');
     if (name) {
@@ -194,14 +197,34 @@ const ReviewForm = () => {
           <Form.Label>
             How would you rate your experience with Vue Du Vallon Handyman?
           </Form.Label>
-          <Rating
-            value={getValues('rating')}
-            onChange={i => clearErrorsAndSet('rating', i)}
-            rules={{
-              required: "Rating is required",
-              min: 1
-            }}
-          />
+          <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '10px' }}>
+
+            <Rating
+              value={getValues('rating')}
+              onChange={i => clearErrorsAndSet('rating', i)}
+              rules={{
+                required: "Rating is required",
+                min: 1
+              }}
+            />
+            <div style={{ color: '#888' }}>
+              {
+                rating === 5 && <>OK</>
+              }
+              {
+                rating === 4 && <>Could have been better</>
+              }
+              {
+                rating === 3 && <>Some issues</>
+              }
+              {
+                rating === 2 && <>Disappointed</>
+              }
+              {
+                rating === 1 && <>Would not recommend</>
+              }
+            </div>
+          </div>
 
           {errors.rating && (
             <Form.Text className="text-danger">
@@ -214,14 +237,35 @@ const ReviewForm = () => {
           <Form.Label>
             How would you rate the value for money when using Vue Du Vallon Handyman?
           </Form.Label>
-          <Rating
-            value={getValues('valueForMoney')}
-            onChange={i => clearErrorsAndSet('valueForMoney', i)}
-            rules={{
-              required: "Value for money is required",
-              min: 1,
-            }}
-          />
+          <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '10px' }}>
+
+            <Rating
+              value={getValues('valueForMoney')}
+              onChange={i => clearErrorsAndSet('valueForMoney', i)}
+              rules={{
+                required: "Value for money is required",
+                min: 1,
+              }}
+            />
+            <div style={{ color: '#888' }}>
+              {
+                valueForMoney === 5 && <>OK</>
+              }
+              {
+                valueForMoney === 4 && <>A little expensive</>
+              }
+              {
+                valueForMoney === 3 && <>Expensive</>
+              }
+              {
+                valueForMoney === 2 && <>Very Expensive</>
+              }
+              {
+                valueForMoney === 1 && <>Not worth the money</>
+              }
+            </div>
+          </div>
+
 
           {errors.valueForMoney && (
             <Form.Text className="text-danger">

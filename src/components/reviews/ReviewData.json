@@ -570,5 +570,30 @@
     "town": "Marsac",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Creuse",
+    "gardening": false,
+    "generalMaintenance": true,
+    "gutters": false,
+    "id": 740346,
+    "installations": false,
+    "message": "We had a problem with a door that wasn't locking properly. After some consideration, Glenn came up with a simple solution. Well thought out Glenn.",
+    "name": "Kim",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 4,
+    "repairs": true,
+    "repointing": false,
+    "strimming": false,
+    "studWalls": false,
+    "tiling": false,
+    "title": "Solution found",
+    "town": "St Sébastien ",
+    "valueForMoney": 4,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

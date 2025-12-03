@@ -23,18 +23,24 @@ export default function Footer() {
         </div>
 
         <div>
-          {/* <img
-            src="/youtube.png"
-            alt="link to facebook"
-            height="25px"
-          /> */}
+          <a
+            href="https://www.instagram.com/glennthehandyman/"
+            target="_blank"
+          >
+            <img
+              className={styles.insta}
+              src="/Insta.png"
+              alt="link to Instagram"
+              height="35px"
+            />
+          </a>
         </div>
 
         <div className="text-right">
           <a href="/siret" className={styles.a} >
             <strong>Siret:</strong> 98510895000017
           </a>
-          <br/>
+          <br />
           <a href="/rib" className={styles.a} >
             <strong>Rib</strong>
           </a>

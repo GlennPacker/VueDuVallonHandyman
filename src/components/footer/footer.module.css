@@ -18,3 +18,8 @@
 .a {
   color: white;
 }
+
+.insta {
+  position: relative;
+  bottom: 3px;
+}

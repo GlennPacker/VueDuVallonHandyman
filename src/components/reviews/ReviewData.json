@@ -595,5 +595,30 @@
     "town": "St Sébastien ",
     "valueForMoney": 4,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Haute Vienne",
+    "gardening": true,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 794230,
+    "installations": false,
+    "message": "Working with Glenn and Vue Du Vallon team is really one of the best experiences I have had in France. Glenn has done different types of jobs at my house, garden works and repointing. The best part is that the work continues, even when I am not present and he keep constant communication. I also have some budget and planning constraints... Glenn always manages to accommodate the planning of works to limit my costs and time. I am also planning to use their services for electricity and plumbing works in the future. Highly recommended.",
+    "name": "Akula",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": false,
+    "repointing": true,
+    "strimming": true,
+    "studWalls": false,
+    "tiling": false,
+    "title": "Professional and Friendly",
+    "town": "Val D'Oire Et Gartempe",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

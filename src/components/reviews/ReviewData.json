@@ -620,5 +620,30 @@
     "town": "Val D'Oire Et Gartempe",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Haute Vienne",
+    "gardening": false,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 796740,
+    "installations": false,
+    "message": "Glenn came through in a pinch! He saved the day and was able to quickly get the tasks completed! Great communication, very affordable and thorough. Thank you Glenn for everything!!",
+    "name": "Daryn Thompson",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": false,
+    "repointing": false,
+    "strimming": false,
+    "studWalls": false,
+    "tiling": false,
+    "title": "Thank You So Much!",
+    "town": "Lacelle",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

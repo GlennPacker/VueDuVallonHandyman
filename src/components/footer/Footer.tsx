@@ -38,7 +38,7 @@ export default function Footer() {
 
         <div className="text-right">
           <a href="/siret" className={styles.a} >
-            <strong>Siret:</strong> 98510895000017
+            <strong>Siret:</strong> 101383834
           </a>
           <br />
           <a href="/rib" className={styles.a} >

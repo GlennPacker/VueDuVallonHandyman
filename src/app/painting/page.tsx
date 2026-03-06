@@ -1,19 +1,12 @@
 import styles from "./page.module.css";
-import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
+import { Gallery } from "@/components/gallery/Gallery";
 import Reviews from "@/components/reviews/Reviews";
 
-const beforeAndAfters = [1].map(i => (
-  [
-    {
-      src: `/painting/${i} before.jpg`,
-      alt: 'before painting'
-    },
-    {
-      src: `/painting/${i} after.jpg`,
-      alt: 'after painting'
-    }
-  ]
-))
+const gallery = [1, 2, 3, 4, 7, 8, 9, 10].map(i => ({
+  src: `/painting/${i}.jpg`,
+  alt: 'Painting'
+}));
+
 export default function PropertyServices() {
   return (
     <main>
@@ -59,17 +52,15 @@ export default function PropertyServices() {
             </p>
           </div>
 
-          {/* <div className={styles.beforeAndAfterGrid}>
-            {beforeAndAfters.map(([before, after], index) => (
-              <div key={`before-and-after-${index}`} className={styles.beforeAndAfter}>
-                <BeforeAndAfter
-                  before={before}
-                  after={after}
-                  size={{ width: 200, height: 200 }}
-                />
-              </div>
-            ))}
-          </div> */}
+          <div className={styles.beforeAndAfterGrid}>
+            <div className={styles.beforeAndAfter}>
+              <Gallery
+                gallery={gallery}
+                size={{ width: 200, height: 200 }}
+              />
+            </div>
+
+          </div>
 
         </div>
         <Reviews filter="painting" />

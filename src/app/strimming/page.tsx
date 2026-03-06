@@ -24,7 +24,7 @@ export default function PropertyServices() {
           <div className={styles.layout}>
             <div className={styles.videoParaLayout}>
               <div>
-                <h1>Rough Strimming and Garden Reclamation</h1>
+                <h1>Land Clearance</h1>
                 <p>
                   At Vue Du Vallon Handyman, we recognize that reclaiming overgrown and neglected gardens requires more than just routine maintenance. Our rough strimming and garden reclamation services are designed to tackle the toughest and most overgrown areas, transforming them into usable and aesthetically pleasing spaces.
                 </p>

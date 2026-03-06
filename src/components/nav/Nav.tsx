@@ -12,7 +12,7 @@ const links = [{
   text: 'Gardening'
 }, {
   href: '/strimming',
-  text: 'Strimming'
+  text: 'Clearance'
 }, {
   href: '/pressure-wash',
   text: 'Pressure Wash'

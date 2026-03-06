@@ -645,5 +645,30 @@
     "town": "Lacelle",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Creuse",
+    "gardening": true,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 904740,
+    "installations": false,
+    "message": "We had Glenn at our property yesterday to clear years of overgrown brambles. He was prompt, polite and very hard working.  We are having him back and would recommend him to anyone needing help with an overgrown field.",
+    "name": " Eileen Davies",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": false,
+    "repointing": false,
+    "strimming": true,
+    "studWalls": false,
+    "tiling": false,
+    "title": "A job well done",
+    "town": "Bourganeuf ",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

@@ -1,5 +1,6 @@
 [
   {
+    "UK": false,
     "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
@@ -18,6 +19,7 @@
     "wouldYouUseThemAgain": null
   },
   {
+    "UK": false,
     "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
@@ -36,6 +38,7 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "UK": false,
     "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
@@ -46,7 +49,7 @@
     "pleaseSpecify": "",
     "powerWashing": true,
     "rating": 5,
-    "repointing": true,
+    "repointing": false,
     "strimming": true,
     "title": "Fantastic Service",
     "town": "Blanzac",
@@ -54,6 +57,7 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "UK": false,
     "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
@@ -72,12 +76,13 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
-    "department": "Haute Vienne",
+    "UK": true,
+    "department": "",
     "gardening": false,
     "generalMaintenance": false,
     "id": 4,
     "message": "Great job done and a very fair price will definitely use again",
-    "name": "David Flinton",
+    "name": "David F",
     "other": true,
     "pleaseSpecify": "Roof, Gutters",
     "powerWashing": false,
@@ -85,11 +90,12 @@
     "repointing": false,
     "strimming": false,
     "title": "Roof de moss and gutter cleaned",
-    "town": "Dun-le-Palestel",
+    "town": "",
     "valueForMoney": null,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "UK": false,
     "department": "Haute Vienne",
     "gardening": true,
     "generalMaintenance": false,
@@ -108,6 +114,7 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "UK": false,
     "department": "Creuse",
     "gardening": false,
     "generalMaintenance": false,
@@ -119,13 +126,14 @@
     "powerWashing": false,
     "rating": 4,
     "repointing": false,
-    "strimming": false,
+    "strimming": true,
     "title": "Hart",
     "town": "Royère-de-Vassivière",
     "valueForMoney": 4,
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "UK": false,
     "department": "Creuse",
     "gardening": true,
     "generalMaintenance": false,
@@ -144,6 +152,7 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "UK": false,
     "gardening": true,
     "generalMaintenance": false,
     "id": 35282,
@@ -160,6 +169,7 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
+    "UK": false,
     "department": "Haute Vienne",
     "gardening": false,
     "generalMaintenance": true,
@@ -229,7 +239,7 @@
     "pleaseSpecify": "",
     "powerWashing": false,
     "rating": 5,
-    "repointing": true,
+    "repointing": false,
     "strimming": false,
     "tiling": false,
     "title": "Extremely hard working and conscientious ",
@@ -258,7 +268,8 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
-    "department": "Creuse",
+    "UK": true,
+    "department": "",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -273,7 +284,7 @@
     "strimming": false,
     "tiling": false,
     "title": "Room Repaint",
-    "town": "Champsanglard",
+    "town": "",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
@@ -316,7 +327,8 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
-    "department": "Creuse",
+    "UK": true,
+    "department": "",
     "gardening": false,
     "generalMaintenance": true,
     "gutters": false,
@@ -332,7 +344,7 @@
     "strimming": false,
     "tiling": false,
     "title": "Cleaning and Painting",
-    "town": "Janaillat",
+    "town": "",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
@@ -358,28 +370,8 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
-    "department": "Haute Vienne",
-    "gardening": false,
-    "generalMaintenance": false,
-    "gutters": false,
-    "id": 245747,
-    "message": "I posted on Facebook to find a handyman in the Bellac area, Vue du Vallon was straight on it and went to view the property offering a good quote, it's very difficult trusting someone when you are in the Uk and they are working on your house but everything has been very good so far and he has had continuous work on those grounds.  I would highly recommend him. ",
-    "name": "Lee Marshall",
-    "other": false,
-    "painting": false,
-    "pleaseSpecify": "",
-    "powerWashing": false,
-    "rating": 5,
-    "repointing": true,
-    "strimming": false,
-    "tiling": false,
-    "title": "Repointing",
-    "town": "Bellac",
-    "valueForMoney": 5,
-    "wouldYouUseThemAgain": "Yes"
-  },
-  {
-    "department": "Haute Vienne",
+    "UK": true,
+    "department": "",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -395,7 +387,7 @@
     "strimming": false,
     "tiling": false,
     "title": "Thanks! Fab work ",
-    "town": "Chateauponsac",
+    "town": "",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
@@ -463,7 +455,8 @@
     "wouldYouUseThemAgain": "Yes"
   },
   {
-    "department": "Haute Vienne",
+    "UK": true,
+    "department": "",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -479,12 +472,13 @@
     "strimming": false,
     "tiling": false,
     "title": "Wall pointing",
-    "town": "Bellac",
+    "town": "",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
-    "department": "Haute Vienne",
+    "UK": true,
+    "department": "",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -500,12 +494,13 @@
     "strimming": false,
     "tiling": false,
     "title": "Great job!",
-    "town": "Val-d'Oire-et-Gartempe",
+    "town": "",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
-    "department": "Creuse",
+    "UK": true,
+    "department": "",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -521,12 +516,13 @@
     "strimming": false,
     "tiling": false,
     "title": "painting",
-    "town": "Bénévent-l'Abbaye",
+    "town": "",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
   },
   {
-    "department": "Haute Vienne",
+    "UK": true,
+    "department": "",
     "gardening": false,
     "generalMaintenance": false,
     "gutters": false,
@@ -542,7 +538,7 @@
     "strimming": false,
     "tiling": false,
     "title": "Repointing work",
-    "town": "Chateauponsac",
+    "town": "",
     "valueForMoney": 4,
     "wouldYouUseThemAgain": "Yes"
   },
@@ -604,7 +600,7 @@
     "gutters": false,
     "id": 794230,
     "installations": false,
-    "message": "Working with Glenn and Vue Du Vallon team is really one of the best experiences I have had in France. Glenn has done different types of jobs at my house, garden works and repointing. The best part is that the work continues, even when I am not present and he keep constant communication. I also have some budget and planning constraints... Glenn always manages to accommodate the planning of works to limit my costs and time. I am also planning to use their services for electricity and plumbing works in the future. Highly recommended.",
+    "message": "Working with Glenn and Vue Du Vallon team is really one of the best experiences I have had in France. Glenn has done different types of jobs at my house. The best part is that the work continues, even when I am not present and he keep constant communication. I also have some budget and planning constraints... Glenn always manages to accommodate the planning of works to limit my costs and time. I am also planning to use their services for works in the future. Highly recommended.",
     "name": "Akula",
     "other": false,
     "painting": false,
@@ -612,7 +608,7 @@
     "powerWashing": false,
     "rating": 5,
     "repairs": false,
-    "repointing": true,
+    "repointing": false,
     "strimming": true,
     "studWalls": false,
     "tiling": false,

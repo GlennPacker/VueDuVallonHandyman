@@ -105,6 +105,10 @@ export default function Services() {
               })
             }
           </div>
+
+          <div>
+            Not all services are available in France due to the French Rules.
+          </div>
         </div>
 
       </div>

@@ -691,5 +691,30 @@
     "town": "Bussiere poitevine",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "",
+    "gardening": false,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 956326,
+    "installations": false,
+    "message": "I had contacted the Due du Vallon Handyman because I wanted to have a flat-stone walk path in my garden.  There were several interrelated issues with my idea...the area for the walk path was small pebbles, it was not level, and I wanted to have the path be made from flat stone pieces of random sizes...and I wanted it to wind through the garden, following the contours of the plants we had in several areas.  The way that my design idea was implemented more than exceeded my expectations.  They are smart, competent, and good to work with.  Five stars for sure.",
+    "name": "James Rieley",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": false,
+    "repointing": false,
+    "strimming": false,
+    "studWalls": false,
+    "tiling": false,
+    "title": "better than a yellow-brick road",
+    "town": "",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

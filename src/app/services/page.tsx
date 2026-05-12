@@ -106,7 +106,7 @@ export default function Services() {
             }
           </div>
 
-          <div>
+          <div className={styles.paddingtop}>
             Not all services are available in France due to the French Rules.
           </div>
         </div>

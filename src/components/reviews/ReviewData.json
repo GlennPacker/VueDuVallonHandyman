@@ -716,5 +716,30 @@
     "town": "",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Haute Vienne",
+    "gardening": false,
+    "generalMaintenance": true,
+    "gutters": false,
+    "id": 1002839,
+    "installations": false,
+    "message": "Glenn offers a truly invaluable service to the Haute Vienne. He helped with a bunch of odd jobs we had put off fixing for years. The workmanship was so perfect that we have already started contemplating more renovations and fixes to our house knowing that we finally have a trustworthy, reliable and deeply skilled person to count on. I highly recommend his business to everyone! ",
+    "name": "Jesse",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": true,
+    "repointing": false,
+    "strimming": false,
+    "studWalls": false,
+    "tiling": false,
+    "title": "Quality work, reliable and impeccably friendly!",
+    "town": "Haute Vienne",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

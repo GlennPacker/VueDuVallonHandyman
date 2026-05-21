@@ -766,5 +766,30 @@
     "town": "St Junien",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Haute Vienne",
+    "gardening": true,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 1013940,
+    "installations": false,
+    "message": "We have a very unruly hedge which after many years of neglect, before we bought the property, had overgrown into the neighbours potager/orchard. There was a mixture of tough grass, reeds, massive and vicious brambles, saplings and small trees. About 180 metres in length, Glenn set to it and in short time had made serious inroads. Some of the brambles mixed in with the hedge were 2 to 3 metres tall. We have booked him in again.",
+    "name": "Chris",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": false,
+    "repointing": false,
+    "strimming": true,
+    "studWalls": false,
+    "tiling": false,
+    "title": "Tough assignment",
+    "town": "Lussac les Eglises",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

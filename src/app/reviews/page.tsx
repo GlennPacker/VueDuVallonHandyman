@@ -11,7 +11,7 @@ export default function ReviewsPage() {
 
         <div className={styles.layout}>
           <div className={styles.form}>
-            <Reviews show={20} showStats={true} />
+            <Reviews show={50} showStats={true} />
           </div>
         </div>
         <div>

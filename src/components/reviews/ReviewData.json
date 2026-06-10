@@ -816,5 +816,30 @@
     "town": "Bussière Poitevine ",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Haute Vienne",
+    "gardening": false,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 1043407,
+    "installations": false,
+    "message": "Turned up when they said they would.. worked very hard. Left no mess. Very happy with the work ",
+    "name": "Sue N",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": false,
+    "repointing": false,
+    "strimming": false,
+    "studWalls": false,
+    "tiling": true,
+    "title": "Very good service ",
+    "town": "Gueret",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

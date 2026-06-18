@@ -31,7 +31,7 @@ const services = [{
   alt: 'custom made gates',
   title: 'Gates'
 }, {
-  href: '',
+  href: 'gutters',
   src: `/gutters/gutters category.jpg`,
   alt: 'gutter cleaning and repairs',
   title: 'Gutters'

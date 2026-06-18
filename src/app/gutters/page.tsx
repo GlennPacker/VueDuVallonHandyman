@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
 
-const beforeAndAfters = [1, 2].map(i => (
+const beforeAndAfters = [1, 2, 3, 4, 5, 6].map(i => (
   [
     {
       src: `/gutters/${i} before.jpg`,

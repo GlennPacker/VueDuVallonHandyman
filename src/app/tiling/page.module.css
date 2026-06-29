@@ -1,0 +1,52 @@
+.pageLayout {
+  margin-top: 3rem;
+  width: 90%;
+  max-width: 1620px;
+}
+
+.contentLayout {
+  display: grid;
+  grid-template-columns: auto 430px;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.beforeAndAfterGrid {
+  display: grid;
+  grid-template-columns: 220px;
+  gap: 10px;
+
+  height: 1360px;
+  overflow: hidden;
+}
+
+@media (max-width: 1400px) {
+  .beforeAndAfterGrid {
+    height: 1810px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .beforeAndAfterGrid {
+    height: 2050px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .beforeAndAfterGrid {
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contentLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .beforeAndAfterGrid {
+    overflow: auto;
+  }
+}

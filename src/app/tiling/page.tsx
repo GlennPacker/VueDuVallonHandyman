@@ -3,14 +3,10 @@ import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
 import { Gallery } from "@/components/gallery/Gallery";
 
-const beforeAndAfters = [].map(i => (
-  [
-    {
-      src: `/tiling/${i}.jpg`,
-      alt: 'Tiling'
-    },
-  ]
-))
+const gallery = [1, 2, 3, 4].map(i => ({
+  src: `/tiling/${i}.jpg`,
+  alt: 'Tiling'
+}));
 
 export default function PropertyServices() {
   return (
@@ -108,22 +104,10 @@ export default function PropertyServices() {
             </div>
           </div>
           <div className={styles.beforeAndAfterGrid}>
-            {
-              beforeAndAfters.map(([before, after], index) =>
-                <div
-                  key={`before-and-after-${index}`}
-                  className={styles.beforeAndAfter} >
-                  <BeforeAndAfter
-                    before={before}
-                    after={after}
-                    size={{
-                      width: 200,
-                      height: 200
-                    }}
-                  />
-                </div>
-              )
-            }
+            <Gallery
+              gallery={gallery}
+              size={{ width: 200, height: 200 }}
+            />
           </div>
         </div>
 

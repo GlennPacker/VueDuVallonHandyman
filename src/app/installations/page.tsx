@@ -1,5 +1,11 @@
+import { Gallery } from "@/components/gallery/Gallery";
 import styles from "./page.module.css";
 import Reviews from "@/components/reviews/Reviews";
+
+const gallery = ['installations', 'pool'].map(i => ({
+  src: `/installations/${i}.jpg`,
+  alt: 'Installation'
+}));
 
 export default function Gardening() {
   return (
@@ -52,12 +58,16 @@ export default function Gardening() {
 
 
             </div>
-            <img
-              src={`/installations/installations.jpg`}
-              alt={`Vue Du Vallon Handyman - installations`}
-              className={styles.gardeningImage}
-              width="230px;"
-            />
+
+            <div className={styles.beforeAndAfterGrid}>
+              <div className={styles.beforeAndAfter}>
+                <Gallery
+                  gallery={gallery}
+                  size={{ width: 200, height: 200 }}
+                  vertical
+                />
+              </div>
+            </div>
           </div>
           <Reviews filter="installations" />
         </div>

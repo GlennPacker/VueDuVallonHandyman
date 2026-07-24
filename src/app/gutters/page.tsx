@@ -2,15 +2,15 @@ import styles from "./page.module.css";
 import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
 
-const beforeAndAfters = [1, 2, 3, 4, 5, 6].map(i => (
+const beforeAndAfters = [1, 5, 3, 4, 2, 6, 7].map(i => (
   [
     {
       src: `/gutters/${i} before.jpg`,
-      alt: 'before gutter cleaning'
+      alt: 'gutters before'
     },
     {
       src: `/gutters/${i} after.jpg`,
-      alt: 'after gutter cleaning'
+      alt: 'gutters after'
     }
   ]
 ))
@@ -21,45 +21,49 @@ export default function Gutters() {
         <div className={`${styles.contentLayout} mx-auto`}>
           <div className={styles.layout}>
             <div>
-              <h1>Gutter and Roof Cleaning by Vue Du Vallon Handyman</h1>
-              <h3>Affordable, reliable gutter services for homes across Haute-Vienne &amp; Creuse</h3>
+              <h1>Gutter Installation, Repairs & Cleaning</h1>
+              <h2>Reliable Gutter Services Across Haute-Vienne, Creuse & Indre</h2>
               <p>
-                At Vue Du Vallon Handyman, I provide reliable and thorough gutter cleaning, minor gutter repairs,
-                and roof cleaning services to help protect your home from costly damage. I offer a personal, dependable service
-                with attention to detail on every job. Keeping your roof and gutters in good condition is essential for preventing
-                water damage, damp issues, and structural problems — and I'm here to make sure your property stays protected.
+                A well-maintained guttering system allows rainwater to drain away efficiently, helping to prevent overflowing gutters, damp patches, staining and unnecessary wear to your property. Whether you need new guttering installed, damaged sections repaired or blocked gutters cleared, we provide dependable gutter services throughout Haute-Vienne, Creuse and Indre.
               </p>
             </div>
-            <h2>Why Gutter Cleaning and Repairs Are Important</h2>
+            <h2>Gutter Installation</h2>
             <p>
-              Gutters are designed to channel rainwater safely away from your property. When they become blocked with leaves, moss, and debris, or when joints start to fail, water can overflow and cause:
+              Whether you're replacing worn or damaged guttering or fitting a new system to an extension, garage, workshop or outbuilding, we install traditional zinc guttering as well as modern PVC (plastic) guttering, offering practical solutions to suit both period properties and contemporary homes.
             </p>
+            <p>Our gutter installation services include:</p>
             <ul>
-              <li>Damp walls and internal moisture problems</li>
-              <li>Damage to fascias</li>
-              <li>Leaking joints and sagging sections</li>
-              <li>Foundation issues caused by poor drainage</li>
+              <li>Complete gutter replacement</li>
+              <li>New guttering for extensions and outbuildings</li>
+              <li>Downpipe installation and replacement</li>
+              <li>Replacement brackets and fittings</li>
+              <li>Fascia and soffit gutter installation</li>
             </ul>
-            Regular cleaning combined with minor repairs ensures your guttering system works efficiently all year round.
-            <h2>Minor Gutter Repairs</h2>
-            <p>
-              In addition to cleaning, I carry out small but essential gutter repairs, including:            </p>
-            <ul>
-              <li>Re-securing loose brackets</li>
-              <li>Repairing or resealing leaking joints</li>
-              <li>Realigning sagging sections</li>
-              <li>Clearing and repairing blocked downpipes</li>
-              <li>Replacing damaged sections of guttering</li>
-            </ul>
-            Addressing minor issues early helps prevent larger, more expensive problems later.
 
-            <h2>Professional Roof Cleaning</h2>
-            Over time, roofs can accumulate moss, algae, lichen, and general debris. If left untreated, this build-up can:
+            <h2>Gutter Repairs</h2>
+            <p>
+              Damaged guttering can quickly lead to leaks and overflowing rainwater if left unattended. We carry out a wide range of repairs to restore your guttering and keep it working efficiently.
+            </p>
+            <p>We regularly repair:</p>
             <ul>
-              <li>Trap moisture against roof tiles</li>
-              <li>Lead to cracked or displaced tiles</li>
-              <li>Block gutters and downpipes</li>
-              <li>Shorten the lifespan of your roof</li>
+              <li>Leaking joints</li>
+              <li>Loose or sagging gutters</li>
+              <li>Blocked or damaged downpipes</li>
+              <li>Broken brackets and fixings</li>
+              <li>Fascia and soffit repairs associated with guttering</li>
+            </ul>
+
+            <h2>Gutter Cleaning</h2>
+            <p>
+              Leaves, moss and other debris can build up over time, preventing rainwater from flowing freely through your guttering. Our gutter cleaning service removes blockages and helps keep your drainage system working properly.
+            </p>
+            <p>Our cleaning service includes:</p>
+            <ul>
+              <li>Removal of leaves, moss and debris</li>
+              <li>Clearing blocked gutters and downpipes</li>
+              <li>Visual inspection for damage or leaks</li>
+              <li>Minor adjustments where required</li>
+              <li>Advice on any repairs that may be needed</li>
             </ul>
           </div>
 

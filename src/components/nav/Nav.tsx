@@ -14,8 +14,8 @@ const links = [{
   href: '/strimming',
   text: 'Clearance'
 }, {
-  href: '/pressure-wash',
-  text: 'Pressure Wash'
+  href: '/painting',
+  text: 'Painting'
 }, {
   href: '/services',
   text: 'More Services'

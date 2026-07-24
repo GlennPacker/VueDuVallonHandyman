@@ -3,7 +3,7 @@ import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
 import { Gallery } from "@/components/gallery/Gallery";
 
-const gallery = [1, 2, 3, 4].map(i => ({
+const gallery = [1, 2, 3, 4, 5, 6].map(i => ({
   src: `/tiling/${i}.jpg`,
   alt: 'Tiling'
 }));

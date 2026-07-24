@@ -6,26 +6,6 @@ const services = [{
   alt: 'gardening',
   title: 'Gardening'
 }, {
-  href: 'strimming',
-  src: `/strimming/strimming category.jpg`,
-  alt: 'strimming',
-  title: 'Strimming'
-}, {
-  href: 'repointing',
-  src: `/repointing/repointing category.jpg`,
-  alt: 'repointing',
-  title: 'Repointing'
-}, {
-  href: 'pressure-wash',
-  src: `/pressure-wash/pressure wash category.jpg`,
-  alt: 'pressure wash',
-  title: 'Pressure Wash'
-}, {
-  href: 'painting',
-  src: `/painting/painting.jpg`,
-  alt: 'painting',
-  title: 'Painting'
-}, {
   href: '',
   src: `/gates/gates category.jpg`,
   alt: 'custom made gates',
@@ -41,20 +21,45 @@ const services = [{
   alt: 'kit and flatpack installations',
   title: 'Installations'
 }, {
+  href: 'painting',
+  src: `/painting/painting.jpg`,
+  alt: 'painting',
+  title: 'Painting'
+}, {
+  href: 'pressure-wash',
+  src: `/pressure-wash/pressure wash category.jpg`,
+  alt: 'pressure wash',
+  title: 'Pressure Wash'
+}, {
   href: '',
   src: `/repairs/repairs.jpg`,
   alt: 'repairs',
   title: 'Repairs'
+}, {
+  href: 'repointing',
+  src: `/repointing/repointing category.jpg`,
+  alt: 'repointing',
+  title: 'Repointing'
+}, {
+  href: 'strimming',
+  src: `/strimming/strimming category.jpg`,
+  alt: 'strimming',
+  title: 'Strimming'
 }, {
   href: '',
   src: `/studwalls/studwall.jpg`,
   alt: 'stud walls',
   title: 'Stud walls'
 }, {
-  href: '',
+  href: 'tiling',
   src: `/tiling/tiling.jpg`,
   alt: 'tiling',
   title: 'Tiling'
+}, {
+  href: '',
+  src: `/dechetterie/déchèterie.jpg`,
+  alt: 'Déchèterie',
+  title: 'Tip Runs'
 }];
 
 export default function Services() {

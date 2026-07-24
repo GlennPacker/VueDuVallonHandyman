@@ -2,7 +2,7 @@ import { Gallery } from "@/components/gallery/Gallery";
 import styles from "./page.module.css";
 import Reviews from "@/components/reviews/Reviews";
 
-const gallery = ['installations', 'pool'].map(i => ({
+const gallery = ['installations', 'pool', 'poly-tunnel'].map(i => ({
   src: `/installations/${i}.jpg`,
   alt: 'Installation'
 }));

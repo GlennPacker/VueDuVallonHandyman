@@ -841,5 +841,30 @@
     "town": "Gueret",
     "valueForMoney": 5,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Haute Vienne",
+    "gardening": false,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 1122674,
+    "installations": false,
+    "message": "Glenn has done garage clearing/dechetterie runs for me and garden clearance by way of removing overgrown alive and also dead conifers and bramble infested hedging. He's hard working and very accommodating and I'd definitely recommend him.",
+    "name": "Kristina Rogers",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": false,
+    "repointing": false,
+    "strimming": false,
+    "studWalls": false,
+    "tiling": false,
+    "title": "",
+    "town": "Lussac-les-Eglises",
+    "valueForMoney": 4,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

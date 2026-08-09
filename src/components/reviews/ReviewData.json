@@ -866,5 +866,30 @@
     "town": "Lussac-les-Eglises",
     "valueForMoney": 4,
     "wouldYouUseThemAgain": "Yes"
+  },
+  {
+    "customMadeGates": false,
+    "department": "Haute Vienne",
+    "gardening": false,
+    "generalMaintenance": false,
+    "gutters": false,
+    "id": 1129296,
+    "installations": false,
+    "message": "I needed to have some lino laid and found Vue Du Vallon on Facebook. When Glenn turned up he was on time and well presented and made me feel at ease straightaway. His standard of work was exceptional. He took time to make it perfect if he wasn't happy with the way it was going. I'm very pleased with his workmanship and his attitude. He offered his advice on things as he was going along. I would highly recommend him to others and can't wait for him to return as I have more for him to do",
+    "name": "MRS T GREENE ",
+    "other": false,
+    "painting": false,
+    "pleaseSpecify": "",
+    "powerWashing": false,
+    "rating": 5,
+    "repairs": false,
+    "repointing": false,
+    "strimming": false,
+    "studWalls": false,
+    "tiling": false,
+    "title": "Handyman",
+    "town": "Le Dorat",
+    "valueForMoney": 5,
+    "wouldYouUseThemAgain": "Yes"
   }
 ]

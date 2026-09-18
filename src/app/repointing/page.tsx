@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
+import VideoComponent from "@/components/videoComponent/VideoComponent";
 
 const beforeAndAfters = [1, 2, 3, 4, 5, 6, 7, 8, 9].map(i => (
   [
@@ -21,25 +22,33 @@ export default function Repointing() {
       <div className={`${styles.pageLayout} mx-auto`}>
         <div className={styles.contentLayout}>
           <div className={styles.layout}>
-            <h1>
-              Repointing
-            </h1>
-            <h3>
-              Revitalize Your Stonework with Our Repointing
-            </h3>
-            <p>
-              At Vue Du Vallon Handyman, I provide top-notch stone and lime repointing services. As your go-to local professional, I am dedicated to ensuring your stonework is both beautiful and durable with a commitment to quality craftsmanship.
-            </p>
+            <div className={styles.videoParaLayout}>
+              <div>
+                <h1>
+                  Repointing
+                </h1>
+                <h3>
+                  Revitalize Your Stonework with Our Repointing
+                </h3>
+                <p>
+                  At Vue Du Vallon Handyman, I provide top-notch stone and lime repointing services. As your go-to local professional, I am dedicated to ensuring your stonework is both beautiful and durable with a commitment to quality craftsmanship.
+                </p>
 
-            <h3>What is Repointing?</h3>
-            <p>
-              Repointing is the process of renewing the external part of lime mortar joints in stone masonry construction. Over time, weather conditions, age, and environmental factors can cause the lime mortar between stones to deteriorate. Repointing helps restore the integrity and appearance of your stonework, preventing further damage and enhancing the overall look of your property.
-            </p>
+                <h3>What is Repointing?</h3>
+                <p>
+                  Repointing is the process of renewing the external part of lime mortar joints in stone masonry construction. Over time, weather conditions, age, and environmental factors can cause the lime mortar between stones to deteriorate. Repointing helps restore the integrity and appearance of your stonework, preventing further damage and enhancing the overall look of your property.
+                </p>
+                <br />
 
-            <h3>What is Patching?</h3>
-            <p>
-              Patching involves repairing specific areas of damaged stone or lime mortar within a wall. This process addresses localized damage such as cracks, holes, or missing pieces of stone, ensuring that the wall maintains its structural integrity and aesthetic appeal.
-            </p>
+              </div>
+              <div className={styles.videoContainer}>
+                <VideoComponent
+                  width="275x"
+                  height="400px"
+                  video="1T4961ipooY"
+                />
+              </div>
+            </div>
 
             <h3>My Stone and Lime Repointing Services</h3>
             <p>

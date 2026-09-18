@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import { Gallery } from "@/components/gallery/Gallery";
 import Reviews from "@/components/reviews/Reviews";
+import VideoComponent from "@/components/videoComponent/VideoComponent";
 
 const gallery = [1, 2, 3, 4, 7, 8, 9, 10].map(i => ({
   src: `/painting/${i}.jpg`,
@@ -13,13 +14,33 @@ export default function PropertyServices() {
       <div className={`${styles.pageLayout} mx-auto`}>
         <div className={`${styles.contentLayout} mx-auto`}>
           <div className={styles.layout}>
-            <div>
-              <h1>Handyman Painting Services</h1>
-              <h3>Affordable, reliable painting for homes across Haute-Vienne &amp; Creuse</h3>
-              <p>
-                A fresh coat of paint can transform your space, and I make the process simple, affordable, and stress-free. Whether you need a single room refreshed, touch-ups around the house, or your home’s exterior brightened up, I provide professional-quality results with the personal touch of a local handyman.
-              </p>
+            <div className={styles.videoParaLayout}>
+              <div>
+                <h1>Handyman Painting Services</h1>
+                <h3>Affordable, reliable painting for homes across Haute-Vienne &amp; Creuse</h3>
+                <p>
+                  A fresh coat of paint can transform your space, and I make the process simple, affordable, and stress-free. Whether you need a single room refreshed, touch-ups around the house, or your home's exterior brightened up, I provide professional-quality results with the personal touch of a local handyman.
+                </p><h2>Exterior Painting</h2>
+                <p>
+                  Boost your curb appeal and protect your property with durable, weather-resistant finishes.
+                </p>
+                <ul>
+                  <li>Shutters, trim, and entry doors</li>
+                  <li>Decks, fences, and railings</li>
+                  <li>Touch-ups and full repaints</li>
+                </ul>
+
+              </div>
+              <div className={styles.videoContainer}>
+                <VideoComponent
+                  width="275px"
+                  height="400px"
+                  video="F0Nu0sS_tX8"
+                />
+              </div>
             </div>
+
+
             <h2>Interior Painting</h2>
             <p>
               Transform your living space with smooth, even finishes that make your home feel brand new. I take care of all the prep work, painting, and cleanup so you can relax and enjoy the results.
@@ -30,15 +51,7 @@ export default function PropertyServices() {
               <li>Accent walls &amp; touch-ups</li>
               <li>Minor drywall repair and priming before painting</li>
             </ul>
-            <h2>Exterior Painting</h2>
-            <p>
-              Boost your curb appeal and protect your property with durable, weather-resistant finishes.
-            </p>
-            <ul>
-              <li>Shutters, trim, and entry doors</li>
-              <li>Decks, fences, and railings</li>
-              <li>Touch-ups and full repaints</li>
-            </ul>
+
             <h2>Why Homeowners Choose My Painting Services</h2>
             <ul>
               <li><strong>Local and dependable</strong> - I serve homeowners across both departments</li>
@@ -50,6 +63,8 @@ export default function PropertyServices() {
             <p>
               Ready to refresh your home with a new coat of paint? Get in touch today for a free estimate and let's make your project a success.
             </p>
+
+
           </div>
 
           <div className={styles.beforeAndAfterGrid}>
@@ -63,6 +78,8 @@ export default function PropertyServices() {
           </div>
 
         </div>
+
+
         <Reviews filter="painting" />
       </div>
     </main>

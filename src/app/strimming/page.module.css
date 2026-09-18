@@ -57,12 +57,6 @@
   }
 }
 
-/* @media (max-width: 950px) {
-  .beforeAndAfterGrid {
-    height: 1810px;
-  }
-} */
-
 @media (max-width: 1000px) {
   .contentLayout {
     grid-template-columns: 1fr;

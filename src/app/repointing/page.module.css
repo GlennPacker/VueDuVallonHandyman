@@ -11,6 +11,23 @@
   margin-bottom: 1rem;
 }
 
+
+@media (min-width: 1630px) {
+  .videoParaLayout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1427px) {
+  .videoContainer {
+    display: block;
+    text-align: center;
+    margin: 2rem 0;
+  }
+}
+
 .beforeAndAfterGrid {
   display: grid;
   grid-template-columns: 220px;

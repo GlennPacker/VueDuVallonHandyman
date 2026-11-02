@@ -41,10 +41,10 @@ export default function Home() {
               <strong>Pressure Washing </strong>
               Restore the beauty of your home's exterior with our professional pressure washing services. We'll blast away dirt, grime, and mildew to leave your surfaces looking clean and refreshed.
             </li>
-            <li>
+            {/* <li>
               <strong>Repointing </strong>
               Preserve the integrity of your stone or brickwork with our repointing services. Our handyman will remove deteriorating mortar and replace it with fresh mortar to strengthen and protect your masonry.
-            </li>
+            </li> */}
             <li>
               <strong>Gate Building </strong>
               Enhance the security and aesthetics of your property with our custom gate building services. Whether you need a simple garden gate or a grand entrance gate, our handyman will design and construct a gate that meets your specifications.
@@ -65,10 +65,10 @@ export default function Home() {
               <strong>Gite Change Overs </strong>
               Make hosting guests a breeze with our gite change over services. From cleaning and laundry to restocking essentials, our handyman will ensure that your gite is always ready to welcome new arrivals.
             </li>
-            <li>
+            {/* <li>
               <strong>Plasterboarding </strong>
               Transform your interior spaces with our professional plasterboarding services. Whether you're renovating a room or building an extension, our handyman will install plasterboard quickly and efficiently, creating a smooth and durable surface for painting or wallpapering.
-            </li>
+            </li> */}
           </ul>
 
           <h3 className="pt-3">Why Choose Us</h3>

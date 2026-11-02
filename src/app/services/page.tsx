@@ -20,12 +20,15 @@ const services = [{
   src: `/installations/pool.jpg`,
   alt: 'kit and flatpack installations',
   title: 'Installations'
-}, {
-  href: 'painting',
-  src: `/painting/painting.jpg`,
-  alt: 'painting',
-  title: 'Painting'
-}, {
+},
+// {
+//   href: 'painting',
+//   src: `/painting/painting.jpg`,
+//   alt: 'painting',
+//   title: 'Painting'
+// },
+
+{
   href: 'pressure-wash',
   src: `/pressure-wash/pressure wash category.jpg`,
   alt: 'pressure wash',
@@ -35,12 +38,14 @@ const services = [{
   src: `/repairs/repairs.jpg`,
   alt: 'repairs',
   title: 'Repairs'
-}, {
-  href: 'repointing',
-  src: `/repointing/repointing category.jpg`,
-  alt: 'repointing',
-  title: 'Repointing'
-}, {
+},
+// {
+//   href: 'repointing',
+//   src: `/repointing/repointing category.jpg`,
+//   alt: 'repointing',
+//   title: 'Repointing'
+// }, 
+{
   href: 'strimming',
   src: `/strimming/strimming category.jpg`,
   alt: 'strimming',
@@ -50,12 +55,14 @@ const services = [{
   src: `/studwalls/studwall.jpg`,
   alt: 'stud walls',
   title: 'Stud walls'
-}, {
+},
+{
   href: 'tiling',
   src: `/tiling/tiling.jpg`,
   alt: 'tiling',
   title: 'Tiling'
-}, {
+},
+{
   href: '',
   src: `/dechetterie/déchèterie.jpg`,
   alt: 'Déchèterie',

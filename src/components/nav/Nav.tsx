@@ -4,25 +4,37 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from "./nav.module.css";
 
-const links = [{
-  href: '/repointing',
-  text: 'Repointing'
-}, {
-  href: '/gardening',
-  text: 'Gardening'
-}, {
-  href: '/strimming',
-  text: 'Clearance'
-}, {
-  href: '/painting',
-  text: 'Painting'
-}, {
-  href: '/services',
-  text: 'More Services'
-}, {
-  href: '/contact',
-  text: 'Contact'
-}];
+const links = [
+  //   {
+  //   href: '/repointing',
+  //   text: 'Repointing'
+  // }, 
+  {
+    href: '/gardening',
+    text: 'Gardening'
+  }, {
+    href: '/strimming',
+    text: 'Clearance'
+  },
+  {
+    href: 'gutters',
+    text: 'Gutters'
+  },
+  {
+    href: 'installations',
+    text: 'Installations'
+  },
+  // {
+  //   href: '/painting',
+  //   text: 'Painting'
+  // }, 
+  {
+    href: '/services',
+    text: 'More Services'
+  }, {
+    href: '/contact',
+    text: 'Contact'
+  }];
 
 function Navigation() {
   return (

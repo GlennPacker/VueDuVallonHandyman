@@ -102,6 +102,7 @@ export default function PropertyServices() {
                 </li>
               </ol>
             </div>
+            Not currently available in France, but if you are in the UK and need a tiling service, please contact me for a free estimate. I look forward to helping you achieve a beautiful tiled finish in your home.
           </div>
           <div className={styles.beforeAndAfterGrid}>
             <Gallery

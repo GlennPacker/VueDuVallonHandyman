@@ -24,10 +24,6 @@ const links = [
     href: 'installations',
     text: 'Installations'
   },
-  // {
-  //   href: '/painting',
-  //   text: 'Painting'
-  // }, 
   {
     href: '/services',
     text: 'More Services'

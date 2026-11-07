@@ -10,24 +10,13 @@ const services = [{
   src: `/gates/gates category.jpg`,
   alt: 'custom made gates',
   title: 'Gates'
-}, {
-  href: 'gutters',
-  src: `/gutters/gutters category.jpg`,
-  alt: 'gutter cleaning and repairs',
-  title: 'Gutters'
-}, {
+},
+{
   href: 'installations',
   src: `/installations/pool.jpg`,
   alt: 'kit and flatpack installations',
   title: 'Installations'
 },
-// {
-//   href: 'painting',
-//   src: `/painting/painting.jpg`,
-//   alt: 'painting',
-//   title: 'Painting'
-// },
-
 {
   href: 'pressure-wash',
   src: `/pressure-wash/pressure wash category.jpg`,
@@ -39,12 +28,6 @@ const services = [{
   alt: 'repairs',
   title: 'Repairs'
 },
-// {
-//   href: 'repointing',
-//   src: `/repointing/repointing category.jpg`,
-//   alt: 'repointing',
-//   title: 'Repointing'
-// }, 
 {
   href: 'strimming',
   src: `/strimming/strimming category.jpg`,
@@ -55,12 +38,6 @@ const services = [{
   src: `/studwalls/studwall.jpg`,
   alt: 'stud walls',
   title: 'Stud walls'
-},
-{
-  href: 'tiling',
-  src: `/tiling/tiling.jpg`,
-  alt: 'tiling',
-  title: 'Tiling'
 },
 {
   href: '',

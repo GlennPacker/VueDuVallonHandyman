@@ -5,10 +5,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import styles from "./nav.module.css";
 
 const links = [
-  //   {
-  //   href: '/repointing',
-  //   text: 'Repointing'
-  // }, 
   {
     href: '/gardening',
     text: 'Gardening'
@@ -17,12 +13,12 @@ const links = [
     text: 'Clearance'
   },
   {
-    href: 'gutters',
-    text: 'Gutters'
-  },
-  {
     href: 'installations',
     text: 'Installations'
+  },
+  {
+    href: 'pressure-wash',
+    text: 'Pressure Wash'
   },
   {
     href: '/services',

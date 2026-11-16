@@ -10,7 +10,7 @@ export default function Siret() {
 
         <img
           src="/siret.jpg"
-          alt="Vue Du Vallon Handyman"
+          alt="Glenn The Handyman"
           className={styles.siretImage}
         />
       </div>

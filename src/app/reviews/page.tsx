@@ -18,7 +18,7 @@ export default function ReviewsPage() {
 
           <img
             src="/property services/3.jpg"
-            alt="Vue Du Vallon Handyman"
+            alt="Glenn The Handyman"
             className={styles.searchImage}
           />
 

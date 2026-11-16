@@ -28,10 +28,10 @@ export default function PropertyServices() {
               <div>
                 <h1>Pressure Washing</h1>
                 <h3>
-                  The Power of Pressure Washing with Vue Du Vallon Handyman
+                  The Power of Pressure Washing with Glenn The Handyman
                 </h3>
                 <p>
-                  In the quest to maintain the beauty and integrity of our homes and outdoor spaces, few tools wield as much transformative power as the pressure washer. At Vue Du Vallon Handyman, we understand the profound impact that a thorough pressure washing can have on the appearance and longevity of your property. From revitalizing weathered exteriors to banishing stubborn stains, our pressure washing services are designed to breathe new life into your surroundings, leaving them sparkling clean and rejuvenated.
+                  In the quest to maintain the beauty and integrity of our homes and outdoor spaces, few tools wield as much transformative power as the pressure washer. At Glenn The Handyman, we understand the profound impact that a thorough pressure washing can have on the appearance and longevity of your property. From revitalizing weathered exteriors to banishing stubborn stains, our pressure washing services are designed to breathe new life into your surroundings, leaving them sparkling clean and rejuvenated.
                 </p>
               </div>
               <div className={styles.videoContainer}>
@@ -55,15 +55,15 @@ export default function PropertyServices() {
 
             <h3>A Convenient Solution</h3>
             <p>
-              In today's fast-paced world, finding the time and energy to tackle outdoor cleaning projects can be a challenge. That's where Vue Du Vallon Handyman comes in. Our pressure washing services are designed to take the hassle out of exterior maintenance, allowing you to enjoy a clean and pristine home without lifting a finger.
+              In today's fast-paced world, finding the time and energy to tackle outdoor cleaning projects can be a challenge. That's where Glenn The Handyman comes in. Our pressure washing services are designed to take the hassle out of exterior maintenance, allowing you to enjoy a clean and pristine home without lifting a finger.
             </p>
             <p>
-              With flexible scheduling options and efficient service delivery, we make it easy to fit pressure washing into your busy lifestyle. Whether you need a one-time deep clean or regular maintenance to keep your property looking its best year-round, our team is here to help. Sit back, relax, and let Vue Du Vallon Handyman handle the dirty work for you.
+              With flexible scheduling options and efficient service delivery, we make it easy to fit pressure washing into your busy lifestyle. Whether you need a one-time deep clean or regular maintenance to keep your property looking its best year-round, our team is here to help. Sit back, relax, and let Glenn The Handyman handle the dirty work for you.
             </p>
 
             <h3>Experience the Vue Du Vallon Difference</h3>
             <p>
-              At Vue Du Vallon Handyman, we believe that every home deserves to shine. With our comprehensive pressure washing services, we can help you achieve a cleaner, brighter, and more welcoming environment for you and your family to enjoy. Contact us today to learn more about our pressure washing offerings and discover the transformative power of clean.
+              At Glenn The Handyman, we believe that every home deserves to shine. With our comprehensive pressure washing services, we can help you achieve a cleaner, brighter, and more welcoming environment for you and your family to enjoy. Contact us today to learn more about our pressure washing offerings and discover the transformative power of clean.
             </p>
           </div>
 

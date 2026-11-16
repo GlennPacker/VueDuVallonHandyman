@@ -7,10 +7,10 @@ export default function Home() {
       <div className={`${styles.pageLayout} mx-auto`}>
         <div>
           <h1>
-            Welcome to Vue Du Vallon Handyman
+            Welcome to Glenn The Handyman
           </h1>
           <div>
-            At Vue Du Vallon Handyman, we understand the importance of maintaining your property to keep it looking its best. Our comprehensive property services are designed to address all your maintenance and repair needs, ensuring that your home remains in top condition year-round. Not all services are available in France due to the French rules. Whether you need help with small repairs, seasonal maintenance, or larger renovation projects, our skilled handyman is here to help.
+            At Glenn The Handyman, we understand the importance of maintaining your property to keep it looking its best. Our comprehensive property services are designed to address all your maintenance and repair needs, ensuring that your home remains in top condition year-round. Not all services are available in France due to the French rules. Whether you need help with small repairs, seasonal maintenance, or larger renovation projects, our skilled handyman is here to help.
           </div>
 
           <div className={`${styles.images} pt-4`}>
@@ -18,7 +18,7 @@ export default function Home() {
               <img
                 key={`${i}`}
                 src={`/property services/${5 - i}.jpg`}
-                alt={`Vue Du Vallon Handyman - property services`}
+                alt={`Glenn The Handyman - property services`}
                 className={styles.propertyServicesImage}
                 width="230px;"
               />

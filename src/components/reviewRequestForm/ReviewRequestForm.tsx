@@ -250,7 +250,7 @@ const ReviewForm = () => {
       </div>
 
       <p>
-        Please could you review Vue Du Vallon Handyman for the work that I have done for you.
+        Please could you review Glenn The Handyman for the work that I have done for you.
       </p>
       <p>
         {url.substring(0, url.length - 1)}

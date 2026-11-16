@@ -11,7 +11,7 @@ export default function Siret() {
 
         <img
           src="/rib.png"
-          alt="Vue Du Vallon Handyman"
+          alt="Glenn The Handyman"
           className={styles.siretImage}
         />
         <a href="/rib.pdf" download>Download</a>

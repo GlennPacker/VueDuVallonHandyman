@@ -14,19 +14,19 @@ export default function Gardening() {
 
             <h3>Transform Your Garden with Our Care</h3>
             <p>
-              Welcome to Vue Du Vallon Handyman Gardening Services! We understand that every outdoor space is unique and requires personalized attention. We are dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden makeovers, we're here to help you achieve the garden of your dreams.
+              Welcome to Glenn The Handyman Gardening Services! We understand that every outdoor space is unique and requires personalized attention. We are dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden makeovers, we're here to help you achieve the garden of your dreams.
             </p>
 
             <div className={`${styles.gardenImageContainer} ${styles.extraRow2}`}>
               <img
                 src={`/gardening/garden 3.jpg`}
-                alt={`Vue Du Vallon Handyman - gardening`}
+                alt={`Glenn The Handyman - gardening`}
                 className={styles.gardeningImage}
                 width="230px;"
               />
               <img
                 src={`/gardening/garden 6.jpg`}
-                alt={`Vue Du Vallon Handyman - gardening`}
+                alt={`Glenn The Handyman - gardening`}
                 className={styles.gardeningImage}
                 width="230px;"
               />
@@ -63,7 +63,7 @@ export default function Gardening() {
                 <img
                   key={`${i}`}
                   src={`/gardening/garden ${i + 4}.jpg`}
-                  alt="Vue Du Vallon Handyman - gardening"
+                  alt="Glenn The Handyman - gardening"
                   className={styles.gardeningImage}
                   width="230px;"
                 />
@@ -125,7 +125,7 @@ export default function Gardening() {
             <img
               key={`${i}(2)`}
               src={`/gardening/garden ${i + 1}.jpg`}
-              alt={`Vue Du Vallon Handyman - gardening`}
+              alt={`Glenn The Handyman - gardening`}
               className={styles.gardeningImage}
               width="230px;"
             />

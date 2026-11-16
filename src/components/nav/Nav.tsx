@@ -40,7 +40,7 @@ function Navigation() {
           href="/"
           className={styles.navbarText}
         >
-          Vue Du Vallon Handyman
+          Glenn The Handyman
         </NavbarBrand>
         <NavbarToggle
           className={styles.navbarButton}

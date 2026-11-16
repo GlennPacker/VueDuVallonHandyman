@@ -26,7 +26,7 @@ export default function PropertyServices() {
               <div>
                 <h1>Land Clearance</h1>
                 <p>
-                  At Vue Du Vallon Handyman, we recognize that reclaiming overgrown and neglected gardens requires more than just routine maintenance. Our rough strimming and garden reclamation services are designed to tackle the toughest and most overgrown areas, transforming them into usable and aesthetically pleasing spaces.
+                  At Glenn The Handyman, we recognize that reclaiming overgrown and neglected gardens requires more than just routine maintenance. Our rough strimming and garden reclamation services are designed to tackle the toughest and most overgrown areas, transforming them into usable and aesthetically pleasing spaces.
                 </p>
 
                 <h3>
@@ -48,7 +48,7 @@ export default function PropertyServices() {
             </div>
             <div>
               <h3>
-                Why Choose Vue Du Vallon Handyman?
+                Why Choose Glenn The Handyman?
               </h3>
               <ul>
                 <li>
@@ -96,17 +96,17 @@ export default function PropertyServices() {
                 Coverage Areas
               </h3>
               <p>
-                Vue Du Vallon Handyman proudly serves the regions of Haute Vienne, Creuse, and Indre. Whether you have a property in the rolling hills of Haute Vienne, the picturesque landscapes of Creuse, or the charming countryside of Indre, I am here to help transform your overgrown spaces into beautifully reclaimed gardens.
+                Glenn The Handyman proudly serves the regions of Haute Vienne, Creuse, and Indre. Whether you have a property in the rolling hills of Haute Vienne, the picturesque landscapes of Creuse, or the charming countryside of Indre, I am here to help transform your overgrown spaces into beautifully reclaimed gardens.
               </p>
 
               <h3>
                 Customer Satisfaction
               </h3>
               <p>
-                At Vue Du Vallon Handyman, I am dedicated to transforming neglected and overgrown spaces into beautiful, usable areas. My rough strimming and garden reclamation services are tailored to meet your specific needs, ensuring high-quality results that exceed your expectations. I am always ready to provide advice and assistance on maintaining your reclaimed garden.
+                At Glenn The Handyman, I am dedicated to transforming neglected and overgrown spaces into beautiful, usable areas. My rough strimming and garden reclamation services are tailored to meet your specific needs, ensuring high-quality results that exceed your expectations. I am always ready to provide advice and assistance on maintaining your reclaimed garden.
               </p>
               <p>
-                Let Vue Du Vallon Handyman handle your rough strimming and garden reclamation needs, and watch as I bring your outdoor space back to life. Contact me today to schedule a service or to learn more about my wide range of handyman services.
+                Let Glenn The Handyman handle your rough strimming and garden reclamation needs, and watch as I bring your outdoor space back to life. Contact me today to schedule a service or to learn more about my wide range of handyman services.
               </p>
             </div>
           </div>

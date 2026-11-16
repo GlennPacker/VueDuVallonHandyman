@@ -27,6 +27,6 @@ export default function RootLayout({
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Vue Du Vallon Handyman",
+  title: "Glenn The Handyman",
   description: "Enhance your home with personalized handyman expertise. From gardening and repairs to renovations, one-man dedication ensures tailored solutions for your unique needs. Contact for attentive service from a local professional.",
 };

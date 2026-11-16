@@ -195,7 +195,7 @@ const ReviewForm = () => {
       <Form onSubmit={handleSubmit(onSubmit, onError)}>
         <Form.Group className="mb-3" controlId="rating">
           <Form.Label>
-            How would you rate your experience with Vue Du Vallon Handyman?
+            How would you rate your experience with Glenn The Handyman?
           </Form.Label>
           <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '10px' }}>
 
@@ -235,7 +235,7 @@ const ReviewForm = () => {
 
         <Form.Group className="mb-3" controlId="valueForMoney">
           <Form.Label>
-            How would you rate the value for money when using Vue Du Vallon Handyman?
+            How would you rate the value for money when using Glenn The Handyman?
           </Form.Label>
           <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '10px' }}>
 
@@ -335,7 +335,7 @@ const ReviewForm = () => {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="wouldYouUseThemAgain">
-          <Form.Label>Would you use Vue Du Vallon Handyman again</Form.Label>
+          <Form.Label>Would you use Glenn The Handyman again</Form.Label>
           <div>
             <Form.Check
               onChange={i => clearErrorsAndSet('wouldYouUseThemAgain', i.target.checked ? 'Yes' : 'No')}

@@ -14,7 +14,7 @@ export default function Gardening() {
 
             <h3>Transform Your Garden with Our Care</h3>
             <p>
-              Welcome to Glenn The Handyman Gardening Services! We understand that every outdoor space is unique and requires personalized attention. We are dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden makeovers, we're here to help you achieve the garden of your dreams.
+              Welcome to Glenn The Handyman Gardening Services! I understand that every outdoor space is unique and requires personalized attention. I am dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden makeovers, we're here to help you achieve the garden of your dreams.
             </p>
 
             <div className={`${styles.gardenImageContainer} ${styles.extraRow2}`}>
@@ -37,7 +37,7 @@ export default function Gardening() {
             <ul>
               <li>
                 <strong>Brush Cutting & Land Reclamation: </strong>
-                Take back your land with our professional brush cutting and land reclamation services. Whether it's overgrown fields, tangled brush, or unused acreage, we clear it quickly and safely. Perfect for homeowners and properties that need a fresh start. <a href="/strimming">Learn more</a>.<br /><br />
+                Take back your land with our professional brush cutting and land reclamation services. Whether it's overgrown fields, tangled brush, or unused acreage, I clear it quickly and safely. Perfect for homeowners and properties that need a fresh start. <a href="/strimming">Learn more</a>.<br /><br />
               </li>
               <li>
                 <strong>Strimming: </strong>

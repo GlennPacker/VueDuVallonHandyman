@@ -10,7 +10,7 @@ export default function Home() {
             Welcome to Glenn The Handyman
           </h1>
           <div>
-            At Glenn The Handyman, we understand the importance of maintaining your property to keep it looking its best. Our comprehensive property services are designed to address all your maintenance and repair needs, ensuring that your home remains in top condition year-round. Not all services are available in France due to the French rules. Whether you need help with small repairs, seasonal maintenance, or larger renovation projects, our skilled handyman is here to help.
+            At Glenn The Handyman, I understand the importance of maintaining your property to keep it looking its best. Our comprehensive property services are designed to address all your maintenance and repair needs, ensuring that your home remains in top condition year-round. Not all services are available in France due to the French rules. Whether you need help with small repairs, seasonal maintenance, or larger renovation projects, our skilled handyman is here to help.
           </div>
 
           <div className={`${styles.images} pt-4`}>
@@ -29,7 +29,7 @@ export default function Home() {
             Our Services
           </h3>
           <div>
-            We offer a wide range of property services to meet your needs, including:
+            I offer a wide range of property services to meet your needs, including:
           </div>
           <ul>
             <li>
@@ -80,12 +80,12 @@ export default function Home() {
 
             <li>
               <strong>Attention to Detail: </strong>
-              We take pride in our meticulous attention to detail and commitment to quality craftsmanship, ensuring that every job is done right the first time.
+              I take pride in our meticulous attention to detail and commitment to quality craftsmanship, ensuring that every job is done right the first time.
             </li>
 
             <li>
               <strong>Personalized Service: </strong>
-              As a one-man operation, we provide personalized service tailored to your specific needs and preferences.
+              As a one-man operation, I provide personalized service tailored to your specific needs and preferences.
             </li>
 
             <li>
@@ -95,7 +95,7 @@ export default function Home() {
 
             <li>
               <strong>Affordability: </strong>
-              We offer competitive pricing and transparent quotes, so you know exactly what to expect before we begin work.
+              I offer competitive pricing and transparent quotes, so you know exactly what to expect before I begin work.
             </li>
           </ul>
         </div>

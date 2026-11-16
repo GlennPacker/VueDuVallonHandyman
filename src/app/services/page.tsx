@@ -53,7 +53,7 @@ export default function Services() {
         <div className={styles.layout}>
           <h1>Services</h1>
           <div>
-            While it is not possible to list everything we do here are some of the more common requests:
+            While it is not possible to list everything I do here are some of the more common requests:
           </div>
           <div className={styles.serviceGrid}>
             {

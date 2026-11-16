@@ -17,11 +17,11 @@ export default function Gardening() {
               <h1>Kit Installation Services</h1>
               <h3>Reliable handyman kit assembly projects</h3>
 
-              <p>Flat-pack and DIY kits are convenient, but putting them together can be time-consuming, frustrating, and sometimes tricky without the right tools. We provide professional kit installation services to make sure your furniture, equipment, and home projects are assembled safely and correctly - saving you stress and hassle.</p>
-              <p>Our goal is to make the installation process simple and stress-free. With careful attention to detail and the right tools for the job, we ensure every project is completed to a high standard, whether it's inside your home or outside in the garden.</p>
+              <p>Flat-pack and DIY kits are convenient, but putting them together can be time-consuming, frustrating, and sometimes tricky without the right tools. I provide professional kit installation services to make sure your furniture, equipment, and home projects are assembled safely and correctly - saving you stress and hassle.</p>
+              <p>Our goal is to make the installation process simple and stress-free. With careful attention to detail and the right tools for the job, I ensure every project is completed to a high standard, whether it's inside your home or outside in the garden.</p>
 
-              <h2>What We Install</h2>
-              <p>We handle a wide range of kit installations, including:</p>
+              <h2>What I Install</h2>
+              <p>I handle a wide range of kit installations, including:</p>
 
               <h3>Indoor items:</h3>
               <ul>
@@ -47,7 +47,7 @@ export default function Gardening() {
               <h2>Why Choose Our Kit Assembly Services?</h2>
               <ul>
                 <li><strong>Reliable workmanship</strong> - Careful, precise installation that lasts</li>
-                <li><strong>No stress</strong> - We bring the right tools and handle tricky instructions</li>
+                <li><strong>No stress</strong> - I bring the right tools and handle tricky instructions</li>
                 <li><strong>Save time</strong> - Fast, efficient service so you can enjoy your new item sooner</li>
                 <li><strong>Personal service</strong> - You deal directly with us from start to finish</li>
               </ul>

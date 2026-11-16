@@ -33,7 +33,7 @@ const ContactForm = () => {
 
   if (sent) {
     return (
-      <>Thank you, we will be in touch as soon as possible.</>
+      <>Thank you, I will be in touch as soon as possible.</>
     )
   }
 

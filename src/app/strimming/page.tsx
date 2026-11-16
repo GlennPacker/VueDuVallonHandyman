@@ -26,7 +26,7 @@ export default function PropertyServices() {
               <div>
                 <h1>Land Clearance</h1>
                 <p>
-                  At Glenn The Handyman, we recognize that reclaiming overgrown and neglected gardens requires more than just routine maintenance. Our rough strimming and garden reclamation services are designed to tackle the toughest and most overgrown areas, transforming them into usable and aesthetically pleasing spaces.
+                  At Glenn The Handyman, I recognize that reclaiming overgrown and neglected gardens requires more than just routine maintenance. Our rough strimming and garden reclamation services are designed to tackle the toughest and most overgrown areas, transforming them into usable and aesthetically pleasing spaces.
                 </p>
 
                 <h3>

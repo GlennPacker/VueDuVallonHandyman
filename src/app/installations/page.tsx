@@ -49,7 +49,7 @@ export default function Gardening() {
                 <li><strong>Reliable workmanship</strong> - Careful, precise installation that lasts</li>
                 <li><strong>No stress</strong> - I bring the right tools and handle tricky instructions</li>
                 <li><strong>Save time</strong> - Fast, efficient service so you can enjoy your new item sooner</li>
-                <li><strong>Personal service</strong> - You deal directly with us from start to finish</li>
+                <li><strong>Personal service</strong> - You deal directly with me from start to finish</li>
               </ul>
 
 

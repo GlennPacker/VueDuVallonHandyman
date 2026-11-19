@@ -7,7 +7,14 @@ export default function Siret() {
         <h1>
           Rib
         </h1>
-        <p><b>This bank does not accept instant transfers.</b></p>
+        <div className={styles.ribGrid}>
+          <div className={styles.ribLabel}>IBAN:</div>
+          <div>FR59 1744 8000 01PO MD2Q 8HLU 428</div>
+          <div className={styles.ribLabel}>BIC:</div>
+          <div>SFPEFRP2</div>
+          <div className={styles.ribLabel}>Account Name:</div>
+          <div>SUSAN PACKER</div>
+        </div>
 
         <img
           src="/rib.png"

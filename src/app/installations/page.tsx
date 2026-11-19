@@ -17,7 +17,7 @@ export default function Gardening() {
               <h1>Kit Installation Services</h1>
               <h3>Reliable handyman kit assembly projects</h3>
 
-              <p>Flat-pack and DIY kits are convenient, but putting them together can be time-consuming, frustrating, and sometimes tricky without the right tools. I provide professional kit installation services to make sure your furniture, equipment, and home projects are assembled safely and correctly - saving you stress and hassle.</p>
+              <p>Flat-pack and DIY kits are convenient, but putting them together can be time-consuming, frustrating, and sometimes tricky without the right tools. I provide a professional kit installation service to make sure your furniture, equipment, and home projects are assembled safely and correctly - saving you stress and hassle.</p>
               <p>Our goal is to make the installation process simple and stress-free. With careful attention to detail and the right tools for the job, I ensure every project is completed to a high standard, whether it's inside your home or outside in the garden.</p>
 
               <h2>What I Install</h2>

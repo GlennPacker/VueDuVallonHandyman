@@ -5,7 +5,7 @@ export default function Siret() {
     <main>
       <div className={`${styles.pageLayout} mx-auto`}>
         <h1>
-          Siret
+          Siren
         </h1>
 
         <img

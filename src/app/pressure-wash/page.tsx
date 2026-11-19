@@ -61,9 +61,9 @@ export default function PropertyServices() {
               With flexible scheduling options and efficient service delivery, I make it easy to fit pressure washing into your busy lifestyle. Whether you need a one-time deep clean or regular maintenance to keep your property looking its best year-round, my team is here to help. Sit back, relax, and let Glenn The Handyman handle the dirty work for you.
             </p>
 
-            <h3>Experience the Vue Du Vallon Difference</h3>
+            <h3>Experience the Glenn The Handyman Difference</h3>
             <p>
-              At Glenn The Handyman, I believe that every home deserves to shine. With my comprehensive pressure washing services, I can help you achieve a cleaner, brighter, and more welcoming environment for you and your family to enjoy. Contact us today to learn more about my pressure washing offerings and discover the transformative power of clean.
+              At Glenn The Handyman, I believe that every home deserves to shine. With my comprehensive pressure washing services, I can help you achieve a cleaner, brighter, and more welcoming environment for you and your family to enjoy. Contact me today to learn more about my pressure washing offerings and discover the transformative power of clean.
             </p>
           </div>
 

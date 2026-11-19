@@ -59,7 +59,7 @@ export default function Home() {
             </li>
             <li>
               <strong>Picture Hanging </strong>
-              Let us take the hassle out of hanging your artwork, mirrors, and other decorative items. My handyman will ensure that your pieces are securely and professionally installed, adding the perfect finishing touch to your home.
+              Let me take the hassle out of hanging your artwork, mirrors, and other decorative items. My handyman will ensure that your pieces are securely and professionally installed, adding the perfect finishing touch to your home.
             </li>
             <li>
               <strong>Gite Change Overs </strong>
@@ -71,7 +71,7 @@ export default function Home() {
             </li> */}
           </ul>
 
-          <h3 className="pt-3">Why Choose Us</h3>
+          <h3 className="pt-3">Why Choose Me</h3>
           <ul>
             <li>
               <strong>Experience: </strong>
@@ -90,7 +90,7 @@ export default function Home() {
 
             <li>
               <strong>Reliability: </strong>
-              You can count on us to show up on time, work efficiently, and complete your project to your satisfaction.
+              You can count on me to show up on time, work efficiently, and complete your project to your satisfaction.
             </li>
 
             <li>

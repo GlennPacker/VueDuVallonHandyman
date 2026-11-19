@@ -54,7 +54,7 @@ export default function Gardening() {
 
 
               <h2>Let's Get It Built</h2>
-              <p>Don't spend your weekend wrestling with instructions and missing screws. Let us take care of it and ensure your new kit is properly installed, safe, and ready to use.</p>
+              <p>Don't spend your weekend wrestling with instructions and missing screws. Let me take care of it and ensure your new kit is properly installed, safe, and ready to use.</p>
 
 
             </div>

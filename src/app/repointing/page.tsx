@@ -31,7 +31,7 @@ export default function Repointing() {
                   Revitalize Your Stonework with Our Repointing
                 </h3>
                 <p>
-                  At Vue Du Vallon Handyman, I provide top-notch stone and lime repointing services. As your go-to local professional, I am dedicated to ensuring your stonework is both beautiful and durable with a commitment to quality craftsmanship.
+                  At Glenn The Handyman, I provide top-notch stone and lime repointing services. As your go-to local professional, I am dedicated to ensuring your stonework is both beautiful and durable with a commitment to quality craftsmanship.
                 </p>
 
                 <h3>What is Repointing?</h3>
@@ -52,7 +52,7 @@ export default function Repointing() {
 
             <h3>My Stone and Lime Repointing Services</h3>
             <p>
-              At Vue Du Vallon Handyman, I offer comprehensive stone and lime repointing services tailored to meet your specific needs:
+              At Glenn The Handyman, I offer comprehensive stone and lime repointing services tailored to meet your specific needs:
             </p>
             <ul>
               <li>
@@ -74,7 +74,7 @@ export default function Repointing() {
             </ul>
 
             <h3>
-              Why Choose Vue Du Vallon Handyman?
+              Why Choose Glenn The Handyman?
             </h3>
 
             <ul>

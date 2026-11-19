@@ -10,7 +10,7 @@ export default function Home() {
             Welcome to Glenn The Handyman
           </h1>
           <div>
-            At Glenn The Handyman, I understand the importance of maintaining your property to keep it looking its best. Our comprehensive property services are designed to address all your maintenance and repair needs, ensuring that your home remains in top condition year-round. Not all services are available in France due to the French rules. Whether you need help with small repairs, seasonal maintenance, or larger renovation projects, our skilled handyman is here to help.
+            At Glenn The Handyman, I understand the importance of maintaining your property to keep it looking its best. My comprehensive property services are designed to address all your maintenance and repair needs, ensuring that your home remains in top condition year-round. Not all services are available in France due to the French rules. Whether you need help with small repairs, seasonal maintenance, or larger renovation projects, our skilled handyman is here to help.
           </div>
 
           <div className={`${styles.images} pt-4`}>

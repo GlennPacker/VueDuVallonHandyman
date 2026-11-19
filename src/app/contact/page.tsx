@@ -32,7 +32,7 @@ export default function Contact() {
           <div className={styles.email}>
             <strong>Email:</strong>
             <div className="ps-5">
-              Glenn@VueDuVallon.fr
+              info@VueDuVallon.fr
             </div>
           </div>
           <div className={styles.social}>

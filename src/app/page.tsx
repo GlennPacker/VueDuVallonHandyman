@@ -1,5 +1,6 @@
 import Reviews from "@/components/reviews/Reviews";
 import styles from "./page.module.css";
+import ReviewSummary from "@/components/reviewSummary/reviewSummary";
 
 export default function Home() {
   return (
@@ -99,7 +100,8 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <Reviews />
+
+        <ReviewSummary />
       </div>
     </main>
   );

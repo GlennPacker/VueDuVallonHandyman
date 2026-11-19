@@ -44,7 +44,7 @@ export default function Gardening() {
               </ul>
 
 
-              <h2>Why Choose Our Kit Assembly Services?</h2>
+              <h2>Why Choose My Kit Assembly Services?</h2>
               <ul>
                 <li><strong>Reliable workmanship</strong> - Careful, precise installation that lasts</li>
                 <li><strong>No stress</strong> - I bring the right tools and handle tricky instructions</li>

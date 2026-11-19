@@ -28,7 +28,7 @@ export default function Repointing() {
                   Repointing
                 </h1>
                 <h3>
-                  Revitalize Your Stonework with Our Repointing
+                  Revitalize Your Stonework with My Repointing
                 </h3>
                 <p>
                   At Glenn The Handyman, I provide top-notch stone and lime repointing services. As your go-to local professional, I am dedicated to ensuring your stonework is both beautiful and durable with a commitment to quality craftsmanship.

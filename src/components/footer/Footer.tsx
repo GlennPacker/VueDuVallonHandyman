@@ -44,6 +44,10 @@ export default function Footer() {
           <a href="/rib" className={styles.a} >
             <strong>Rib</strong>
           </a>
+          <br />
+          <a href="/MentionsLegales" className={styles.a} >
+            Mentions légales
+          </a>
         </div>
       </div>
     </div>

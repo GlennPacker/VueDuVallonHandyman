@@ -2,6 +2,7 @@ import styles from './reviewSummary.module.css';
 import ReviewSummaryArticle from "../reviewSummaryArticle/reviewSummaryArticle";
 import Link from 'next/link';
 import reviewData from '../reviews/ReviewData.json';
+import { ReviewFormModel } from '@/types/reviewFormModel';
 
 
 const reviews = [
@@ -35,6 +36,7 @@ const reviews = [
 ];
 
 export default function ReviewSummary() {
+  const orderedData = reviewData.sort((a, b) => (a.id > b.id ? -1 : 0)) as [ReviewFormModel]
 
   const wouldUseAgainData = reviewData.reduce((a, r) => a = {
     wouldUse: a.wouldUse + (r.wouldYouUseThemAgain === 'Yes' ? 1 : 0),
@@ -44,6 +46,22 @@ export default function ReviewSummary() {
   const score = reviewData.reduce((a, r) => a += r.rating || 0, 0);
 
   const avgScore = (score / (reviewData.length)).toFixed(2)
+
+  const service = (review: ReviewFormModel) => {
+    if (review.customMadeGates) return "Custom made gates";
+    if (review.gardening) return "Gardening";
+    if (review.generalMaintenance) return "General maintenance";
+    if (review.gutters) return "Gutters";
+    if (review.installations) return "Installations";
+    if (review.painting) return "Painting";
+    if (review.powerWashing) return "Pressure wash";
+    if (review.repairs) return "Repairs";
+    if (review.repointing) return "Repointing";
+    if (review.strimming) return "Strimming";
+    if (review.studWalls) return "Stud walls";
+    if (review.tiling) return "Tiling";
+    return "Handyman services";
+  };
 
   return (
     <>
@@ -88,9 +106,17 @@ export default function ReviewSummary() {
           </div>
         </div>
         <div className={styles.reviewCards}>
-          {reviews.map((review) => (
-            <ReviewSummaryArticle key={review.author} {...review} />
+          {orderedData.map((review, index) => (
+            index < 4 &&
+            <ReviewSummaryArticle
+              key={review.name}
+              service={service(review)}
+              title={review.title}
+              description={review.message}
+              author={review.name}
+            />
           ))}
+
 
         </div>
 

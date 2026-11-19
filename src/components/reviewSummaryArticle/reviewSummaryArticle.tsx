@@ -13,6 +13,11 @@ export default function ReviewSummaryArticle({
     description,
     author,
 }: ReviewSummaryArticleProps) {
+    const splitDescription = description.split(' ').length
+    if (splitDescription > 45) {
+        description = description.split(' ').slice(0, 45).join(' ') + '... '
+    }
+
     return (
         <article className={styles.reviewCard}>
             <div className={styles.reviewStars} aria-label="5 out of 5 stars">
@@ -20,7 +25,9 @@ export default function ReviewSummaryArticle({
             </div>
             <span className={styles.reviewService}>{service}</span>
             <h3>{title}</h3>
-            <p>{description}</p>
+            <p>{description}
+                {splitDescription > 50 && <a href="/reviews">Read more</a>}
+            </p>
             <span className={styles.reviewAuthor}>{author}</span>
         </article>
     );

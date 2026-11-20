@@ -11,7 +11,7 @@ export default function Home() {
             Welcome To Glenn The Handyman
           </h1>
           <div>
-            At Glenn The Handyman, I understand the importance of maintaining your property to keep it looking its best. My comprehensive property services are designed to address all your maintenance and repair needs, ensuring that your home remains in top condition year-round. Not all services are available in France due to the French rules. Whether you need help with small repairs, seasonal maintenance, or larger renovation projects, I'm here to help.
+            At Glenn The Handyman, I understand the importance of maintaining your property to keep it looking its best. My comprehensive property service is designed to address all your maintenance and repair needs, ensuring that your home remains in top condition year-round. Not all services are available in France due to the French rules. Whether you need help with small repairs, seasonal maintenance, or larger renovation projects, I'm here to help.
           </div>
 
           <div className={`${styles.images} pt-4`}>
@@ -35,7 +35,7 @@ export default function Home() {
           <ul>
             <li>
               <strong>Gardening </strong>
-              Transform your outdoor space into a lush and vibrant oasis with my professional gardening services.
+              Help keep your garden tidy and manageable with mowing, hedge cutting, strimming, pruning and general garden maintenance.
             </li>
 
             <li>
@@ -47,12 +47,12 @@ export default function Home() {
               Preserve the integrity of your stone or brickwork with my repointing services. My handyman will remove deteriorating mortar and replace it with fresh mortar to strengthen and protect your masonry.
             </li> */}
             <li>
-              <strong>Gate Building </strong>
-              Enhance the security and aesthetics of your property with my custom gate building services. Whether you need a simple garden gate or a grand entrance gate, my handyman will design and construct a gate that meets your specifications.
+              <strong>Gates and property improvements </strong>
+              I can build, repair and maintain gates and other features around your property, helping keep everything secure and in good working order.
             </li>
             <li>
-              <strong>Home Repairs </strong>
-              From small fixes to larger projects, my home repair services cover a wide range of needs, including door, kitchen, bathroom fixes, and more to keep your home in excellent condition.
+              <strong>General home improvements </strong>
+              From small repairs and maintenance jobs to larger home improvements, I can help you get those unfinished jobs around your property sorted.
             </li>
             <li>
               <strong>Gutter Cleaning </strong>

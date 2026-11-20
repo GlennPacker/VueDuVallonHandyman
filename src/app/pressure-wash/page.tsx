@@ -50,7 +50,7 @@ export default function PropertyServices() {
               Over time, dirt, grime, mold, and mildew can accumulate on the surfaces of your home, deck, driveway, and patio, detracting from their appearance and compromising their structural integrity. Traditional cleaning methods often fall short when it comes to tackling tough stains and embedded debris. That's where pressure washing comes in.
             </p>
             <p>
-              Using industrial high-pressure water jets I can blast away even the most stubborn dirt and grime, restoring surfaces to their original beauty. Whether it's removing algae from your siding, erasing oil stains from your driveway, or rejuvenating your deck for the upcoming season, my pressure washing services deliver unparalleled results, leaving your property looking cleaner and more vibrant than ever before.
+              Using industrial high-pressure water jets I can blast away even the most stubborn dirt and grime, restoring surfaces to their original beauty. Whether it's erasing oil stains from your driveway, or rejuvenating your deck for the upcoming season, my pressure washing services deliver unparalleled results, leaving your property looking cleaner and more vibrant than ever before.
             </p>
 
             <h3>A Convenient Solution</h3>

@@ -37,15 +37,14 @@ export default function Home() {
               <strong>Gardening </strong>
               Help keep your garden tidy and manageable with mowing, hedge cutting, strimming, pruning and general garden maintenance.
             </li>
-
+            <li>
+              <strong>Repointing </strong>
+              Preserve the integrity of your stone or brickwork with my repointing services. My handyman will remove deteriorating mortar and replace it with fresh mortar to strengthen and protect your masonry.
+            </li>
             <li>
               <strong>Pressure Washing </strong>
               Restore the beauty of your home's exterior with my professional pressure washing services. I'll blast away dirt, grime, and mildew to leave your surfaces looking clean and refreshed.
             </li>
-            {/* <li>
-              <strong>Repointing </strong>
-              Preserve the integrity of your stone or brickwork with my repointing services. My handyman will remove deteriorating mortar and replace it with fresh mortar to strengthen and protect your masonry.
-            </li> */}
             <li>
               <strong>Gates and property improvements </strong>
               I can build, repair and maintain gates and other features around your property, helping keep everything secure and in good working order.

@@ -83,9 +83,9 @@ export default function Home() {
             across Haute-Vienne (87), Creuse (23), and Indre (36).
           </p>
           <p>
-            We regularly assist homeowners and second-home owners in surrounding towns and villages including
+            I regularly assist homeowners and second-home owners in surrounding towns and villages including
             Le Dorat, Lussac-les-Églises, Bussière-Poitevine, Bellac, La Souterraine, and Guéret.
-            Whether you need ongoing garden upkeep or a one-off handyman job, we offer dependable local support
+            Whether you need ongoing garden upkeep or a one-off handyman job, I offer dependable local support
             across the Limousin border area.
           </p>
 

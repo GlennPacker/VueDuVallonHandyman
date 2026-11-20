@@ -86,7 +86,7 @@ export default function Home() {
           <ul>
             <li>
               <strong>Experience: </strong>
-              With years of experience in the industry, my handyman has the skills and expertise to handle any project, big or small.
+              I take pride in providing reliable, practical help with the maintenance and improvement of homes and holiday properties. From small repairs and routine maintenance to larger projects, I aim to make looking after your property as straightforward as possible.
             </li>
 
             <li>

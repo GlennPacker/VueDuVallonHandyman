@@ -28,10 +28,13 @@ export default function PropertyServices() {
               <div>
                 <h1>Pressure Washing</h1>
                 <h3>
-                  The Power of Pressure Washing with Glenn The Handyman
+                  Pressure washing for patios, paths, driveways and exterior surfaces across Haute-Vienne, Creuse & Indre
                 </h3>
                 <p>
-                  In the quest to maintain the beauty and integrity of my homes and outdoor spaces, few tools wield as much transformative power as the pressure washer. At Glenn The Handyman, I understand the profound impact that a thorough pressure washing can have on the appearance and longevity of your property. From revitalizing weathered exteriors to banishing stubborn stains, my pressure washing services are designed to breathe new life into your surroundings, leaving them sparkling clean and rejuvenated.
+                  Over time, patios, paths, driveways and other outdoor surfaces can become dirty and discoloured through weather, moss, algae and general use. Pressure washing is an effective way to remove built-up dirt and bring these surfaces back to a cleaner condition.
+                </p>
+                <p>
+                  I offer pressure washing for a range of outdoor surfaces around your home, helping to keep patios, terraces, paths and driveways clean and tidy.
                 </p>
               </div>
               <div className={styles.videoContainer}>
@@ -44,27 +47,42 @@ export default function PropertyServices() {
             </div>
 
             <h3>
-              Unleashing the Power of Clean
+              Pressure Washing Services
             </h3>
             <p>
-              Over time, dirt, grime, mold, and mildew can accumulate on the surfaces of your home, deck, driveway, and patio, detracting from their appearance and compromising their structural integrity. Traditional cleaning methods often fall short when it comes to tackling tough stains and embedded debris. That's where pressure washing comes in.
+              I can pressure wash a variety of outdoor areas, including:
+              <ul>
+                <li>
+                  <strong>Patios and terraces: </strong>
+                  Removing built-up dirt, moss and algae from paved and stone surfaces.</li>
+                <li>
+                  <strong>Driveways and paths: </strong>
+                  Cleaning concrete, paving and other suitable hard surfaces.
+                </li>
+                <li>
+                  <strong>Garden walls and steps: </strong>
+                  Removing dirt and surface build-up where appropriate.
+                </li>
+                <li>
+                  <strong>Exterior surfaces: </strong>
+                  Cleaning suitable outdoor areas around your property.
+                </li>
+              </ul>
+            </p>
+            <h3>A Practical Approach</h3>
+            <p>
+              Different surfaces require different approaches. I assess the area before starting and adjust the pressure and cleaning method to suit the material. This helps avoid unnecessary damage to paving, pointing and other surfaces.
             </p>
             <p>
-              Using industrial high-pressure water jets I can blast away even the most stubborn dirt and grime, restoring surfaces to their original beauty. Whether it's erasing oil stains from your driveway, or rejuvenating your deck for the upcoming season, my pressure washing services deliver unparalleled results, leaving your property looking cleaner and more vibrant than ever before.
+              I work carefully and aim to leave the area clean and tidy when the job is finished.
             </p>
-
-            <h3>A Convenient Solution</h3>
+            <h3>Second Homes and Holiday Properties</h3>
             <p>
-              In today's fast-paced world, finding the time and energy to tackle outdoor cleaning projects can be a challenge. That's where Glenn The Handyman comes in. My pressure washing services are designed to take the hassle out of exterior maintenance, allowing you to enjoy a clean and pristine home without lifting a finger.
+              If you own a property in France but don't live here all year, I can arrange to carry out pressure washing while you're away. I can keep you updated on progress and provide photographs of the completed work.
             </p>
-            <p>
-              With flexible scheduling options and efficient service delivery, I make it easy to fit pressure washing into your busy lifestyle. Whether you need a one-time deep clean or regular maintenance to keep your property looking its best year-round, my team is here to help. Sit back, relax, and let Glenn The Handyman handle the dirty work for you.
-            </p>
-
-            <h3>Experience the Glenn The Handyman Difference</h3>
-            <p>
-              At Glenn The Handyman, I believe that every home deserves to shine. With my comprehensive pressure washing services, I can help you achieve a cleaner, brighter, and more welcoming environment for you and your family to enjoy. Contact me today to learn more about my pressure washing offerings and discover the transformative power of clean.
-            </p>
+            <h3>Areas Covered</h3>
+            <p>I provide pressure washing services across Haute-Vienne, Creuse and Indre.</p>
+            <p>If you have a patio, driveway, paths or other outdoor areas that need cleaning, get in touch to discuss the work and arrange a quote.</p>
           </div>
 
           <div className={styles.beforeAndAfterGrid}>

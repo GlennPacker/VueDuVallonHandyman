@@ -16,7 +16,7 @@ export default function Footer() {
           >
             <img
               src="/facebook.png"
-              alt="link to facebook"
+              alt="facebook"
               height="25px"
             />
           </a>
@@ -30,7 +30,7 @@ export default function Footer() {
             <img
               className={styles.insta}
               src="/Insta.png"
-              alt="link to Instagram"
+              alt="Instagram"
               height="35px"
             />
           </a>

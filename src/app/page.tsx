@@ -19,7 +19,7 @@ export default function Home() {
               <img
                 key={`${i}`}
                 src={`/property services/${5 - i}.jpg`}
-                alt={`Glenn The Handyman - property services`}
+                alt={`Glenn The Handyman - property services ${5 - i}`}
                 className={styles.propertyServicesImage}
                 width="230px;"
               />
@@ -71,6 +71,16 @@ export default function Home() {
               Transform your interior spaces with my professional plasterboarding services. Whether you're renovating a room or building an extension, my handyman will install plasterboard quickly and efficiently, creating a smooth and durable surface for painting or wallpapering.
             </li> */}
           </ul>
+          <p>
+            Glenn The Handyman provides reliable property maintenance, gardening, clearance, and home installation services
+            across Haute-Vienne (87), Creuse (23), and Indre (36).
+          </p>
+          <p>
+            We regularly assist homeowners and second-home owners in surrounding towns and villages including
+            Le Dorat, Lussac-les-Églises, Bussière-Poitevine, Bellac, La Souterraine, and Guéret.
+            Whether you need ongoing garden upkeep or a one-off handyman job, we offer dependable local support
+            across the Limousin border area.
+          </p>
 
           <h3 className="pt-3">Why Choose Me</h3>
           <ul>
@@ -99,6 +109,8 @@ export default function Home() {
               I offer competitive pricing and transparent quotes, so you know exactly what to expect before I begin work.
             </li>
           </ul>
+
+
         </div>
 
         <ReviewSummary />

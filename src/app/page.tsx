@@ -55,12 +55,20 @@ export default function Home() {
               From small repairs and maintenance jobs to larger home improvements, I can help you get those unfinished jobs around your property sorted.
             </li>
             <li>
-              <strong>Gutter Cleaning </strong>
+              <strong>Gutters </strong>
               Keep your gutters clear and flowing smoothly with my gutter cleaning services. I'll remove leaves, debris, and other obstructions to prevent water damage and keep your home protected.
             </li>
             <li>
-              <strong>Picture Hanging </strong>
-              Let me take the hassle out of hanging your artwork, mirrors, and other decorative items. My handyman will ensure that your pieces are securely and professionally installed, adding the perfect finishing touch to your home.
+              <strong>Land clearance </strong>
+              I can help bring overgrown gardens back under control, clearing unwanted vegetation, tackling heavy undergrowth and making outdoor spaces manageable again.
+            </li>
+            <li>
+              <strong>Hedge cutting </strong>
+              Hedge cutting and trimming, from routine maintenance to bringing overgrown hedges back into shape.
+            </li>
+            <li>
+              <strong>Kit installations </strong>
+              I can assemble and install a range of garden and outdoor kits, including sheds, summerhouses, gazebos, pergolas and swimming pools.
             </li>
             <li>
               <strong>Gite Change Overs </strong>
@@ -115,6 +123,6 @@ export default function Home() {
 
         <ReviewSummary />
       </div>
-    </main>
+    </main >
   );
 }

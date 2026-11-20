@@ -14,7 +14,7 @@ export default function Gardening() {
 
             <h3>Transform Your Garden with My Care</h3>
             <p>
-              Welcome to Glenn The Handyman Gardening Services! I understand that every outdoor space is unique and requires personalized attention. I am dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden makeovers, we're here to help you achieve the garden of your dreams.
+              Welcome to Glenn The Handyman Gardening Services! I understand that every outdoor space is unique and requires personalized attention. I am dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden makeovers, I'm here to help you achieve the garden of your dreams.
             </p>
 
             <div className={`${styles.gardenImageContainer} ${styles.extraRow2}`}>

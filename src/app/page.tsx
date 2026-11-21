@@ -92,8 +92,8 @@ export default function Home() {
           <h3 className="pt-3">Why Choose Me</h3>
           <ul>
             <li>
-              <strong>Experience: </strong>
-              I take pride in providing reliable, practical help with the maintenance and improvement of homes and holiday properties. From small repairs and routine maintenance to larger projects, I aim to make looking after your property as straightforward as possible.
+              <strong>Practical Help: </strong>
+              From small repairs and maintenance to larger projects around the property, I offer practical help to get the work done.
             </li>
 
             <li>

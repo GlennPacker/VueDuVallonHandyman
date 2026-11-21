@@ -98,22 +98,22 @@ export default function Home() {
 
             <li>
               <strong>Attention to Detail: </strong>
-              I take pride in my meticulous attention to detail and commitment to quality craftsmanship, ensuring that every job is done right the first time.
+              I work carefully and take the time to get the job done properly, paying attention to the details along the way.
             </li>
 
             <li>
               <strong>Personalized Service: </strong>
-              As a one-man operation, I provide personalized service tailored to your specific needs and preferences.
+              You deal directly with me from the initial enquiry through to completion of the work.
             </li>
 
             <li>
               <strong>Reliability: </strong>
-              You can count on me to show up on time, work efficiently, and complete your project to your satisfaction.
+              I keep in touch about arrangements, let you know if anything changes and aim to make the whole process as straightforward as possible.
             </li>
 
             <li>
               <strong>Affordability: </strong>
-              I offer competitive pricing and transparent quotes, so you know exactly what to expect before I begin work.
+              I provide a clear quote before starting work, so you know what is included and what it will cost.
             </li>
           </ul>
 

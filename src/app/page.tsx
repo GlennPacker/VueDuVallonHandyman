@@ -43,7 +43,7 @@ export default function Home() {
             </li>
             <li>
               <strong>Pressure Washing </strong>
-              Restore the beauty of your home's exterior with my professional pressure washing services. I'll blast away dirt, grime, and mildew to leave your surfaces looking clean and refreshed.
+              Pressure washing patios, paths, driveways and other suitable outdoor surfaces to remove accumulated dirt, moss and grime.
             </li>
             <li>
               <strong>Gates and property improvements </strong>

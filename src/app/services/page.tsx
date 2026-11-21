@@ -1,58 +1,73 @@
 import styles from "./page.module.css";
+import { headers } from 'next/headers';
 
 const services = [{
   href: 'gardening',
   src: `/gardening/garden 2.jpg`,
   alt: 'gardening',
-  title: 'Gardening'
+  title: 'Gardening',
+  availableFrance: true,
 }, {
   href: '',
   src: `/gates/gates category.jpg`,
   alt: 'custom made gates',
-  title: 'Gates'
+  title: 'Gates',
+  availableFrance: true,
 },
 {
   href: 'repointing',
   src: `/repointing/repointing category.jpg`,
   alt: 'repointing',
-  title: 'Repointing'
+  title: 'Repointing',
+  availableFrance: false,
 },
 {
   href: 'installations',
   src: `/installations/pool.jpg`,
   alt: 'kit and flatpack installations',
-  title: 'Installations'
+  title: 'Installations',
+  availableFrance: true
 },
 {
   href: 'pressure-wash',
   src: `/pressure-wash/pressure wash category.jpg`,
   alt: 'pressure wash',
-  title: 'Pressure Wash'
+  title: 'Pressure Wash',
+  availableFrance: true
 }, {
   href: '',
   src: `/repairs/repairs.jpg`,
   alt: 'repairs',
-  title: 'Repairs'
+  title: 'Repairs',
+  availableFrance: true
 },
 {
   href: 'strimming',
   src: `/strimming/strimming category.jpg`,
   alt: 'strimming',
-  title: 'Strimming'
+  title: 'Strimming',
+  availableFrance: true
 }, {
   href: '',
   src: `/studwalls/studwall.jpg`,
   alt: 'stud walls',
-  title: 'Stud walls'
+  title: 'Stud walls',
+  availableFrance: false
 },
 {
   href: '',
   src: `/dechetterie/déchèterie.jpg`,
   alt: 'Déchèterie',
-  title: 'Tip Runs'
+  title: 'Tip Runs',
+  availableFrance: true
 }];
 
 export default function Services() {
+  const headersList = headers();
+
+  const unavaialbleFrance = headersList.get('host')!.includes('vueduvallon');
+  const servicesFiltered = unavaialbleFrance ? services.filter(s => s.availableFrance) : services;
+
   return (
     <main>
       <div className={`${styles.pageLayout} mx-auto`}>
@@ -70,7 +85,7 @@ export default function Services() {
           </div>
           <div className={styles.serviceGrid}>
             {
-              services.map(({ href, src, alt, title }) => {
+              servicesFiltered.map(({ href, src, alt, title }) => {
                 return href ?
                   (
                     <a
@@ -118,27 +133,35 @@ export default function Services() {
             <p>
               Assembly and installation of supplied kits for the home and garden, including sheds, summerhouses, gazebos, pergolas, porches and swimming pools. I can help with putting the components together and getting everything installed correctly.
             </p>
-            <h4>Repointing and Stonework</h4>
-            <p>
-              Repairing and replacing worn or damaged mortar in stone walls, along with general masonry repairs and patching. I work on traditional stone properties using appropriate materials and techniques to suit the building.
-            </p>
+            {!unavaialbleFrance && <>
+              <h4>Repointing and Stonework</h4>
+              <p>
+                Repairing and replacing worn or damaged mortar in stone walls, along with general masonry repairs and patching. I work on traditional stone properties using appropriate materials and techniques to suit the building.
+              </p>
+            </>
+            }
             <h4>General Repairs and Home Improvements</h4>
             <p>
               From fixing damaged items and replacing fittings to tackling those jobs that have been waiting to get done, I undertake a variety of general repairs and improvements around the home.
             </p>
-            <h4>Painting and Decorating</h4>
-            <p>
-              Interior painting of walls, ceilings and woodwork, including preparation, filling, sanding and painting. Whether you're refreshing a room or decorating a larger area, I can help with the work from preparation through to completion.
-            </p>
+            {!unavaialbleFrance && <>
+              <h4>Painting and Decorating</h4>
+              <p>
+                Interior painting of walls, ceilings and woodwork, including preparation, filling, sanding and painting. Whether you're refreshing a room or decorating a larger area, I can help with the work from preparation through to completion.
+              </p>
+            </>
+            }
             <h4>Gutter Cleaning</h4>
             <p>
               Cleaning gutters and removing accumulated leaves, moss and other debris. Keeping gutters clear helps rainwater drain away properly and reduces the risk of blockages and overflowing.
             </p>
-            <h4>Plasterboarding and Suspended Ceilings</h4>
-            <p>
-              Plasterboard installation for walls and ceilings, including suspended ceiling systems. Suitable for renovations, room improvements and converting existing spaces.
-            </p>
-
+            {!unavaialbleFrance && <>
+              <h4>Plasterboarding and Suspended Ceilings</h4>
+              <p>
+                Plasterboard installation for walls and ceilings, including suspended ceiling systems. Suitable for renovations, room improvements and converting existing spaces.
+              </p>
+            </>
+            }
             <h4>
               Gutters
             </h4>

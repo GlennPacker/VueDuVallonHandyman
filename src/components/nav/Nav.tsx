@@ -3,10 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from "./nav.module.css";
+import { headers } from 'next/headers';
 
 const links = [{
   href: 'repointing',
-  text: 'Repointing'
+  text: 'Repointing',
+  unavailableFrance: true
 },
 {
   href: '/gardening',
@@ -29,6 +31,10 @@ const links = [{
 }];
 
 function Navigation() {
+  const headersList = headers();
+  const unavaialbleFrance = headersList.get('host')!.includes('vueduvallon')
+  const filteredLinks = unavaialbleFrance ? links.filter(link => !link.unavailableFrance) : links;
+
   return (
     <Navbar
       expand="lg"
@@ -51,7 +57,7 @@ function Navigation() {
         <NavbarCollapse id="basic-navbar-nav">
           <Nav className="me-auto">
             {
-              links.map(({ text, href }) =>
+              filteredLinks.map(({ text, href }) =>
                 <NavLink
                   key={text}
                   className={styles.navbarText}

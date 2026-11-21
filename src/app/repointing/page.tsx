@@ -1,7 +1,9 @@
 import styles from "./page.module.css";
 import { BeforeAndAfter } from "@/components/beforeAndAfter/BeforeAndAfter";
 import Reviews from "@/components/reviews/Reviews";
-import VideoComponent from "@/components/videoComponent/VideoComponent";
+// import VideoComponent from "@/components/videoComponent/VideoComponent";
+import { headers } from 'next/headers';
+
 
 const beforeAndAfters = [1, 2, 3, 4, 5, 6, 7, 8, 9].map(i => (
   [
@@ -17,6 +19,10 @@ const beforeAndAfters = [1, 2, 3, 4, 5, 6, 7, 8, 9].map(i => (
 ))
 
 export default function Repointing() {
+  const headersList = headers();
+
+  if (headersList.get('host')!.includes('vueduvallon')) return '';
+
   return (
     <main>
       <div className={`${styles.pageLayout} mx-auto`}>

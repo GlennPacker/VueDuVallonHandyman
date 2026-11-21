@@ -12,9 +12,9 @@ export default function Gardening() {
               Gardening
             </h1>
 
-            <h3>Transform Your Garden with My Care</h3>
+            <h3>Gardening and Garden Maintenance</h3>
             <p>
-              Welcome to Glenn The Handyman Gardening Services! I understand that every outdoor space is unique and requires personalized attention. I am dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden makeovers, I'm here to help you achieve the garden of your dreams.
+              Welcome to Glenn The Handyman Gardening Services! I understand that every outdoor space is unique and requires personalized attention. I am dedicated to providing top-notch gardening services tailored to your specific needs. From regular maintenance to complete garden improvements and general maintenance, I'm here to help you.
             </p>
 
             <div className={`${styles.gardenImageContainer} ${styles.extraRow2}`}>
@@ -41,8 +41,8 @@ export default function Gardening() {
               </li>
               <li>
                 <strong>Strimming: </strong>
-                Strimming is perfect for taming and reclaiming overgrown garden spaces, making even the wildest areas manageable and beautiful again.<br /><br />
-                Precise strimming around edges, borders, and obstacles for a clean and polished look.
+                Strimming is perfect for taming and reclaiming overgrown garden spaces, Cutting back overgrown areas to make them more manageable.<br /><br />
+                Precise strimming around edges, borders, and obstacles for a neat, tidy edges around lawns, borders and obstacles.
               </li>
               <li>
                 <strong>Lawn Mowing: </strong>
@@ -53,8 +53,8 @@ export default function Gardening() {
                 Efficient removal of weeds to maintain the beauty and health of your garden, ensuring a neat and tidy appearance.
               </li>
               <li>
-                <strong>Pruning & Trimming </strong>
-                Pruning of shrubs, hedges, and trees to promote growth and maintain shape, enhancing curb appeal.
+                <strong>Pruning & Trimming: </strong>
+                Cutting and shaping shrubs, hedges, and trees to promote growth and maintain shape.
               </li>
             </ul>
 
@@ -95,7 +95,7 @@ export default function Gardening() {
               </li>
               <li>
                 <strong>Watering Systems: </strong>
-                Installation and maintenance of efficient irrigation systems to keep your garden hydrated and healthy, saving you time and water.
+                Installation and maintenance of efficient irrigation systems to keep your garden hydrated and healthy.
               </li>
             </ul>
 

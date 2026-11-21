@@ -6,7 +6,7 @@ export default function Footer() {
       <div className={`${styles.footer} mx-auto`}>
         <div>
           <strong>Phone:</strong> +33 7 70 26 20 89 <br />
-          <strong>Email:</strong> info@VueDuVallon.fr
+          <strong>Email:</strong> glenn@glennthehandyman.eu
         </div>
 
         <div>

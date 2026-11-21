@@ -41,13 +41,13 @@ export default function Repointing() {
                 <br />
 
               </div>
-              <div className={styles.videoContainer}>
+              {/* <div className={styles.videoContainer}>
                 <VideoComponent
                   width="275x"
                   height="400px"
                   video="1T4961ipooY"
                 />
-              </div>
+              </div> */}
             </div>
 
             <h3>My Stone and Lime Repointing Services</h3>
@@ -91,6 +91,9 @@ export default function Repointing() {
                 Your satisfaction is my priority. I work closely with you to meet your expectations and deliver exceptional results.
               </li>
             </ul>
+            <p>
+              Service restrictions apply in France due to local regulations. Please contact me to discuss your specific requirements and to arrange a consultation.
+            </p>
           </div>
 
           <div className={styles.beforeAndAfterGrid}>

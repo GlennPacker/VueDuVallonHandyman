@@ -26,3 +26,25 @@
   text-decoration: none;
   color: #067de5;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #536b43;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2rems;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}

@@ -20,8 +20,10 @@
   background-color: #008000;
 }
 
-.paddingtop {
-  padding-top:10px;
+.caption {
+  padding-top:-10px;
+  color: #536b43;
+  padding-bottom: 1rem;
 }
 
 .cta div {

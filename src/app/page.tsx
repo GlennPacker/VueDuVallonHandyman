@@ -39,7 +39,7 @@ export default function Home() {
             </li>
             <li>
               <strong>Repointing </strong>
-              Preserve the integrity of your stone or brickwork with my repointing services. My handyman will remove deteriorating mortar and replace it with fresh mortar to strengthen and protect your masonry.
+              Preserve the integrity of your stone or brickwork with my repointing services. I will remove deteriorating mortar and replace it with fresh mortar to strengthen and protect your masonry.
             </li>
             <li>
               <strong>Pressure Washing </strong>
@@ -71,11 +71,11 @@ export default function Home() {
             </li>
             <li>
               <strong>Gite Change Overs </strong>
-              Make hosting guests a breeze with my gite change over services. From cleaning and laundry to restocking essentials, my handyman will ensure that your gite is always ready to welcome new arrivals.
+              Make hosting guests a breeze with my gite change over services. From cleaning and laundry to restocking essentials, I will ensure that your gite is always ready to welcome new arrivals.
             </li>
             {/* <li>
               <strong>Plasterboarding </strong>
-              Transform your interior spaces with my professional plasterboarding services. Whether you're renovating a room or building an extension, my handyman will install plasterboard quickly and efficiently, creating a smooth and durable surface for painting or wallpapering.
+              Transform your interior spaces with my professional plasterboarding services. Whether you're renovating a room or building an extension, I will install plasterboard quickly and efficiently, creating a smooth and durable surface for painting or wallpapering.
             </li> */}
           </ul>
           <p>
